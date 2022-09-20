@@ -57,7 +57,8 @@ Civil Construction engineer
 
 ### **Courses:**  
 [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8)
-![Sololearn](./images/ac522c48-c4f5-406b-9e98-8b00de392260.png "my python certificate")  
+
+![Sololearn](./images/ac522c48-c4f5-406b-9e98-8b00de3922601.png "my python certificate")  
 
 JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/first-steps) (in progress)
 
@@ -77,7 +78,7 @@ English - Upper-Intermediate B2 according to the online EF SET test at
 
  [my certificate](https://www.efset.org/cert/4Tg7Hj)  
  
- ![my_certificate](./images/EF_SET_Certificate™_Dmitriy_Frostoff.png)
+ ![my_certificate](./images/EF_SET_Certificate™_Dmitriy_Frostoff1.png)
  
 
  (continue learning in [lingualeo](https://lingualeo.com/)) 
