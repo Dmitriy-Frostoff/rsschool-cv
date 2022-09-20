@@ -41,7 +41,7 @@ return a + b;
 }
 
 let result = sum(1, 2);
-alert( result ); 
+console.log( result ); 
 ```
 ***
 ## **Education**
@@ -62,7 +62,7 @@ Civil Construction engineer
 
 JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/first-steps) (in progress)
 
-[sololeran: JavaScript (in progress)](https://www.sololearn.com/learning/1024)  
+[sololearn: JavaScript (in progress)](https://www.sololearn.com/learning/1024)  
 
 [sololearn: html (in progress)](https://www.sololearn.com/learning/1014)
 
