@@ -34,14 +34,36 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 
 ***
 ## **Code example:**  
+The Snail in the Well
+
+
+The snail climbs up 7 feet each day and slips back 2 feet each night.
+How many days will it take the snail to get out of a well with the given depth?
+
+Sample Input:  
+31
+
+Sample Output:  
+6
 
 ```javascript  
-function sum(a, b) {
-return a + b;
-}
-
-let result = sum(1, 2);
-console.log( result ); 
+function main() {
+    var depth = parseInt(readLine(), 10);
+    //ваш код
+   var day = 0;
+   var len = 0;
+   while (len < depth) {
+       day ++; 
+       len += 7;
+       if (len >= depth) {
+           console.log(day)
+           break
+       }
+       else{
+           len -= 2;
+       }
+    }
+} 
 ```
 ***
 ## **Education**
