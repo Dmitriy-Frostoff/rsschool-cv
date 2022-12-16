@@ -16,10 +16,19 @@ GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")
 [codewars](https://www.codewars.com/users/Dmitriy-Frostoff)   
 
 ***
-## **About Myself:**
+## **About Me:**
 Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
 
- I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas).
+ I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).
+
+ After conducting a deep introspection, I realized that I was equally interested in the following aspects: 
+ + programming (I love being in a state of flow, brainstorming and growing above myself 🤩);
+
+ + playing and composing music (I can play guitar, keys, a little on drums, I study vocals, I'm obsessed with music 😍);
+
+ + studying the learning process itself (cognitive science);
+
+ + the art of bonsai.
  
 Now I wanna to reveal my abilities in the best possible way in Front-end Developing.  
 
