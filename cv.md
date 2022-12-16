@@ -35,12 +35,15 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 ***
 ## **Skills and Proficiency:**
 * Python (beginner level)  
-* JavaScript Basics  
+* JavaScript (beginner level)
+* JQuery  
+* HTML 
+* CSS (beginner level)
 * Git, GitHub  
 * Markdown  
 * VS Code  
 * Adobe Photoshop (beginner level)  
-* Krita  
+* Krita (beginner level)  
 
 ***
 ## **Code example:**  
