@@ -1,5 +1,5 @@
 # **Dmitriy Morozov**
-![Dmitriy Frostoff](./images/IMG_20210918_163706.png)
+![Dmitriy Frostoff](./assets/img/IMG_20210918_163706.png)
 
 ## ***Junior Frontend Developer***
 ***
@@ -100,9 +100,9 @@ English - Upper-Intermediate B2 according to the online EF SET test at
 
  [my certificate](https://www.efset.org/cert/4Tg7Hj)  
  
- ![my_certificate](./images/EF_SET_Certificate™_Dmitriy_Frostoff1.png)
+ ![my_certificate](./assets/img/EF_SET_Certificate™_Dmitriy_Frostoff1.png)
  
 
  (continue learning in [lingualeo](https://lingualeo.com/)) 
 
-Russian - Native  
+Russian - Native
