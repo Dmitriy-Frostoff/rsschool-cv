@@ -12,7 +12,8 @@ Discord: @Dmitriy-Frostoff#9603
 app.rs.school: Dmitriy_Morozov  
 GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")  
 [instagram](https://www.instagram.com "dmitriy.frostoff")  
-[sololearn](https://www.sololearn.com/profile/16514154)  
+[sololearn](https://www.sololearn.com/profile/16514154)   
+[codewars](https://www.codewars.com/users/Dmitriy-Frostoff)   
 
 ***
 ## **About Myself:**
