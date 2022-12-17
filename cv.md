@@ -188,7 +188,7 @@ English - Upper-Intermediate B2 according to the online EF SET test at
 
  [my certificate](https://www.efset.org/cert/4Tg7Hj "click to see origin document")  
  
- ![my_certificate](./assets/img/EF_SET_Certificate™_Dmitriy_Frostoff1.png)
+  ![my EF SET certificate](./assets/img/EF_SET_Certificate_cert_96dpi.png)
  
 
  (continue learning in [lingualeo](https://lingualeo.com/ "click to go to the website")) 
