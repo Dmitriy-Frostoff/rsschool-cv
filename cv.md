@@ -96,19 +96,53 @@ Civil Construction engineer
 ***2016** - bachelor degree (diploma with honor)*
 
 ### **Courses:**  
-[Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8)
 
-![Sololearn](./images/ac522c48-c4f5-406b-9e98-8b00de3922601.png "my python certificate")  
+* [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
 
-JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/first-steps) (in progress)
+  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)   
 
-[sololearn: JavaScript (in progress)](https://www.sololearn.com/learning/1024)  
+* [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)   
 
-[sololearn: html (in progress)](https://www.sololearn.com/learning/1014)
+* [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")  
 
-[sololearn: css (in progress)](https://www.sololearn.com/learning/1023)
+  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)   
 
-RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)  
+* [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 "click to see origin document")
+
+    ![Stepik JavaScript certificate](./assets/img/Stepik_JavaScript_cert_96dpi.png)  
+
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
+
+* [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website") (in progress)   
+
+* [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
+
+  ![HTML certificate](./assets/img/HTML_cert_96dpi.png)
+
+* [CodeBasics: HTML](https://code-basics.com/ru/languages/html "click to go to the website")   
+
+* [Sololearn: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 "click to see origin document")   
+
+  ![CSS certificate](./assets/img/CSS_cert_96dpi.png)   
+
+* [CodeBasics: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 "click to go to the website")   
+
+* [Sololearn: Responsive Web Design](https://www.sololearn.com/certificates/CT-L3S4OUVO "click to see origin document")   
+
+  ![Responsive Web Design certificate](./assets/img/Responsive_Web_Design_cert_96dpi.png)   
+
+* [Sololearn: Web Development Fundamentals](https://www.sololearn.com/certificates/CT-IEFGC3DR "click to see origin document")   
+
+  ![Web Development Fundamentals certificate](./assets/img/WebDevelopmentFundamentals_cert_96dpi.png)   
+
+* [Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn"](https://ru.coursera.org/learn/learning-how-to-learn "click to go to the website") (in progress)
+
+* [Stepik: How to Study effectively - Polina Krivykh x I Love Economics](https://stepik.org/cert/1766516 "click to see origin document")   
+
+  ![How to Study effectively certificate](./assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)   
+
+
+RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4 (in progress)  
 
 *** 
 ## **Languages:**  
