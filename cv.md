@@ -148,13 +148,13 @@ RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4 (in 
 ## **Languages:**  
 English - Upper-Intermediate B2 according to the online EF SET test at 
 
- ![EF SET logo](https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg)  [www.efset.org](www.efset.org)
+ ![EF SET logo](https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg)  [www.efset.org](www.efset.org "click to go to the website")
 
- [my certificate](https://www.efset.org/cert/4Tg7Hj)  
+ [my certificate](https://www.efset.org/cert/4Tg7Hj "click to see origin document")  
  
  ![my_certificate](./assets/img/EF_SET_Certificate™_Dmitriy_Frostoff1.png)
  
 
- (continue learning in [lingualeo](https://lingualeo.com/)) 
+ (continue learning in [lingualeo](https://lingualeo.com/ "click to go to the website")) 
 
 Russian - Native
