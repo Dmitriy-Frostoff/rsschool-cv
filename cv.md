@@ -2,7 +2,7 @@
 ![Dmitriy Frostoff](./assets/img/IMG_20210918_163706.png)
 
 ## ***Junior Frontend Developer***
-***
+***     
 ## **Contact information:**
 Phone: +7 916 723 20 43  
 E-mail: <dmitriy.frostoff@yandex.ru>  
@@ -13,7 +13,7 @@ GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")
 [instagram](https://www.instagram.com "my insta id: dmitriy.frostoff")  
 [sololearn](https://www.sololearn.com/profile/16514154 "my acc on sololearn.com")   
 [codewars](https://www.codewars.com/users/Dmitriy-Frostoff "my acc in codewars.com")   
-***
+***     
 ## **About Me:**
 Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
 
@@ -29,7 +29,7 @@ Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
  + the art of bonsai.
  
 Now I wanna to reveal my abilities in the best possible way in Front-end Developing.  
-***
+***     
 ## **Skills and Proficiency:**
 * Python (beginner level)  
 * JavaScript (beginner level)
@@ -41,7 +41,7 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 * VS Code  
 * Adobe Photoshop (beginner level)  
 * Krita (beginner level)  
-***
+***     
 ## **Code example:**  
 
 **DESCRIPTION:**
@@ -79,9 +79,9 @@ function removeSmallest(numbers) {
   }
 }
 ```
-***
+***     
 ## **Job experience**
-***
+***     
 **CV#1. Markdown & Git**    
 This page done using Markdown   
   * [CV#1. Markdown & Git by Dmitriy Morozov](https://dmitriy-frostoff.github.io/rsschool-cv/cv)
@@ -100,9 +100,9 @@ My second course project done using HTML and CSS
 This course project done using HTML, CSS and JavaScript (total purchase count of tickets)
 
   * [Dmitriy Morozov's Ticketing Website](https://www.sololearn.com/compiler-playground/WeC29U6t7tDX "click to view and then click to 'run' button")
-***
+***     
 ## **Education**
-***
+***     
 ### **University:**
 Moscow State University of Civil Engineering
 
@@ -159,7 +159,7 @@ Civil Construction engineer
 
 
 RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4 (in progress)  
-*** 
+***       
 ## **Languages:**  
 English - Upper-Intermediate B2 according to the online EF SET test at 
 
