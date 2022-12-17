@@ -84,6 +84,28 @@ function removeSmallest(numbers) {
 }
 ```
 ***
+
+## **Job experience**
+***
+**CV#1. Markdown & Git**    
+This page done using Markdown   
+  * [CV#1. Markdown & Git by Dmitriy Morozov](https://dmitriy-frostoff.github.io/rsschool-cv/cv)
+
+**HTML**  
+My first course project done using pure HTML
+
+  * [Dmitriy Morozov's CV Project](https://www.sololearn.com/compiler-playground/W7D7sjzoPuZO "click to view and then click to 'run' button")
+
+**CSS & HTML**  
+My second course project done using HTML and CSS
+
+  * [Dmitriy Morozov's CV Design Project](https://www.sololearn.com/compiler-playground/W4JVG4wGX2os "click to view and then click to 'run' button")
+
+**HTML & CSS & JavaScript**   
+This course project done using HTML, CSS and JavaScript (total purchase count of tickets)
+
+  * [Dmitriy Morozov's Ticketing Website](https://www.sololearn.com/compiler-playground/WeC29U6t7tDX "click to view and then click to 'run' button")
+***
 ## **Education**
 ***
 ### **University:**
