@@ -531,13 +531,44 @@ nav {
 
 .footer {
     /* Position */
-    
+    width: 100%;
+    height: 10%;
     /* block-model */
     
     /* Typography */
     
     /* Decoration */
     background-color: rgba(177, 248, 177, 0.5);
+
+    /* Animation */
+    
+    /* Various */
+}
+
+.footer-list {
+    /* Position */
+    
+    /* block-model */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Typography */
+    
+    /* Decoration */
+
+    /* Animation */
+    
+    /* Various */
+}
+
+.footer-item {
+        /* Position */
+    
+    /* block-model */
+    display: inline-block;
+    /* Typography */
+    
+    /* Decoration */
 
     /* Animation */
     
@@ -602,7 +633,8 @@ nav {
     /* Position */
     
     /* block-model */
-    
+    width: 120px;
+    height: 35px;
     /* Typography */
     
     /* Decoration */
