@@ -43,6 +43,7 @@ body {
     font-family: 'Roboto', sans-serif;
 
     /* Decoration */
+    background-color: #fdfdfd;
 
     /* Animation */
 
@@ -69,7 +70,8 @@ body {
     /* Position */
 
     /* block-model */
-
+    display: flex;
+    flex-wrap: wrap;
     /* Typography */
 
     /* Decoration */
@@ -259,7 +261,6 @@ nav {
 
 .section {
     /* Position */
-
     /* block-model */
 
     /* Typography */
@@ -484,5 +485,5 @@ nav {
     /* Animation */
     
     /* Various */
-    
+
 }
