@@ -160,9 +160,8 @@ nav {
 
     /* block-model */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-
     /* Typography */
 
     /* Decoration */
@@ -178,6 +177,7 @@ nav {
     /* Position */
 
     /* block-model */
+
     /* Typography */
 
     /* Decoration */
@@ -192,6 +192,7 @@ nav {
     /* Position */
 
     /* block-model */
+    display: inline-block;
     padding: 0 20;
     line-height: 50px;
 
@@ -241,11 +242,13 @@ nav {
     color: #224bd1;
 }
 
-.header-section {
+.section-header-section {
     /* Position */
 
     /* block-model */
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     /* Typography */
 
     /* Decoration */
@@ -256,7 +259,7 @@ nav {
 
 }
 
-.profile-img {
+.section-profile-img {
     /* Position */
 
     /* block-model */
@@ -264,7 +267,7 @@ nav {
     /* Typography */
 
     /* Decoration */
-
+    border-radius: 20px;
     /* Animation */
 
     /* Various */
