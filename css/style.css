@@ -1,2 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    font-family: 'Roboto', sans-serif;
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+
+}
+
+html {
+
+}
+
+.main {
+
+}
+
+.main-container {
+
+}
+
+.container {
+
+}
+
+header {
+
+}
+
+.main-title{
+
+}
+
+nav {
+
+}
+
+.nav-list{
+
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+.header-section {
+
+}
+
+.profile-img {
+
+}
+
+.section {
+
+}
+
+.section-item {
+
+}
+
+.section-link {
+
+}
+
+.section-profile-title {
+
+}
+
+.section-title {
+
+}
+
+.section-subtitle {
+
+}
+
+.section-label {
+
+}
+
+.section-progress {
+
+}
+
+.section-img-certificate {
+
+}
+
+.paragraph-main-title {
+
+}
+
+.paragraph-title {
+
+}
+
+.pre {
+
 }
