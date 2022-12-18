@@ -1,21 +1,31 @@
 * {
     /* Position */
+
     /* block-model */
     box-sizing: border-box;
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 html {
     /* Position */
+
     /* block-model */
     scroll-behavior: smooth;
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 body {
@@ -28,6 +38,7 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+
     /* Typography */
     font-family: 'Roboto', sans-serif;
 
@@ -41,251 +52,437 @@ body {
 
 .main {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .main-container {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .container {
     /* Position */
+
     /* block-model */
     max-width: 1440px;
     margin: 0 auto;
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 header {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .main-title{
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 nav {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .nav-list{
     /* Position */
+
     /* block-model */
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     /* Typography */
+
     /* Decoration */
     list-style: none;
     /* Animation */
+
     /* Various */
+
 }
 
 .nav-item {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .nav-link {
     /* Position */
+
     /* block-model */
     padding: 0 20;
     line-height: 50px;
+
     /* Typography */
+
     /* Decoration */
     text-decoration: none;
+
     /* Animation */
     transition: color 0.5s;
+
     /* Various */
+
 }
 
 .nav-link:link {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+
     /* Decoration */
     color: #134201;
+
 }
 
 .nav-link:visited {
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+    
     /* Decoration */
     color: #686565;
 }
 
 .nav-link:hover {
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+    
     /* Decoration */
     color: #224bd1;
 }
 
 .header-section {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .profile-img {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-item {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-link {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
     text-decoration: none;
+
     /* Animation */
+
     transition: color 0.5s;
     /* Various */
+
 }
 
 .section-link:link {
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+
+    /* Decoration */   
     color: #134201;
 }
 
 .section-link:visited {
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+    
     /* Decoration */
     color: #686565;
 }
 
 .section-link:hover {
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+
+    /* Decoration */    
     color: #224bd1;
 }
 
 .section-profile-title {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-title {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-subtitle {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-label {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-progress {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .section-img-certificate {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .paragraph-main-title {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .paragraph-title {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .pre {
     /* Position */
+
     /* block-model */
+
     /* Typography */
+
     /* Decoration */
+
     /* Animation */
+
     /* Various */
+
 }
 
 .footer-rsschool-logo {
-
+    /* Position */
+    
+    /* block-model */
+    
+    /* Typography */
+    
+    /* Decoration */
+    
+    /* Animation */
+    
+    /* Various */
+    
 }
