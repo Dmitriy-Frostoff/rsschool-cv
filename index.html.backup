@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="This is Dmitiy Frostoff's CV - a Junior Frontend Development Learner">
+    <meta name="keywords" content="Junior Frontend Developer, JS, JavaScript, HTML, CSS, Frontend Development, Programming, Python, Visual Studio Code, VSCode, Git, GitHub, MarkDown, JQuery">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap">
+    
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+   
+    <title>Dmitriy Frostoff's CV</title>
+  
+  
+    <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="32x32">
+    <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="64x64">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contact-information" class="nav-link">Contact information</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills-and-proficiency" class="nav-link">Skills and Proficiency</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#job-experience" class="nav-link">Job experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main main-container">
+        <div class="container">
+
+
+            <section class="section-header-section" id="profile">
+                <img class="section-profile-img" src="./assets/img/IMG_20210918_163706.png" alt="Dmitriy-Frostoff image" width="130" height="140">
+                <div class="section-profile-title">
+                    <h1 class="main-title">Dmitriy Morozov</h1>
+                    <h3 class="main-subtitle">Junior Frontend Developer</h3>
+                </div>
+            </section>
+
+
+            <section class="section" id="contact-information">
+                <h2 class="section-title">Contact information</h2>
+                <ul class="section-list">
+                    <li class="section-item">Location:  Moscow, Russia</li>
+                    <li class="section-item">Phone:  +7 (987) 654 32 10</li>
+                    <li class="section-item">E-mail: <a class="section-link" href="mailto:dmitriy.frostoff@yandex.ru" title="e-mail" target="_blank">dmitriy.frostoff@yandex.ru</a></li>
+                    <li class="section-item">Telegram: <a class="section-link" href="https://t.me/Dmitriy_Frostoff" title="my telegram" target="_blank">@Dmitriy_Frostoff</a></li>
+                    <li class="section-item">Discord: <a class="section-link" href="https://discord.com/" title="discord" target="_blank">@Dmitriy-Frostoff#9603</a></li>
+                    <li class="section-item">app.rs.school: <a class="section-link" href="https://app.rs.school/" title="me at RS App" target="_blank">Dmitriy_Morozov</a></li>
+                    <li class="section-item">GitHub: <a class="section-link" href="https://github.com/Dmitriy-Frostoff/" title="My github acc" target="_blank">dmitriy-frostoff</a></li>
+                    <li class="section-item">instagram: <a class="section-link" href="https://www.instagram.com" title="my insta" target="_blank">id: dmitriy.frostoff</a></li>
+                    <li class="section-item">sololearn: <a class="section-link" href="https://www.sololearn.com/profile/16514154" title="my acc on sololearn.com" target="_blank">sololearn.acc</a></li>
+                    <li class="section-item">codewars: <a class="section-link" href="https://www.codewars.com/users/Dmitriy-Frostoff" title="my acc in codewars.com" target="_blank">my acc</a></li>
+                </ul>
+            </section>
+
+
+            <section class="section" id="about-me">
+                <h2 class="section-title">About Me</h2>
+
+                <p>
+                    Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions &#128521;)
+                </p>
+
+                <p>
+                    I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).
+                </p>
+                <p>
+                    After conducting a deep introspection, I realized that I was equally interested in the following aspects:
+                </p>
+                    <ul class="section-list">
+                        <li class="section-item">
+                            <p>programming (I love being in a state of flow, brainstorming and growing above myself &#129321;);</p>
+                        </li>
+                        <li class="section-item">
+                            <p>playing and composing music (I can play guitar, keys, a little on drums, I study vocals, I'm obsessed with music &#128525;);</p>
+                        </li>
+                        <li class="section-item">
+                            <p>studying the learning process itself (cognitive science);</p>
+                        </li>
+                        <li class="section-item">
+                            <p>the art of bonsai.</p>
+                        </li>
+                    </ul>
+
+                <p>Now I wanna to reveal my abilities in the best possible way in Front-end Developing.</p>
+            </section>
+
+
+            <section class="section" id="skills-and-proficiency">
+                <h2 class="section-title">Skills and Proficiency</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <label class="section-label">
+                            Python
+                            <progress class="section-progress" max="100" value="10">10%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            JavaScript
+                            <progress class="section-progress" max="100" value="20">20%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            JQuery
+                            <progress class="section-progress" max="100" value="20">30%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            HTML
+                            <progress class="section-progress" max="100" value="30">30%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            CSS
+                            <progress class="section-progress" max="100" value="15">15%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            Git, GitHub
+                            <progress class="section-progress" max="100" value="20">20%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            Markdown
+                            <progress class="section-progress" max="100" value="75">75%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            VS Code
+                            <progress class="section-progress" max="100" value="20">20%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            Adobe Photoshop
+                            <progress class="section-progress" max="100" value="10">10%</progress>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <label class="section-label">
+                            Krita
+                            <progress class="section-progress" max="100" value="25">25%</progress>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+
+                <span class="paragraph-title">description:</span>
+                <span class="paragraph-main-title">The museum of incredible dull things</span>
+                
+                <p>The museum of incredible dull things wants to get rid of some exhibitions. Miriam, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and then removes the one with the lowest rating.</p>
+                
+                <p>However, just as she finished rating all exhibitions, she's off to an important fair, so she asks you to write a program that tells her the ratings of the items after one removed the lowest one. Fair enough.</p>
+                
+                <p>Task &nbsp;
+                    Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+                </p>
+
+                <p>Don't change the order of the elements that are left.</p>
+
+                <span class="paragraph-title">Examples:</span>
+
+                <pre class="pre">
+                    * Input: [1,2,3,4,5], output = [2,3,4,5]
+                    * Input: [5,3,2,1,4], output = [5,3,2,4]
+                    * Input: [2,2,1,2,1], output = [2,2,2,1]
+                 </pre>
+
+                 <span class="paragraph-title">My decision:</span>
+
+                <pre class="pre"><code>
+                    function removeSmallest(numbers) {
+                        //   throw "TODO: removeSmallest";
+                          let EtrArr = numbers.slice();
+                          if (EtrArr.length == 0 || EtrArr.length == 1) {
+                            return [];
+                          }
+                          else {
+                            let minValue = Math.min.apply(null, EtrArr);
+                            let MinValueIndex = EtrArr.indexOf(minValue);
+                            EtrArr.splice(MinValueIndex, 1);
+                            return EtrArr;
+                          }
+                        }
+                </code></pre>
+            </section>
+
+
+            <section class="section" id="job-experience">
+                <h2 class="section-title">Job experience</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <span class="paragraph-main-title">CV#1. Markdown & Git</span>
+                        <p>This page done using Markdown</p>
+                        <a class="section-link" href="https://dmitriy-frostoff.github.io/rsschool-cv/cv" title="click to view and then click to 'run' button" target="_blank">CV#1. Markdown & Git by Dmitriy Morozov</a>
+                    </li>
+                    <li class="section-item">
+                        <span class="paragraph-main-title">HTML</span>
+                        <p>My first course project done using pure HTML</p>
+                        <a class="section-link" href="https://www.sololearn.com/compiler-playground/W7D7sjzoPuZO" title="click to view and then click to 'run' button" target="_blank">Dmitriy Morozov's CV Project</a>
+                    </li>
+                    <li class="section-item">
+                        <span class="paragraph-main-title">CSS & HTML</span>
+                        <p>My second course project done using HTML and CSS</p>
+                        <a class="section-link" href="https://www.sololearn.com/compiler-playground/W4JVG4wGX2os" title="click to view and then click to 'run' button" target="_blank">Dmitriy Morozov's CV Design Project</a>
+                    </li>
+                    <li class="section-item">
+                        <span class="paragraph-main-title">HTML & CSS & JavaScript</span>
+                        <p>This course project done using HTML, CSS and JavaScript (total purchase count of tickets)</p>
+                        <a class="section-link" href="https://www.sololearn.com/compiler-playground/WeC29U6t7tDX" title="click to view and then click to 'run' button" target="_blank">Dmitriy Morozov's Ticketing Website</a>
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+
+
+                <h3 class="section-subtitle">University</h3>
+
+                <div class="paragraph-main-title">Moscow State University of Civil Engineering</div>
+                <div class="paragraph-title">Civil Construction engineer</div>
+
+                <ul class="section-list">
+                    <li class="section-item"> <time datetime="2018-06-13">2018</time> masters degree (diploma with honor)</li>
+                    <li class="section-item"> <time datetime="2016-06-16">2016</time> bachelor degree (diploma with honor)</li>
+                </ul>
+
+                <h3 class="section-subtitle">Courses</h3>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-KHNYMAG8" title="click to see origin document" target="_blank">Sololearn: Python for beginners</a>
+                        <img class="section-img-certificate" src="./assets/img/Python_cert_96dpi.png" alt="Sololearn: my python certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://code-basics.com/ru/languages/python" title="click to go to the website" target="_blank">CodeBasics: Python  (in progress)</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-INUG28VK" title="click to see origin document" target="_blank">Sololearn: JavaScript</a>
+                        <img class="section-img-certificate" src="./assets/img/JavaScript_cert_96dpi.png" alt="Sololearn: my JavaScript certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://stepik.org/cert/1760637" title="click to see origin document" target="_blank">Stepik: JavaScript для начинающих</a>
+                        <img class="section-img-certificate" src="./assets/img/Stepik_JavaScript_cert_96dpi.png" alt="Stepik JavaScript certificate">
+                    </li>
+                    <li class="section-item">
+                        JavaScript Manual on <a class="section-link" href="https://learn.javascript.ru" title="click to go to the website" target="_blank">learn.javascript.ru (in progress)</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://code-basics.com/ru/languages/javascript" title="click to go to the website" target="_blank">CodeBasics: JavaScript (in progress)</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-ACB0NUVD" title="click to see origin document" target="_blank">Sololearn: HTML</a>
+                        <img class="section-img-certificate" src="./assets/img/HTML_cert_96dpi.png" alt="HTML certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://code-basics.com/ru/languages/html" title="click to see origin document" target="_blank">CodeBasics: HTML</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-2R1CKLL5" target="_blank">Sololearn: CSS</a>
+                        <img class="section-img-certificate" src="./assets/img/CSS_cert_96dpi.png" alt="CSS certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-2R1CKLL5" title="click to see origin document" target="_blank">CodeBasics: CSS</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-L3S4OUVO" title="click to see origin document" target="_blank">Sololearn: Responsive Web Design</a>
+                        <img class="section-img-certificate" src="./assets/img/Responsive_Web_Design_cert_96dpi.png" alt="Responsive Web Design certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-IEFGC3DR" title="click to see origin document" target="_blank">Sololearn: Web Development Fundamentals</a>
+                        <img class="section-img-certificate" src="./assets/img/WebDevelopmentFundamentals_cert_96dpi.png" alt="Web Development Fundamentals certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://ru.coursera.org/learn/learning-how-to-learn" title="click to go to the website" target="_blank">Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn" (in progress)</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://stepik.org/cert/1766516" title="click to see origin document" target="_blank">Stepik: How to Study effectively - Polina Krivykh x I Love Economics</a>
+                        <img class="section-img-certificate" src="./assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png" alt="How to Study effectively certificate">
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://rs.school/js-stage0/" title="click to go to the website" target="_blank">RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4 (in progress)</a>
+                    </li>
+                </ul>
+
+
+            </section>
+
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        English - Upper-Intermediate B2 according to the online EF SET test at
+                        <a class="section-link" href="https://www.efset.org/cert/4Tg7Hj" title="click to see origin document" target="_blank">my EF SET certificate</a>
+                        <img class="section-img-certificate" src="./assets/img/EF_SET_Certificate_cert_96dpi.png" alt="my EF SET certificate">
+                        (continue learning in <a class="section-link" href="https://lingualeo.com/" title="click to go to the website" target="_blank">lingualeo</a>)
+                    </li>
+                    <li class="section-item">
+                        Russian - Native
+                    </li>
+                </ul>
+            </section>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item">&copy; 2022 Dmitriy Frostoff</li>
+                <li class="footer-item">
+                    <a class="footer-link" href="https://github.com/Dmitriy-Frostoff" title="click to visit Dmitriy-Frostoff's GitHub" target="_blank">
+                        <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                    GitHub
+                    </a>
+                </li>
+                <li class="footer-item"><a class="footer-link" href="https://rs.school/js/" title="click to go to the RS School Course" target="_blank"><img class="footer-rsschool-logo" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes Course Logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
