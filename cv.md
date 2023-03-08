@@ -6,7 +6,7 @@
 ***     
 
 ## **Contact information:**
-Phone: +7 916 723 20 43  
+Phone: +7 987 654 32 10  
 E-mail: <dmitriy.frostoff@yandex.ru>  
 Telegram: @Dmitriy_Frostoff  
 Discord: @Dmitriy-Frostoff#9603  
