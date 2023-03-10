@@ -297,12 +297,50 @@ nav {
     /* Position */
 
     /* block-model */
+    flex: 1 1 30%;
     margin-bottom: 10px;
 
     /* Typography */
 
     /* Decoration */
 
+    /* Animation */
+
+    /* Various */
+
+}
+
+.courses-list {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    
+    /* Decoration */
+    list-style: none;
+    /* Animation */
+
+    /* Various */
+
+}
+
+.courses-list::before {
+    /* Position */
+
+    /* block-model */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    /* Typography */
+    
+    /* Decoration */
+    list-style: none;
+    content: "";
+    background-image: url(".././assets/img/academic-hat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     /* Animation */
 
     /* Various */
@@ -318,6 +356,7 @@ nav {
     /* Typography */
 
     /* Decoration */
+    word-wrap: break-word;
     text-decoration: none;
 
     /* Animation */
@@ -409,6 +448,27 @@ nav {
     line-height: 1.5;
     text-transform: uppercase;
     color: #3A3636;
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+
+}
+
+.layout-two-columns {
+    /* Position */
+
+    /* block-model */
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 5%;
+    /* Typography */
+    
     /* Decoration */
 
     /* Animation */
