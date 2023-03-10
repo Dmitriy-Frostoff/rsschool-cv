@@ -3,24 +3,19 @@
 <head>
     <meta charset="UTF-8">
 
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="description" content="This is Dmitiy Frostoff's CV - a Junior Frontend Development Learner">
     <meta name="keywords" content="Junior Frontend Developer, JS, JavaScript, HTML, CSS, Frontend Development, Programming, Python, Visual Studio Code, VSCode, Git, GitHub, MarkDown, JQuery">
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap">
-    
 
     <link rel="stylesheet" href="./css/style.css">
-    
-   
+
     <title>Dmitriy Frostoff's CV</title>
-  
-  
+
     <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="16x16">
     <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="32x32">
     <link rel="icon" href="/assets/icons/favicon64x64.ico" type="image/ico" sizes="64x64">
@@ -45,10 +40,8 @@
         </div>
     </header>
 
-
     <main class="main main-container">
         <div class="container">
-
 
             <section class="section-header-section" id="profile">
                 <img class="section-profile-img" src="./assets/img/IMG_20210918_163706.png" alt="Dmitriy-Frostoff image" width="130" height="140">
@@ -57,7 +50,6 @@
                     <h3 class="main-subtitle">Junior Frontend Developer</h3>
                 </div>
             </section>
-
 
             <section class="section" id="contact-information">
                 <h2 class="section-title">Contact information</h2>
@@ -75,20 +67,11 @@
                 </ul>
             </section>
 
-
             <section class="section" id="about-me">
                 <h2 class="section-title">About Me</h2>
-
-                <p>
-                    Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions &#128521;)
-                </p>
-
-                <p>
-                    I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).
-                </p>
-                <p>
-                    After conducting a deep introspection, I realized that I was equally interested in the following aspects:
-                </p>
+                <p>Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions &#128521;)</p>
+                <p>I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).</p>
+                <p>After conducting a deep introspection, I realized that I was equally interested in the following aspects:</p>
                     <ul class="section-list">
                         <li class="section-item">
                             <p>programming (I love being in a state of flow, brainstorming and growing above myself &#129321;);</p>
@@ -103,10 +86,8 @@
                             <p>the art of bonsai.</p>
                         </li>
                     </ul>
-
                 <p>Now I wanna to reveal my abilities in the best possible way in Front-end Developing.</p>
             </section>
-
 
             <section class="section" id="skills-and-proficiency">
                 <h2 class="section-title">Skills and Proficiency</h2>
@@ -186,50 +167,93 @@
                 </ul>
             </section>
 
-
             <section class="section" id="code-example">
                 <h2 class="section-title">Code example</h2>
-
                 <span class="paragraph-title">description:</span>
-                <span class="paragraph-main-title">The museum of incredible dull things</span>
-                
-                <p>The museum of incredible dull things wants to get rid of some exhibitions. Miriam, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and then removes the one with the lowest rating.</p>
-                
-                <p>However, just as she finished rating all exhibitions, she's off to an important fair, so she asks you to write a program that tells her the ratings of the items after one removed the lowest one. Fair enough.</p>
-                
-                <p>Task &nbsp;
-                    Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
-                </p>
-
-                <p>Don't change the order of the elements that are left.</p>
-
-                <span class="paragraph-title">Examples:</span>
-
+                <span class="paragraph-main-title">Bingo Card</span>
+                <p>After yet another dispute on their game the Bingo Association decides to change course and automate the game.</p>
+                <p>Can you help the association by writing a method to create a random Bingo card?</p>
+                <p class="paragraph-title">Bingo Cards</p>
+                <p>A Bingo card contains 24 unique and random numbers according to this scheme:</p>
+                <ul>
+                    <li>5 numbers from the B column in the range 1 to 15</li>
+                    <li>5 numbers from the I column in the range 16 to 30</li>
+                    <li>4 numbers from the N column in the range 31 to 45</li>
+                    <li>5 numbers from the G column in the range 46 to 60</li>
+                    <li>5 numbers from the O column in the range 61 to 75</li>
+                </ul>
+                <p class="paragraph-title">Task</p>
+                <p>Write the function get_card()/getCard(). The card must be returned as an array of Bingo style numbers:</p>
+                <pre>[ 'B14', 'B12', 'B5', 'B6', 'B3', 'I28', 'I27', ... ]</pre>
+                <p>The numbers must be in the order of their column: B, I, N, G, O. Within the columns the order of the numbers is random.</p>
+                <img src="https://myfreebingocards.com/numbers/1-75/printable-bingo-card-generator/link_img.png" alt="printable-bingo-card-generato">
+                <span class="paragraph-title">My decision:</span>
                 <pre class="pre">
-                    * Input: [1,2,3,4,5], output = [2,3,4,5]
-                    * Input: [5,3,2,1,4], output = [5,3,2,4]
-                    * Input: [2,2,1,2,1], output = [2,2,2,1]
-                 </pre>
+                  <code>
+                    JavaScript
 
-                 <span class="paragraph-title">My decision:</span>
+                    // "use strict";
 
-                <pre class="pre"><code>
-                    function removeSmallest(numbers) {
-                        //   throw "TODO: removeSmallest";
-                          let EtrArr = numbers.slice();
-                          if (EtrArr.length == 0 || EtrArr.length == 1) {
-                            return [];
-                          }
-                          else {
-                            let minValue = Math.min.apply(null, EtrArr);
-                            let MinValueIndex = EtrArr.indexOf(minValue);
-                            EtrArr.splice(MinValueIndex, 1);
-                            return EtrArr;
-                          }
+                    function getCard() {
+                        // Start your coding here...
+
+                        const arrBprototype = [];
+
+                        const arrIprototype = [];
+
+                        const arrNprototype = [];
+
+                        const arrGprototype = [];
+
+                        const arrOprototype = [];
+
+                        const getRandomNumberFromRangeInclusive = (min, max) => {
+                            min = Math.ceil(min);
+
+                            max = Math.floor(max);
+
+                            return Math.floor(Math.random() * (max - min + 1) + min);
                         }
-                </code></pre>
-            </section>
 
+                        const checkArrayForIncludeElem = (elem, arr, columnPrefix) => {
+                            if (arr.includes(`${columnPrefix}${elem}`)) {
+                            return true;
+                            } else {
+                            return false;
+                            }
+                        }
+
+                        const arrFillRandomNumber = (arr, requiredLength, columnPrefix, rangeMin, rangeMax) => {
+                            for (let i = 0; i < requiredLength; i++) {
+                            if (arr.length === requiredLength) {
+                                return;
+                            }
+
+                            let elem = getRandomNumberFromRangeInclusive(rangeMin, rangeMax);
+
+                            if (checkArrayForIncludeElem(elem, arr, columnPrefix)) {
+                                arrFillRandomNumber(arr, requiredLength, columnPrefix, rangeMin, rangeMax);
+                            } else {
+                                arr.push(`${columnPrefix}${elem}`);
+                            }
+                            }
+                        }
+
+                        arrFillRandomNumber(arrBprototype, 5, 'B', 1, 15);
+
+                        arrFillRandomNumber(arrIprototype, 5, 'I', 16, 30);
+
+                        arrFillRandomNumber(arrNprototype, 4, 'N', 31, 45);
+
+                        arrFillRandomNumber(arrGprototype, 5, 'G', 46, 60);
+
+                        arrFillRandomNumber(arrOprototype, 5, 'O', 61, 75);
+
+                        return [...arrBprototype, ...arrIprototype, ...arrNprototype, ...arrGprototype, ...arrOprototype];
+                    }
+                </code>
+              </pre>
+            </section>
 
             <section class="section" id="job-experience">
                 <h2 class="section-title">Job experience</h2>
@@ -255,9 +279,7 @@
                         <a class="section-link" href="https://www.sololearn.com/compiler-playground/WeC29U6t7tDX" title="click to view and then click to 'run' button" target="_blank">Dmitriy Morozov's Ticketing Website</a>
                     </li>
                 </ul>
-
             </section>
-
 
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
@@ -339,10 +361,7 @@
                         <a class="section-link" href="https://rs.school/js/" title="click to go to the website" target="_blank">RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1 (in progress)</a>
                     </li>
                 </ul>
-
-
             </section>
-
 
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
@@ -358,7 +377,6 @@
                     </li>
                 </ul>
             </section>
-
 
         </div>
     </main>
