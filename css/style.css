@@ -32,11 +32,12 @@ body {
     /* Position */
 
     /* block-model */
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0;
     padding: 0;
 
     /* Typography */
@@ -58,7 +59,7 @@ body {
     /* Position */
 
     /* block-model */
-
+    margin: 100px 0 0;
     /* Typography */
 
     /* Decoration */
@@ -103,8 +104,9 @@ body {
 
 header {
     /* Position */
-
+    position: fixed;
     /* block-model */
+    width: 100%;
 
     /* Typography */
 
@@ -139,7 +141,6 @@ nav {
     /* Position */
 
     /* block-model */
-    margin-bottom: 10px;
 
     /* Typography */
     font-family: 'Roboto', sans-serif;
@@ -149,8 +150,7 @@ nav {
     color: #3A3636;
     
     /* Decoration */
-    background-color: rgba(177, 248, 177, 0.5);
-    border-radius: 20px;
+    background-color: rgb(222 255 222);
 
     /* Animation */
 
@@ -166,6 +166,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
+    padding: 0;
     /* Typography */
 
     /* Decoration */
@@ -199,7 +201,7 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 0 0px;
-    line-height: 40px;
+    line-height: 60px;
     
     /* Typography */
     
@@ -217,7 +219,7 @@ nav {
     /* Position */
 
     /* block-model */
-
+    padding: 0 20px;
     /* Typography */
 
     /* Decoration */
@@ -235,7 +237,7 @@ nav {
     /* Decoration */
     color: #686565;
 }
-
+.nav-item:hover,
 .nav-link:hover {
     /* Position */
     
@@ -244,7 +246,10 @@ nav {
     /* Typography */
     
     /* Decoration */
+    border-radius: 10px;
+    transition: all 0.5s ease;
     color: #224bd1;
+    background-color: rgb(250, 77, 14);
 }
 
 .section-header-section {
@@ -624,8 +629,7 @@ nav {
     /* Typography */
     
     /* Decoration */
-    background-color: rgba(177, 248, 177, 0.5);
-    border-radius: 20px;
+    background-color: rgb(222 255 222);
     /* Animation */
     
     /* Various */
