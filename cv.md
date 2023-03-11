@@ -174,7 +174,7 @@ August 2018 — August 2019
 April 2017 — June 2018   
   * Collective development of project and detailed documentation of excavation enclosures, of structural elements of buildings;
 
-**Assistant Chief Design Engineer (3rd year student) at LLC MC "Dinpos", Moscow**    
+**Assistant Chief structural Engineer (3rd year student) at LLC MC "Dinpos", Moscow**    
 June 2015 — July 2015   
   * Familiarity with projects and documentation at the stages of implementation: PD, DD;
   * Calculations of structures in SCC SCAD and manually; verification of calculations;
