@@ -355,7 +355,7 @@ nav {
 
 .courses-list {
     /* Position */
-
+    position: relative;
     /* block-model */
 
     /* Typography */
@@ -370,7 +370,7 @@ nav {
 
 .courses-list::before {
     /* Position */
-
+    position: absolute;
     /* block-model */
     width: 30px;
     height: 30px;
@@ -394,6 +394,7 @@ nav {
     /* Position */
 
     /* block-model */
+    display: block;
     padding-bottom: 10px;
 
     /* Typography */
@@ -401,7 +402,7 @@ nav {
     /* Decoration */
     word-wrap: break-word;
     text-decoration: none;
-
+    text-indent: 50px;
     /* Animation */
 
     transition: color 0.5s;
