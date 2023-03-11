@@ -92,6 +92,7 @@ body {
     /* block-model */
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0px 20px;
     /* Typography */
 
     /* Decoration */
@@ -111,7 +112,8 @@ header {
     /* Typography */
 
     /* Decoration */
-
+    background-color: rgb(222 255 222);
+    
     /* Animation */
 
     /* Various */
@@ -150,7 +152,6 @@ nav {
     color: #3A3636;
     
     /* Decoration */
-    background-color: rgb(222 255 222);
 
     /* Animation */
 
