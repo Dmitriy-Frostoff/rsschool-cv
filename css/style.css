@@ -316,6 +316,43 @@ nav {
 
 }
 
+.civil-construction {
+    /* Position */
+    position: relative;
+    /* block-model */
+
+    /* Typography */
+
+    /* Decoration */
+    list-style: none;
+    /* Animation */
+
+    /* Various */
+
+}
+
+.civil-construction::before {
+    /* Position */
+    position: absolute;
+    /* block-model */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    /* Typography */
+    
+    /* Decoration */
+    list-style: none;
+    content: "";
+    background-image: url(".././assets/img/icons8-construction-32.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Animation */
+
+    /* Various */
+
+}
+
 .courses-list {
     /* Position */
 
@@ -575,6 +612,7 @@ nav {
     font-weight: 600;
     line-height: 1.5;
     text-align: center;
+    text-indent: 50px;
     color: #3A3636;
     /* Decoration */
 
