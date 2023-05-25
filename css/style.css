@@ -92,6 +92,7 @@ body {
     /* block-model */
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0px 20px;
     /* Typography */
 
     /* Decoration */
@@ -105,13 +106,15 @@ body {
 header {
     /* Position */
     position: fixed;
+    z-index: 5;
     /* block-model */
     width: 100%;
 
     /* Typography */
 
     /* Decoration */
-
+    background-color: rgb(222 255 222);
+    
     /* Animation */
 
     /* Various */
@@ -150,7 +153,6 @@ nav {
     color: #3A3636;
     
     /* Decoration */
-    background-color: rgb(222 255 222);
 
     /* Animation */
 
@@ -303,7 +305,7 @@ nav {
 
     /* block-model */
     flex: 1 1 30%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
     /* Typography */
 
@@ -315,9 +317,46 @@ nav {
 
 }
 
+.civil-construction {
+    /* Position */
+    position: relative;
+    /* block-model */
+
+    /* Typography */
+
+    /* Decoration */
+    list-style: none;
+    /* Animation */
+
+    /* Various */
+
+}
+
+.civil-construction::before {
+    /* Position */
+    position: absolute;
+    /* block-model */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    /* Typography */
+    
+    /* Decoration */
+    list-style: none;
+    content: "";
+    background-image: url(".././assets/img/icons8-construction-32.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Animation */
+
+    /* Various */
+
+}
+
 .courses-list {
     /* Position */
-
+    position: relative;
     /* block-model */
 
     /* Typography */
@@ -332,7 +371,7 @@ nav {
 
 .courses-list::before {
     /* Position */
-
+    position: absolute;
     /* block-model */
     width: 30px;
     height: 30px;
@@ -356,6 +395,7 @@ nav {
     /* Position */
 
     /* block-model */
+    display: inline-block;
     padding-bottom: 10px;
 
     /* Typography */
@@ -363,10 +403,25 @@ nav {
     /* Decoration */
     word-wrap: break-word;
     text-decoration: none;
-
+    text-indent: 50px;
     /* Animation */
 
     transition: color 0.5s;
+    /* Various */
+
+}
+
+.contact-link {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+
+    /* Decoration */
+    text-indent: 0px;
+    /* Animation */
+
     /* Various */
 
 }
@@ -574,6 +629,7 @@ nav {
     font-weight: 600;
     line-height: 1.5;
     text-align: center;
+    text-indent: 50px;
     color: #3A3636;
     /* Decoration */
 
@@ -605,19 +661,20 @@ nav {
 }
 
 .pre {
-    /* Position */
-
-    /* block-model */
-    /* border-style: solid;
-    background-color: red; */
-    /* Typography */
-
-    /* Decoration */
-
-    /* Animation */
-
-    /* Various */
-
+    background: #f7f4f3;
+    border: 1px solid #ddd;
+    border-left: 3px solid #36d331;
+    color: #07a;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
 }
 
 .footer {

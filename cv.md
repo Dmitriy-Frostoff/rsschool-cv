@@ -14,7 +14,7 @@ app.rs.school: Dmitriy_Morozov
 GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")  
 [instagram](https://www.instagram.com "my insta id: dmitriy.frostoff")  
 [sololearn](https://www.sololearn.com/profile/16514154 "my acc on sololearn.com")   
-[codewars](https://www.codewars.com/users/Dmitriy-Frostoff "my acc in codewars.com")   
+[codewars](https://www.codewars.com/users/rsschool_78dcfb24c923f558 "my acc in codewars.com")   
 
 ***     
 
@@ -38,13 +38,16 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 
 ## **Skills and Proficiency:**
 * Python (beginner level)  
-* JavaScript (beginner level)
+* JavaScript
 * JQuery  
 * HTML 
-* CSS (beginner level)
+* CSS
+* Sass/SCSS (beginner level)
+* Webpack (beginner level)
 * Git, GitHub  
 * Markdown  
 * VS Code  
+* Figma  
 * Adobe Photoshop (beginner level)  
 * Krita (beginner level)  
 
@@ -54,67 +57,128 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 
 **DESCRIPTION:**
 
-**The museum of incredible dull things**  
+**Bingo Card**  
 
-The museum of incredible dull things wants to get rid of some exhibitions. Miriam, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and then removes the one with the lowest rating.
+After yet another dispute on their game the Bingo Association decides to change course and automate the game.   
 
-However, just as she finished rating all exhibitions, she's off to an important fair, so she asks you to write a program that tells her the ratings of the items after one removed the lowest one. Fair enough.
+Can you help the association by writing a method to create a random Bingo card?   
+
+Bingo Cards   
+A Bingo card contains 24 unique and random numbers according to this scheme:   
+  + 5 numbers from the B column in the range 1 to 15
+  + 5 numbers from the I column in the range 16 to 30
+  + 4 numbers from the N column in the range 31 to 45
+  + 5 numbers from the G column in the range 46 to 60
+  + 5 numbers from the O column in the range 61 to 75
 
 Task
-Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+Write the function get_card()/getCard(). The card must be returned as an array of Bingo style numbers:
 
-Don't change the order of the elements that are left.
+```[ 'B14', 'B12', 'B5', 'B6', 'B3', 'I28', 'I27', ... ]```   
 
-**Examples**  
+The numbers must be in the order of their column: B, I, N, G, O. Within the columns the order of the numbers is random.   
 
-```
-* Input: [1,2,3,4,5], output = [2,3,4,5]
-* Input: [5,3,2,1,4], output = [5,3,2,4]
-* Input: [2,2,1,2,1], output = [2,2,2,1]
-```
+![printable-bingo-card-generato](https://myfreebingocards.com/numbers/1-75/printable-bingo-card-generator/link_img.png)
 
 **My decision:**  
 
 ```javascript  
-function removeSmallest(numbers) {
-//   throw "TODO: removeSmallest";
-  let EtrArr = numbers.slice();
-  if (EtrArr.length == 0 || EtrArr.length == 1) {
-    return [];
+
+  // "use strict";
+
+  function getCard() {
+      // Start your coding here...
+
+      const arrBprototype = [];
+
+      const arrIprototype = [];
+
+      const arrNprototype = [];
+
+      const arrGprototype = [];
+
+      const arrOprototype = [];
+
+      const getRandomNumberFromRangeInclusive = (min, max) => {
+          min = Math.ceil(min);
+
+          max = Math.floor(max);
+
+          return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+      const checkArrayForIncludeElem = (elem, arr, columnPrefix) => {
+          if (arr.includes(`${columnPrefix}${elem}`)) {
+          return true;
+          } else {
+          return false;
+          }
+      }
+
+      const arrFillRandomNumber = (arr, requiredLength, columnPrefix, rangeMin, rangeMax) => {
+          for (let i = 0; i < requiredLength; i++) {
+          if (arr.length === requiredLength) {
+              return;
+          }
+
+          let elem = getRandomNumberFromRangeInclusive(rangeMin, rangeMax);
+
+          if (checkArrayForIncludeElem(elem, arr, columnPrefix)) {
+              arrFillRandomNumber(arr, requiredLength, columnPrefix, rangeMin, rangeMax);
+          } else {
+              arr.push(`${columnPrefix}${elem}`);
+          }
+          }
+      }
+
+      arrFillRandomNumber(arrBprototype, 5, 'B', 1, 15);
+
+      arrFillRandomNumber(arrIprototype, 5, 'I', 16, 30);
+
+      arrFillRandomNumber(arrNprototype, 4, 'N', 31, 45);
+
+      arrFillRandomNumber(arrGprototype, 5, 'G', 46, 60);
+
+      arrFillRandomNumber(arrOprototype, 5, 'O', 61, 75);
+
+      return [...arrBprototype, ...arrIprototype, ...arrNprototype, ...arrGprototype, ...arrOprototype];
   }
-  else {
-    let minValue = Math.min.apply(null, EtrArr);
-    let MinValueIndex = EtrArr.indexOf(minValue);
-    EtrArr.splice(MinValueIndex, 1);
-    return EtrArr;
-  }
-}
 ```
 
 ***     
-
 ## **Job experience**
 
 ***     
 
-**CV#1. Markdown & Git**    
-This page done using Markdown   
-  * [CV#1. Markdown & Git by Dmitriy Morozov](https://dmitriy-frostoff.github.io/rsschool-cv/cv)
+**Civil engineer at Department of construction and repair of FSUE "Production Supply Enterprise", Moscow**    
+December 2019 — August 2022   
+  * Preparation of sets of documents for commissioning of the facility;
+  * Input control of project and budget documents;
+  * Interaction with the budget department;
+  * Archiving and maintenance of building site records;
+  * preparation of reports on construction materials used in the construction of buildings;
+  * participation in the commissioning of a finished construction facility;
 
-**HTML**  
-My first course project done using pure HTML
+**Civil engineer (general construction) at "UNR-17", Moscow**    
+August 2018 — August 2019   
+  * Preparation of sets of documents for commissioning of the facility;
+  * Input control of project and budget documents;
+  * Interaction with the budget department;
+  
 
-  * [Dmitriy Morozov's CV Project](https://www.sololearn.com/compiler-playground/W7D7sjzoPuZO "click to view and then click to 'run' button")
+**Junior foreman, acting job superintendant (within 6 months),  Junior foreman of building and finishing works at LLC "Tashir-Construction", Moscow**    
+August 2018 — August 2019   
+  * organization of works on construction of monolithic structures of buildings, manufacture of finishing works;
 
-**CSS & HTML**  
-My second course project done using HTML and CSS
+**Structural engineer at LLC GC "Olimproekt", Moscow**    
+April 2017 — June 2018   
+  * Collective development of project and detailed documentation of excavation enclosures, of structural elements of buildings;
 
-  * [Dmitriy Morozov's CV Design Project](https://www.sololearn.com/compiler-playground/W4JVG4wGX2os "click to view and then click to 'run' button")
-
-**HTML & CSS & JavaScript**   
-This course project done using HTML, CSS and JavaScript (total purchase count of tickets)
-
-  * [Dmitriy Morozov's Ticketing Website](https://www.sololearn.com/compiler-playground/WeC29U6t7tDX "click to view and then click to 'run' button")
+**Assistant Chief structural Engineer (3rd year student) at LLC MC "Dinpos", Moscow**    
+June 2015 — July 2015   
+  * Familiarity with projects and documentation at the stages of implementation: PD, DD;
+  * Calculations of structures in SCC SCAD and manually; verification of calculations;
+  * Application of the skills of a structural engineer;
 
 ***     
 
@@ -148,7 +212,7 @@ Civil Construction engineer
 
 * JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
 
-* [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website") (in progress)   
+* [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
 * [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
 
@@ -176,10 +240,49 @@ Civil Construction engineer
 
   ![How to Study effectively certificate](./assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)   
 
+* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3   
 
-RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4 (in progress)  
+* RS Schools Course Javascript/Front-end Mentoring Program (in English)» JS/FE Course EN 2022Q3   
+
+* [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/7rf4cdis/ "click to see origin document")   
+
+  ![JS/FE Pre-School 2022Q4 certificate](./assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png "click to see origin document")   
+
+* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1 (in progress)  
 
 ***       
+
+## **RSSchool projects**
+
+***     
+
+**Momentum**    
+Project Description:   
+
+Momentum is an analogue of the Chrome Web Store application of the same name. The application shows the time and username. The background image and greeting changes depending on the time of day.   
+
+The application has a clock, an image slider, weather widgets, an audio player, a quote of the day block, and settings. Local storage is used to store the username and location.   
+
+  * [Momentum web app](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/momentum/ "click to view")   
+
+**Plants**    
+Project Description:   
+
+Plants is the stage#0 task during which you will make up the landing page of a site that offers its services for growing plants in the garden and caring for them, making it adaptive and interactive.   
+
+  * [Plants landing page](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/plants/ "click to view")   
+
+**CV#3. CV. Cross-Check**    
+CV implemented with HTML & CSS   
+
+  * [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv "click to view")   
+
+**CV#1. Markdown & Git**    
+This page done using Markdown   
+
+  * [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv/cv "click to view")   
+
+***     
 
 ## **Languages:**  
 English - Upper-Intermediate B2 according to the online EF SET test at 
