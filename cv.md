@@ -39,7 +39,6 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 ## **Skills and Proficiency:**
 * Python (beginner level)  
 * JavaScript
-* JQuery  
 * HTML 
 * CSS
 * Sass/SCSS (beginner level)
@@ -214,6 +213,8 @@ Civil Construction engineer
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
+* [CodeBasics: TypeScript (in progress)](https://code-basics.com/ru/languages/typescript "click to go to the website")   
+
 * [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
 
   ![HTML certificate](./assets/img/HTML_cert_96dpi.png)
@@ -255,6 +256,20 @@ Civil Construction engineer
 ## **RSSchool projects**
 
 ***     
+
+**Shelter**    
+Project Description:   
+
+Shelter is a project in which you have to create a website consisting of two pages, make it adaptive and interactive.
+
+  * [Shelter](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFE2023Q1/shelter/index.html "click to view")   
+
+**CSSBayan**    
+Project Description:   
+
+Accordion implemented with the only HTML and CSS.
+
+  * [CSSBayan](https://dmitriy-frostoff.github.io/cssBayan/ "click to view")   
 
 **Momentum**    
 Project Description:   
