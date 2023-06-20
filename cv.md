@@ -257,6 +257,20 @@ Civil Construction engineer
 
 ***     
 
+**Shelter**    
+Project Description:   
+
+Shelter is a project in which you have to create a website consisting of two pages, make it adaptive and interactive.
+
+  * [Shelter](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFE2023Q1/shelter/index.html "click to view")   
+
+**CSSBayan**    
+Project Description:   
+
+Accordion implemented with the only HTML and CSS.
+
+  * [CSSBayan](https://dmitriy-frostoff.github.io/cssBayan/ "click to view")   
+
 **Momentum**    
 Project Description:   
 
