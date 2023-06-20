@@ -39,7 +39,6 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 ## **Skills and Proficiency:**
 * Python (beginner level)  
 * JavaScript
-* JQuery  
 * HTML 
 * CSS
 * Sass/SCSS (beginner level)
@@ -213,6 +212,8 @@ Civil Construction engineer
 * JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
+
+* [CodeBasics: TypeScript (in progress)](https://code-basics.com/ru/languages/typescript "click to go to the website")   
 
 * [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
 
