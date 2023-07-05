@@ -54,94 +54,176 @@ Now I wanna to reveal my abilities in the best possible way in Front-end Develop
 
 ## **Code example:**  
 
-**DESCRIPTION:**
+**DESCRIPTION:**   
 
-**Bingo Card**  
+**Never visit a . . . !?**    
+[Codewars Kata description](https://www.codewars.com/kata/56c5847f27be2c3db20009c3/javascript 'click to go to Codewars')    
+**Subtract the sum**   
+Complete the function which get an input number n such that `n >= 10` and `n < 10000`, then:   
+Sum all the digits of `n`.   
+Subtract the sum from `n`, and it is your new `n`.   
+If the new `n` is in the list below return the associated fruit, otherwise return back to task 1.   
+**Example**    
+n = `325`   
+sum = `3+2+5` = `10`   
+n = `325-10` = `315` (not in the list)   
+sum = `3+1+5` = `9`   
+n = `315-9` = `306` (not in the list)   
+sum = `3+0+6` = `9`   
+n = `306-9` = `297` (not in the list)   
+.   
+.   
+.   
 
-After yet another dispute on their game the Bingo Association decides to change course and automate the game.   
+...until you find the first `n` in the list below.    
+There is no preloaded code to help you. *This is not about coding skills; think before you code*    
+<details>
+                    <summary>click to view drawn-out object (CAUTION! far drawn-out!!!)</summary>
+                    <pre>
+                        const DICTIONARY = {
+                            1:`kiwi`,
+                            2:`pear`,
+                            3:`kiwi`,
+                            4:`banana`,
+                            5:`melon`,
+                            6:`banana`,
+                            7:`melon`,
+                            8:`pineapple`,
+                            9:`apple`,
+                            10:`pineapple`,
+                            11:`cucumber`,
+                            12:`pineapple`,
+                            13:`cucumber`,
+                            14:`orange`,
+                            15:`grape`,
+                            16:`orange`,
+                            17:`grape`,
+                            18:`apple`,
+                            19:`grape`,
+                            20:`cherry`,
+                            21:`pear`,
+                            22:`cherry`,
+                            23:`pear`,
+                            24:`kiwi`,
+                            25:`banana`,
+                            26:`kiwi`,
+                            27:`apple`,
+                            28:`melon`,
+                            29:`banana`,
+                            30:`melon`,
+                            31:`pineapple`,
+                            32:`melon`,
+                            33:`pineapple`,
+                            34:`cucumber`,
+                            35:`orange`,
+                            36:`apple`,
+                            37:`orange`,
+                            38:`grape`,
+                            39:`orange`,
+                            40:`grape`,
+                            41:`cherry`,
+                            42:`pear`,
+                            43:`cherry`,
+                            44:`pear`,
+                            45:`apple`,
+                            46:`pear`,
+                            47:`kiwi`,
+                            48:`banana`,
+                            49:`kiwi`,
+                            50:`banana`,
+                            51:`melon`,
+                            52:`pineapple`,
+                            53:`melon`,
+                            54:`apple`,
+                            55:`cucumber`,
+                            56:`pineapple`,
+                            57:`cucumber`,
+                            58:`orange`,
+                            59:`cucumber`,
+                            60:`orange`,
+                            61:`grape`,
+                            62:`cherry`,
+                            63:`apple`,
+                            64:`cherry`,
+                            65:`pear`,
+                            66:`cherry`,
+                            67:`pear`,
+                            68:`kiwi`,
+                            69:`pear`,
+                            70:`kiwi`,
+                            71:`banana`,
+                            72:`apple`,
+                            73:`banana`,
+                            74:`melon`,
+                            75:`pineapple`,
+                            76:`melon`,
+                            77:`pineapple`,
+                            78:`cucumber`,
+                            79:`pineapple`,
+                            80:`cucumber`,
+                            81:`apple`,
+                            82:`grape`,
+                            83:`orange`,
+                            84:`grape`,
+                            85:`cherry`,
+                            86:`grape`,
+                            87:`cherry`,
+                            88:`pear`,
+                            89:`cherry`,
+                            90:`apple`,
+                            91:`kiwi`,
+                            92:`banana`,
+                            93:`kiwi`,
+                            94:`banana`,
+                            95:`melon`,
+                            96:`banana`,
+                            97:`melon`,
+                            98:`pineapple`,
+                            99:`apple`,
+                            100:`pineapple`,
+                          }
+                        </pre>
+                </details>
 
-Can you help the association by writing a method to create a random Bingo card?   
+     
+**My decision:**     
+```JavaScript
+                    
+                    // "use strict";
 
-Bingo Cards   
-A Bingo card contains 24 unique and random numbers according to this scheme:   
-  + 5 numbers from the B column in the range 1 to 15
-  + 5 numbers from the I column in the range 16 to 30
-  + 4 numbers from the N column in the range 31 to 45
-  + 5 numbers from the G column in the range 46 to 60
-  + 5 numbers from the O column in the range 61 to 75
-
-Task
-Write the function get_card()/getCard(). The card must be returned as an array of Bingo style numbers:
-
-```[ 'B14', 'B12', 'B5', 'B6', 'B3', 'I28', 'I27', ... ]```   
-
-The numbers must be in the order of their column: B, I, N, G, O. Within the columns the order of the numbers is random.   
-
-![printable-bingo-card-generato](https://myfreebingocards.com/numbers/1-75/printable-bingo-card-generator/link_img.png)
-
-**My decision:**  
-
-```javascript  
-
-  // "use strict";
-
-  function getCard() {
-      // Start your coding here...
-
-      const arrBprototype = [];
-
-      const arrIprototype = [];
-
-      const arrNprototype = [];
-
-      const arrGprototype = [];
-
-      const arrOprototype = [];
-
-      const getRandomNumberFromRangeInclusive = (min, max) => {
-          min = Math.ceil(min);
-
-          max = Math.floor(max);
-
-          return Math.floor(Math.random() * (max - min + 1) + min);
-      }
-
-      const checkArrayForIncludeElem = (elem, arr, columnPrefix) => {
-          if (arr.includes(`${columnPrefix}${elem}`)) {
-          return true;
-          } else {
-          return false;
-          }
-      }
-
-      const arrFillRandomNumber = (arr, requiredLength, columnPrefix, rangeMin, rangeMax) => {
-          for (let i = 0; i < requiredLength; i++) {
-          if (arr.length === requiredLength) {
-              return;
-          }
-
-          let elem = getRandomNumberFromRangeInclusive(rangeMin, rangeMax);
-
-          if (checkArrayForIncludeElem(elem, arr, columnPrefix)) {
-              arrFillRandomNumber(arr, requiredLength, columnPrefix, rangeMin, rangeMax);
-          } else {
-              arr.push(`${columnPrefix}${elem}`);
-          }
-          }
-      }
-
-      arrFillRandomNumber(arrBprototype, 5, 'B', 1, 15);
-
-      arrFillRandomNumber(arrIprototype, 5, 'I', 16, 30);
-
-      arrFillRandomNumber(arrNprototype, 4, 'N', 31, 45);
-
-      arrFillRandomNumber(arrGprototype, 5, 'G', 46, 60);
-
-      arrFillRandomNumber(arrOprototype, 5, 'O', 61, 75);
-
-      return [...arrBprototype, ...arrIprototype, ...arrNprototype, ...arrGprototype, ...arrOprototype];
-  }
+                    function SubtractSum(n) {
+                        function numberToSumOfNumbers(num) {
+                          return `${num}`
+                            .split(``)
+                            .map(elem => +elem)
+                            .reduce((sum, num) => sum + num, 0)
+                        }
+                        
+                        function newNumber(oldNumber, sum) {
+                          return oldNumber - sum;
+                        }
+                        
+                        function checkTheDictionary(newNumber, DICTIONARY) {
+                          return DICTIONARY[newNumber] ? true : false;
+                        }
+                        
+                        let nextNumber = newNumber(n, numberToSumOfNumbers(n));
+                        
+                        function recursionIteration(nextNumber) {
+                          if (checkTheDictionary(nextNumber, DICTIONARY)) {
+                            return DICTIONARY[nextNumber];
+                        } else {
+                            nextNumber = newNumber(nextNumber, numberToSumOfNumbers(nextNumber));
+                            return recursionIteration(nextNumber);
+                          }
+                        }
+                        
+                        return recursionIteration(nextNumber);
+                        
+                        // or just return `apple`, it'll fit perfectly)))  
+                        // extremely enjoyed this Kata)))))))))) :)
+                      //   return "apple";
+                      }
 ```
 
 ***     
@@ -249,7 +331,9 @@ Civil Construction engineer
 
   ![JS/FE Pre-School 2022Q4 certificate](./assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png "click to see origin document")   
 
-* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1 (in progress)  
+* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1  
+
+* RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2 (in progress)  
 
 ***       
 
