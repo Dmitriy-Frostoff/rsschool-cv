@@ -1,0 +1,20 @@
+{
+  "name": "dmitriy-frostoffs-cv",
+  "version": "1.0.0",
+  "description": "Dmitriy Frostoff's CV - trainee Frontend developer",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/main.scss:Main/style.css src/sass/pets.scss:Pets/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitriy-Frostoff/rsschool-cv.git"
+  },
+  "author": "Dmitriy Frostoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitriy-Frostoff/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/Dmitriy-Frostoff/rsschool-cv#readme"
+}
