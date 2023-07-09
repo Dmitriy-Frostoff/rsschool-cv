@@ -1,17 +1,9 @@
-%font-Georgia {
-  font-family: 'Georgia';
-} 
-
-%font-Arial {
-  font-family: 'Arial';
+%font-Cabin {
+  font-family: 'Cabin';
 } 
 
 %transition-basic {
   transition: all 0.7s ease 0s;
-}
-
-%pointer-events-disable {
-  pointer-events: none;
 }
 
 %reset-padding-margin {
@@ -21,4 +13,12 @@
 
 %cursor-pointer {
   cursor: pointer;
+}
+
+%pointer-events-disable {
+  pointer-events: none;
+}
+
+%pointer-events-auto {
+  pointer-events: auto;
 }

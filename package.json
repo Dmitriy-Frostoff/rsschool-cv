@@ -4,7 +4,7 @@
   "description": "Dmitriy Frostoff's CV - trainee Frontend developer",
   "main": "index.js",
   "scripts": {
-    "style": "sass --watch src/sass/main.scss:Main/style.css src/sass/pets.scss:Pets/style.css",
+    "style": "sass --watch src/sass/main.scss:style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

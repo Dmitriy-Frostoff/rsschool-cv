@@ -1,0 +1,90 @@
+.nav {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+
+.nav__list {
+  // Position
+  
+  // block-model
+  @include flex-model-multiple-columns ($basis: auto, $justify-content: space-between, $align-items: center);
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__item {
+  // Position
+  
+  // block-model
+
+  // Typography
+  @include text ($style: normal, $weight: 400, $size: 1.5rem, $height: 2.4rem, $let-spacing: normal);
+  color: $color-light-s;
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__link {
+  // Position
+  position: relative;
+  // block-model
+
+  // Typography
+  line-height: 50px;
+  color: $color-light-l;
+  // Decoration
+  @extend %cursor-pointer;
+  // Animation
+  @extend %transition-basic;
+  // Various
+  &:hover {
+    color: $color-light-s;
+    @extend %transition-basic;
+    @include animation ($name: pulsation, $duration: 1.5s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s);
+  &:before {
+    position: absolute;
+    @extend %transition-basic;
+
+    content: "";
+    bottom: 11px;
+    width: 100%;
+    border-bottom: 3px solid $color-primary;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+
+  }
+  }
+
+  &:active {
+    color: $color-light-s;
+    @extend %transition-basic;
+
+    &:before {
+      transform: scaleX(1);
+      @extend %transition-basic;
+      transform-origin: bottom right;
+    }
+  }
+}
