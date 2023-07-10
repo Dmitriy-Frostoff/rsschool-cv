@@ -22,8 +22,60 @@
   // block-model
   padding-top: 30px;
   padding-bottom: 30px;
-  @include flex-model-two-columns ($first-basis: 186px, $last-basis: 443px, $align-content: space-between, $justify-content: space-between, $align-items: center);
+  //width of image 254px width of text 279px due to draft
+  @include flex-model-two-columns ($first-basis: 25%, $last-basis: 40%, $align-content: space-between, $justify-content: space-between, $align-items: center);
   flex-wrap: nowrap;
+  // Typographynav
+
+  // Decoration
+  
+  // Animation
+
+  // Various
+
+}
+
+.cv-photo {
+  // Position
+  
+  // block-model
+  width: calc(254px / 565px) * 1%;
+  height: calc(265px / 565px) * 1%;
+
+  // Typographynav
+
+  // Decoration
+  border-radius: 5%;
+  // Animation
+
+  // Various
+
+}
+
+.header__content-container {
+  // Position
+  
+  // block-model
+  @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
+  flex-wrap: nowrap;
+  row-gap: 25px;
+  // Typographynav
+
+  // Decoration
+  
+  // Animation
+
+  // Various
+
+}
+
+.title-container {
+  // Position
+  
+  // block-model
+  @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
+  flex-wrap: nowrap;
+  row-gap: 6px;
   // Typographynav
 
   // Decoration

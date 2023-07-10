@@ -110,13 +110,14 @@ body {
 
 }
 
-.title-h1 {
+.title {
   // Position
 
   // block-model
   @extend %reset-padding-margin;
 
   // Typography
+  @extend %font-Cabin;
   @include text ($style: normal, $weight: 600, $size: $font-size-H1, $height: calc($font-size-H1 * 1.2));
 
   // Decoration
@@ -127,18 +128,32 @@ body {
 
 }
 
+.title-h1 {
+  // Position
+
+  // block-model
+
+  // Typography
+  @include text ($style: normal, $weight: 600, $size: $font-size-H1, $height: calc($font-size-H1 * 1.2));
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
 .title-h2 {
   // Position
 
   // block-model
-  @extend %reset-padding-margin;
 
   // Typography
   @extend %font-Cabin;
   @include text ($style: normal, $weight: 600, $size: $font-size-H2, $height: calc($font-size-H2 * 1.2));
 
   // Decoration
-  color: $color-text-dark;
 
   // Animation
 
@@ -150,7 +165,6 @@ body {
   // Position
 
   // block-model
-  @extend %reset-padding-margin;
 
   // Typography
   @extend %font-Cabin;
@@ -168,7 +182,6 @@ body {
   // Position
 
   // block-model
-  @extend %reset-padding-margin;
 
   // Typography
   @extend %font-Cabin;
@@ -200,6 +213,24 @@ body {
 
 }
 
+.paragraph-s {
+  // Position
+
+  // block-model
+
+  // Typography
+  @extend %font-Cabin;
+  @include text ($style: normal, $weight: 500, $size: $font-size-addText, $height: calc($font-size-addText * 1.2));
+
+  // Decoration
+  color: $color-text-dark;
+
+  // Animation
+
+  // Various
+
+}
+
 .paragraph-l {
   // Position
 
@@ -210,8 +241,43 @@ body {
   @include text ($style: normal, $weight: 500, $size: $font-size-paragraph, $height: calc($font-size-paragraph * 1.2));
 
   // Decoration
-  color: $color-text-light;
+  color: $color-text-dark;
 
+  // Animation
+
+  // Various
+
+}
+
+.paragraph-list {
+  // Position
+
+  // block-model
+
+  // Typography
+  @extend %font-Cabin;
+  @include text ($style: normal, $weight: 500, $size: $font-size-paragraph, $height: calc($font-size-paragraph * 1.2));
+
+  // Decoration
+  color: $color-text-dark;
+
+  // Animation
+
+  // Various
+
+}
+
+.paragraph-list__item {
+  // Position
+
+  // block-model
+
+  // Typography
+  @extend %font-Cabin;
+  @include text ($style: normal, $weight: 500, $size: $font-size-paragraph, $height: calc($font-size-paragraph * 1.2));
+
+  // Decoration
+  color: $color-text-dark;
   // Animation
 
   // Various
