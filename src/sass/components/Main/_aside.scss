@@ -1,8 +1,40 @@
+aside {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  background-color: $color-background-left;
+  // Animation
+
+  // Various
+  
+
+}
+
 .nav {
   // Position
 
   // block-model
 
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+
+}
+
+.nav__container {
+  // Position
+
+  // block-model
+  padding: 46px 24px 15px 22px;
   // Typography
 
   // Decoration
@@ -18,8 +50,10 @@
   // Position
   
   // block-model
-  @include flex-model-multiple-columns ($basis: auto, $justify-content: space-between, $align-items: center);
-
+  width: 207px;
+  @include flex-model-one-column ($align-content: space-between, $justify-content: flex-start, $align-items: flex-start);
+  flex-wrap: nowrap;
+  row-gap: 54px;
   // Typography
 
   // Decoration
@@ -36,8 +70,7 @@
   // block-model
 
   // Typography
-  @include text ($style: normal, $weight: 400, $size: 1.5rem, $height: 2.4rem, $let-spacing: normal);
-  color: $color-light-s;
+  
   // Decoration
 
   // Animation
@@ -53,14 +86,14 @@
 
   // Typography
   line-height: 50px;
-  color: $color-light-l;
+  color: $color-text-light;
   // Decoration
   @extend %cursor-pointer;
   // Animation
   @extend %transition-basic;
   // Various
   &:hover {
-    color: $color-light-s;
+    color: $color-highlight-light;
     @extend %transition-basic;
     @include animation ($name: pulsation, $duration: 1.5s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s);
   &:before {
@@ -70,7 +103,7 @@
     content: "";
     bottom: 11px;
     width: 100%;
-    border-bottom: 3px solid $color-primary;
+    border-bottom: 3px solid $color-text-light;
     transform: scaleX(0);
     transform-origin: bottom left;
 
@@ -78,7 +111,7 @@
   }
 
   &:active {
-    color: $color-light-s;
+    color: $color-highlight-light;
     @extend %transition-basic;
 
     &:before {

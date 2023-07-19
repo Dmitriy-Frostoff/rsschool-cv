@@ -2,6 +2,7 @@
 
 //abstracts
 @import "abstracts/constants";
+@import "abstracts/typography";
 @import "abstracts/mixins";
 @import "abstracts/placeholders";
 @import "abstracts/animations";
@@ -11,6 +12,7 @@
 
 //components
 @import "components/Main/header";
+@import "components/Main/aside";
 @import "components/Main/footer";
 
 //layout

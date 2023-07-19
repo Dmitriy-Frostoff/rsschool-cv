@@ -23,20 +23,23 @@
   <link rel="icon" href="./src/assets/icons/favicon64x64.ico" type="image/ico" sizes="64x64">
   <!-- favicon start -->
 </head>
-<body>
+<body class="body">
   <!-- Header start -->
   <header class="header">
     <div class="container header__container">
-      <img class="cv-photo" src="./src/assets/img/IMG_20210918_16370a.jpg" alt="Dmitriy Frostoff. A young person standing behind rock fans">
+      <div class="cv-photo__container">
+        <span class="cv-photo__streak"></span>
+        <img class="cv-photo" src="./src/assets/img/IMG_20210918_16370a.jpg" alt="Dmitriy Frostoff. A young person standing behind rock fans">
+      </div>
       <div class="header__content-container">
         <div class="title-container">
           <h1 class="title title-h1">Dmitriy Morozov</h1>
-          <h3 class="title title-h3">Trainee Frontend Developer</h3>
+          <h3 class="title title-h3 text_highlight">Trainee Frontend Developer</h3>
         </div>
-        <h2 class="title title-h2" id="about-me">About me</h2>
+        <h2 class="title title-h2" id="profile">Profile</h2>
         <p class="paragraph-l">I'm Dmitriy Morozov (or as I prefer in most conditions Dmitriy Frostoff) <img src="https://user-images.githubusercontent.com/74038190/212744289-c46f1717-bfc9-4724-8ef3-4b08e3583110.gif" height="32" width="32">
-          Civil construction engineer in the past,
-          trainee Frontend developer in present
+          Civil construction engineer in the past, <br>
+          trainee Frontend developer in present <br>
           and musician all life long 🎼🎸🎤🎹🎹🎹🎹🎹🎹🎹🥁</p>
         <img src="https://user-images.githubusercontent.com/74038190/238200839-9c351cb9-c9a2-4b20-8420-e96b8331a53b.gif" height="32">
         <p class="paragraph-l">Positive, sympathetic, responsible, friendly person that likes learning how to learn to reach mastery in interesting business. (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).</p>
@@ -46,24 +49,31 @@
   </header>
   <!-- Header end -->
   <!-- Main start -->
-  <main class="main main-container">
-    <!-- aside start -->
-    <aside>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-          <li class="nav-item"><a href="#contact-information" class="nav-link">Contact information</a></li>
-          <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
-          <li class="nav-item"><a href="#skills-and-proficiency" class="nav-link">Skills and Proficiency</a></li>
-          <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-          <li class="nav-item"><a href="#job-experience" class="nav-link">Job experience</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
-        </ul>
-      </nav>
-    </aside>
-    <!-- aside end -->
+  <div class="main">
+    <div class="container main__container">
+      <!-- aside start -->
+      <aside>
+        <nav class="nav nav__container">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#profile" class="nav-link title-h2">Profile</a></li>
+            <li class="nav__item"><a href="#skills-and-proficiency" class="nav-link title-h2">Skills and Proficiency</a></li>
+            <li class="nav__item"><a href="#code-example" class="nav-link title-h2">Code example</a></li>
+            <li class="nav__item"><a href="#job-experience" class="nav-link title-h2">Job experience</a></li>
+            <li class="nav__item"><a href="#education" class="nav-link title-h2">Education</a></li>
+            <li class="nav__item"><a href="#projects" class="nav-link title-h2">Projects</a></li>
+            <li class="nav__item"><a href="#contact-information" class="nav-link title-h2">Contact information</a></li>
+            <li class="nav__item"><a href="#languages" class="nav-link title-h2">Languages</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- aside end -->
+      <!-- General flow start -->
+      <div class="container">
+
+      </div>
+      <!-- General flow end -->
+      </div>
+    </div>
   </main>
   <!-- Main end -->
   <!-- footer start -->

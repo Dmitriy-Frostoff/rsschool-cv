@@ -1,3 +1,11 @@
+// 254px && 265px are dimensions of img from template,
+// 595px width of the template;
+$cv-photo__container-width: 320px;
+//image CV person ratio 505/552
+$cv-photo__container-height: calc(320px * 505/552); // === about 293px
+$cv-photo__streak-width: 48px;
+$cv-photo__streak-height: $cv-photo__container-height;
+
 .header {
   // Position
   
@@ -23,9 +31,10 @@
   padding-top: 30px;
   padding-bottom: 30px;
   //width of image 254px width of text 279px due to draft
-  @include flex-model-two-columns ($first-basis: 25%, $last-basis: 40%, $align-content: space-between, $justify-content: space-between, $align-items: center);
-  flex-wrap: nowrap;
-  // Typographynav
+  // draft width 595px
+  @include flex-model-two-columns ($first-basis: 20%, $last-basis: 40%, $align-content: space-between, $justify-content: space-between, $align-items: flex-start);
+  flex-wrap: wrap;
+  // Typography
 
   // Decoration
   
@@ -35,14 +44,49 @@
 
 }
 
+.cv-photo__container {
+  // Position
+
+  // block-model
+  width: $cv-photo__container-width;
+  height: $cv-photo__container-height; 
+  @include flex-model-two-columns ($first-basis: calc($cv-photo__streak-width / $cv-photo__container-width * 100%), $last-basis: 50%, $align-content: space-between, $justify-content: space-between, $align-items: flex-start);
+  flex-wrap: nowrap;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.cv-photo__streak {
+  // Position
+
+  // block-model
+  display: block;
+  min-width: $cv-photo__streak-width;
+  min-height: $cv-photo__streak-height;
+
+  // Typography
+
+  // Decoration
+  background-color: rgba($color-highlight-light, $alpha: 0.7);
+  
+  // Animation
+
+  // Various
+
+}
+
 .cv-photo {
   // Position
-  
-  // block-model
-  width: calc(254px / 565px) * 1%;
-  height: calc(265px / 565px) * 1%;
 
-  // Typographynav
+  // block-model
+  height: 100%;
+  // Typography
 
   // Decoration
   border-radius: 5%;
@@ -59,7 +103,7 @@
   @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
   flex-wrap: nowrap;
   row-gap: 25px;
-  // Typographynav
+  // Typography
 
   // Decoration
   
@@ -76,7 +120,7 @@
   @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
   flex-wrap: nowrap;
   row-gap: 6px;
-  // Typographynav
+  // Typography
 
   // Decoration
   

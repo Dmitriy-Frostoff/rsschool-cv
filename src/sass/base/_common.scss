@@ -1,12 +1,3 @@
-$font-size-initial: 10px;
-
-$font-size-H1: 3rem;
-$font-size-H2: 1.7rem;
-$font-size-H3: 1.5rem;
-$font-size-H4: 1.2rem;
-$font-size-paragraph: 1.2rem;
-$font-size-addText: 1rem;
-
 $padding-content-desktop: 20px;
 $padding-content-tablet: 20px;
 $padding-content-mobile: 10px;
@@ -41,13 +32,14 @@ html {
 
 }
 
-body {
+.body {
   // Position
 
   // block-model
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 0;
 
@@ -207,6 +199,22 @@ body {
   color: $color-text-dark;
   background-color: $color-highlight-light;
   border-radius: 2.5px; //expected Error! //TODO check this!
+  // Animation
+
+  // Various
+
+}
+
+.text_highlight {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  color: $color-text-dark;
+  background-color: $color-highlight-light;
   // Animation
 
   // Various
@@ -466,4 +474,38 @@ p {
 
   // Various
 
+}
+
+.main {
+  // Position
+  
+  // block-model
+  
+  // Typography
+  
+  // Decoration
+  background-color: $color-background-right;
+  
+  // Animation
+  
+  // Various
+  
+}
+
+.main__container {
+  // Position
+
+  // block-model
+  //left 275px / 618px
+  // rigth 343px / 618px due to draft
+  @include flex-model-two-columns ($first-basis: calc(275px / 618px) * 1%, $last-basis: calc(343px / 618px) * 1%, $align-content: space-between, $justify-content: space-between, $align-items: center);
+  flex-wrap: nowrap;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
 }
