@@ -29,10 +29,10 @@
   }
 }
 
-@mixin flex-model-one-column ($align-content: space-between, $justify-content: center, $align-items: flex-start) {
+@mixin flex-model-one-column ($flex-wrap: wrap, $align-content: space-between, $justify-content: center, $align-items: flex-start) {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: $flex-wrap;
   align-content: $align-content;
   justify-content: $justify-content;
   align-items: $align-items;

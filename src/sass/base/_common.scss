@@ -205,6 +205,39 @@ html {
 
 }
 
+.title_underline {
+  // Position
+
+  // block-model
+  display: block;
+  width: 17px;
+  margin-bottom: 13px;
+  // Typography
+  
+  // Decoration
+  border-bottom: solid 3px $color-highlight-light;
+
+  // Animation
+
+  // Various
+
+}
+
+.title_uppercase {
+  // Position
+
+  // block-model
+
+  // Typography
+  text-transform: uppercase;
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
 .text_highlight {
   // Position
 
@@ -498,8 +531,38 @@ p {
   // block-model
   //left 275px / 618px
   // rigth 343px / 618px due to draft
-  @include flex-model-two-columns ($first-basis: calc(275px / 618px) * 1%, $last-basis: calc(343px / 618px) * 1%, $align-content: space-between, $justify-content: space-between, $align-items: center);
+  @include flex-model-two-columns ($first-basis: 22%, $last-basis: 78%, $align-content: space-between, $justify-content: space-between, $align-items: center);
   flex-wrap: nowrap;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.skills-label {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.skills-progress {
+  // Position
+
+  // block-model
+
   // Typography
 
   // Decoration
