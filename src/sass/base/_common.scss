@@ -72,36 +72,6 @@ html {
   }
 }
 
-.text-light {
-  // Position
-
-  // block-model
-
-  // Typography
-
-  // Decoration
-  color: $color-text-light;
-  // Animation
-
-  // Various
-
-}
-
-.text-dark {
-  // Position
-
-  // block-model
-
-  // Typography
-
-  // Decoration
-  color: $color-text-dark;
-  // Animation
-
-  // Various
-
-}
-
 .title {
   // Position
 
@@ -223,37 +193,6 @@ html {
 
 }
 
-.title_uppercase {
-  // Position
-
-  // block-model
-
-  // Typography
-  text-transform: uppercase;
-  // Decoration
-
-  // Animation
-
-  // Various
-
-}
-
-.text_highlight {
-  // Position
-
-  // block-model
-
-  // Typography
-
-  // Decoration
-  color: $color-text-dark;
-  background-color: $color-highlight-light;
-  // Animation
-
-  // Various
-
-}
-
 .paragraph-s {
   // Position
 
@@ -325,13 +264,12 @@ html {
 
 }
 
-.link { //TODO check this!
+.link { 
   // Position
 
   // block-model
   width: inherit;
   height: inherit;
-  padding: calc((48px - 1.7rem) / 2) 0;
   // Typography
   @extend %font-Cabin;
   @include text ($size: $font-size-addText, $height: calc($font-size-addText * 1.2));
@@ -493,22 +431,6 @@ p {
   }
 }
 
-.hidden {
-  // Position
-  
-  // block-model
-  display: none;
-
-  // Typography
-
-  // Decoration
-
-  // Animation
-
-  // Various
-
-}
-
 .main {
   // Position
   
@@ -531,7 +453,7 @@ p {
   // block-model
   //left 275px / 618px
   // rigth 343px / 618px due to draft
-  @include flex-model-two-columns ($first-basis: 22%, $last-basis: 78%, $align-content: space-between, $justify-content: space-between, $align-items: center);
+  @include flex-model-two-columns ($first-basis: 25%, $last-basis: 75%, $align-content: space-between, $justify-content: space-between, $align-items: center);
   flex-wrap: nowrap;
   // Typography
 
@@ -543,7 +465,11 @@ p {
   
 }
 
-.skills-label {
+// ==============================================================================================================
+// =========================================== modificators!!! Priority over above ==============================
+// ==============================================================================================================
+
+.text-light {
   // Position
 
   // block-model
@@ -551,17 +477,65 @@ p {
   // Typography
 
   // Decoration
-
+  color: $color-text-light;
   // Animation
 
   // Various
-  
+
 }
 
-.skills-progress {
+.text-dark {
   // Position
 
   // block-model
+
+  // Typography
+
+  // Decoration
+  color: $color-text-dark;
+  // Animation
+
+  // Various
+
+}
+
+
+.title_uppercase {
+  // Position
+
+  // block-model
+
+  // Typography
+  text-transform: uppercase;
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.text_highlight {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  color: $color-text-dark;
+  background-color: $color-highlight-light;
+  // Animation
+
+  // Various
+
+}
+
+.hidden {
+  // Position
+  
+  // block-model
+  display: none;
 
   // Typography
 
@@ -570,5 +544,5 @@ p {
   // Animation
 
   // Various
-  
+
 }
