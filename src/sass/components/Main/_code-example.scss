@@ -1,4 +1,4 @@
-.education__container {
+.code-example__container {
   // Position
 
   // block-model
@@ -15,28 +15,28 @@
   
 }
 
-.courses__container {
+.task-description__container {
   // Position
 
   // block-model
-  width: 100%;
   row-gap: 10px;
-  // Typography
-
-  // Decoration
-
-  // Animation
-
-  // Various
-  
-}
-
-.courses-list {
-  // Position
-
-  // block-model
   width: 100%;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.description__container {
+  // Position
+
+  // block-model
   row-gap: 3px;
+  width: 100%;
   // Typography
 
   // Decoration
@@ -47,35 +47,31 @@
   
 }
 
-.courses-list__item {
+.code_highlight {
   // Position
 
   // block-model
-  @include flex-two-childs-basis ($first-basis: 24px, $last-basis: auto);
-  align-items: center;
-  column-gap: 10px;
+  padding: 1px 4px;
   // Typography
-
+  color: $color-text-dark;
   // Decoration
-
+  background-color: $color-background-light;
+  border-radius: 4px;
   // Animation
 
   // Various
   
 }
 
-.courses__link { 
+.description-details {
   // Position
 
   // block-model
-  width: auto;
-  height: auto;
+
   // Typography
-  @extend %font-Cabin;
-  @include text ($size: $font-size-addText, $height: calc($font-size-addText * 1.2));
 
   // Decoration
-  color: $color-text-light;
+  @extend %cursor-pointer;
   // Animation
   @extend %transition-basic;
   
@@ -97,20 +93,5 @@
     background-color: $color-highlight-light;
     border-radius: inherit;
   }
-}
-
-.eductaion__icon {
-  // Position
-
-  // block-model
-  width: 24px;
-  height: 24px;
-  // Typography
-
-  // Decoration
-
-  // Animation
-
-  // Various
   
 }

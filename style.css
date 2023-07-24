@@ -311,16 +311,16 @@ template {
   font-family: "Cabin";
 }
 
-.footer__icon:hover, .footer__icon, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .courses__link:hover, .courses__link:active, .courses__link, .nav__link:active, .nav__link:hover, .nav__link, .contacts__icon-position > :first-child, .contacts__icon-position, .contacts__item-container:hover .contacts__icon-position > :first-child, .contacts__item-container:hover .contacts__icon-position, .contacts__item-container:hover, .contacts__item-container, .link:hover, .link:active, .link {
+.footer__icon:hover, .footer__icon, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .description-details:hover, .description-details:active, .description-details, .courses__link:hover, .courses__link:active, .courses__link, .nav__link:active, .nav__link:hover, .nav__link, .contacts__icon-position > :first-child, .contacts__icon-position, .contacts__item-container:hover .contacts__icon-position > :first-child, .contacts__item-container:hover .contacts__icon-position, .contacts__item-container:hover, .contacts__item-container, .link:hover, .link:active, .link {
   transition: all 0.7s ease 0s;
 }
 
-.code, p, img, a, nav, ul, li, .title {
+.code, p, pre, img, a, nav, ul, li, .title {
   padding: 0;
   margin: 0;
 }
 
-.footer__icon:hover, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .nav__link, a {
+.footer__icon:hover, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .description-details, .nav__link, a {
   cursor: pointer;
 }
 
@@ -846,6 +846,7 @@ aside {
 .education__container {
   row-gap: 25px;
   width: 100%;
+  padding: 28px 0;
 }
 
 .courses__container {
@@ -893,6 +894,40 @@ aside {
 .eductaion__icon {
   width: 24px;
   height: 24px;
+}
+
+.code-example__container {
+  row-gap: 25px;
+  width: 100%;
+  padding: 28px 0;
+}
+
+.task-description__container {
+  row-gap: 10px;
+  width: 100%;
+}
+
+.description__container {
+  row-gap: 3px;
+  width: 100%;
+}
+
+.code_highlight {
+  padding: 1px 4px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.description-details:hover {
+  color: #000000;
+  background-color: #FFCD04;
+  border-radius: inherit;
+}
+.description-details:active {
+  color: #000000;
+  background-color: #FFCD04;
+  border-radius: inherit;
 }
 
 .footer {
