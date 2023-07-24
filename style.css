@@ -815,8 +815,8 @@ aside {
 
 .job-experience__container {
   justify-content: center;
-  row-gap: 25px;
-  padding-bottom: 28px;
+  row-gap: 20px;
+  padding-bottom: 20px;
 }
 
 .job__container {
@@ -844,9 +844,9 @@ aside {
 }
 
 .education__container {
-  row-gap: 25px;
+  row-gap: 15px;
   width: 100%;
-  padding: 28px 0;
+  padding: 20px 0;
 }
 
 .courses__container {
@@ -897,9 +897,9 @@ aside {
 }
 
 .code-example__container {
-  row-gap: 25px;
+  row-gap: 15px;
   width: 100%;
-  padding: 28px 0;
+  padding: 20px 0;
 }
 
 .task-description__container {
@@ -928,6 +928,24 @@ aside {
   color: #000000;
   background-color: #FFCD04;
   border-radius: inherit;
+}
+
+.projects__container {
+  row-gap: 15px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.project-definition__container {
+  row-gap: 3px;
+}
+
+.projects-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.68rem;
+  letter-spacing: normal;
 }
 
 .footer {
