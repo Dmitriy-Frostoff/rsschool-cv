@@ -7,9 +7,9 @@
 }
 
 .layout-multiple-flex-columns {
-  @include flex-model-multiple-columns ($basis: calc(82 / 1026 * 100%));
+  @include flex-model-multiple-columns ($basis: calc(82 / 1026 * 100%)); //TODO check this!
 }
 
 .layout-multiple-grid-columns {
-  @include grid-model-multiple-columns ($rows: 2, $columns: 4, $el-width: calc(270 / 1200 * 100%), $el-height: calc(435 / 1200 * 100%));
+  @include grid-model-multiple-columns ($rows: 2, $columns: 4, $el-width: calc(270 / 1200 * 100%), $el-height: calc(435 / 1200 * 100%)); //TODO check this!
 }

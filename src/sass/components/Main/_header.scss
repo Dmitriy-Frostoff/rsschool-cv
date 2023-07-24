@@ -50,7 +50,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // block-model
   width: $cv-photo__container-width;
   height: $cv-photo__container-height; 
-  @include flex-model-two-columns ($first-basis: calc($cv-photo__streak-width / $cv-photo__container-width * 100%), $last-basis: 50%, $align-content: space-between, $justify-content: space-between, $align-items: flex-start);
+  @include flex-two-childs-basis ($first-basis: calc($cv-photo__streak-width / $cv-photo__container-width * 100%), $last-basis: 50%);
   flex-wrap: nowrap;
   // Typography
 
@@ -100,8 +100,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // Position
   
   // block-model
-  @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
-  flex-wrap: nowrap;
+  justify-content: space-between;
   row-gap: 25px;
   // Typography
 
@@ -117,8 +116,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // Position
   
   // block-model
-  @include flex-model-one-column ($align-content: flex-start, $justify-content: space-between, $align-items: flex-start);
-  flex-wrap: nowrap;
+  justify-content: space-between;
   row-gap: 6px;
   // Typography
 

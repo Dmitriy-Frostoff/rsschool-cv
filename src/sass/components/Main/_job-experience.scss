@@ -1,0 +1,52 @@
+.job-experience__container {
+  // Position
+
+  // block-model
+  justify-content: center;
+  row-gap: 25px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.job__container {
+  // Position
+
+  // block-model
+  justify-content: center;
+  row-gap: 10px;
+  width: 100%;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.job-definition__container {
+  // Position
+
+  // block-model
+  @include flex-two-childs-basis ($first-basis: 18%, $last-basis: 82%);
+  align-items: center;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+  width: 100%;
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}

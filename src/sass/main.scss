@@ -7,6 +7,9 @@
 @import "abstracts/placeholders";
 @import "abstracts/animations";
 
+//layout
+@import "layout/content-structure";
+
 //base
 @import "base/common";
 @import "base/contacts";
@@ -14,7 +17,5 @@
 //components
 @import "components/Main/header";
 @import "components/Main/aside";
+@import "components/Main/job-experience";
 @import "components/Main/footer";
-
-//layout
-@import "layout/content-structure";
