@@ -193,24 +193,6 @@ html {
 
 }
 
-.paragraph-s {
-  // Position
-
-  // block-model
-
-  // Typography
-  @extend %font-Cabin;
-  @include text ($style: normal, $weight: 500, $size: $font-size-addText, $height: calc($font-size-addText * 1.2));
-
-  // Decoration
-  color: $color-text-dark;
-
-  // Animation
-
-  // Various
-
-}
-
 .paragraph-l {
   // Position
 
@@ -223,41 +205,6 @@ html {
   // Decoration
   color: $color-text-dark;
 
-  // Animation
-
-  // Various
-
-}
-
-.paragraph-list {
-  // Position
-
-  // block-model
-
-  // Typography
-  @extend %font-Cabin;
-  @include text ($style: normal, $weight: 500, $size: $font-size-paragraph, $height: calc($font-size-paragraph * 1.2));
-
-  // Decoration
-  color: $color-text-dark;
-
-  // Animation
-
-  // Various
-
-}
-
-.paragraph-list__item {
-  // Position
-
-  // block-model
-
-  // Typography
-  @extend %font-Cabin;
-  @include text ($style: normal, $weight: 500, $size: $font-size-paragraph, $height: calc($font-size-paragraph * 1.2));
-
-  // Decoration
-  color: $color-text-dark;
   // Animation
 
   // Various
