@@ -1,0 +1,209 @@
+aside {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  background-color: $color-background-left;
+  // Animation
+
+  // Various
+  
+
+}
+
+.nav {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+
+}
+
+.nav__container {
+  // Position
+
+  // block-model
+  padding: 46px 24px 15px 22px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+
+.nav__list {
+  // Position
+  
+  // block-model
+  width: 100%;
+  row-gap: 30px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__item {
+  // Position
+  
+  // block-model
+
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__item-container {
+  // Position
+  
+  // block-model
+  align-items: stretch;
+  width: 100%;
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__link {
+  // Position
+  position: relative;
+  // block-model
+  display: block;
+  // Typography
+  line-height: 3rem;
+  color: $color-text-light;
+  // Decoration
+  @extend %cursor-pointer;
+  // Animation
+  @extend %transition-basic;
+  // Various
+  &:hover {
+    color: $color-highlight-light;
+    @extend %transition-basic;
+    @include animation ($name: pulsation, $duration: 1.5s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s);
+  }
+
+  &:active {
+    color: $color-highlight-light;
+    @extend %transition-basic;
+  }
+}
+
+.skills__label {
+  // Position
+  
+  // block-model
+
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.nav__education-container {
+  // Position
+  
+  // block-model
+  padding: 10px 0;
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.skills__label-container {
+  // Position
+  
+  // block-model
+  @include flex-two-childs-basis ($first-basis: 40%, $last-basis: 55%);
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.skills__text {
+  // Position
+  
+  // block-model
+  display: block;
+  // Typography
+  
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.skills__progress {
+  // Position
+  
+  // block-model
+  height: 5px;
+  
+  // Typography
+  
+  // Decoration
+  -webkit-appearance: none;
+  // Animation
+
+  // Various
+  &::-webkit-progress-value {
+    background-color: $color-highlight-light;
+  }
+
+  &::-webkit-progress-bar {
+    background-color: $color-highlight-dark;
+  }
+
+  &::-moz-progress-bar {
+    background-color: $color-highlight-dark;
+  }
+}
+

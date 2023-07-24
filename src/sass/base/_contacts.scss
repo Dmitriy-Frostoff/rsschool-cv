@@ -1,0 +1,112 @@
+.contacts__container {
+  // Position
+  
+  // block-model
+  width: 100%;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.contacts__item-container {
+  // Position
+  
+  // block-model
+  width: 100%;
+  @include flex-two-childs-basis ($first-basis: 40%, $last-basis: 55%);
+  align-items: center;
+  flex-wrap: nowrap;
+  // Typography
+
+  // Decoration
+
+  // Animation
+  @extend %transition-basic;
+
+  // Various
+  &:hover {
+    @extend %transition-basic;
+  }
+
+  &:hover .contacts__icon-position {
+    @extend %transition-basic;
+    perspective: 50px;
+  }
+
+  &:hover .contacts__icon-position > :first-child {
+    @extend %transition-basic;
+    transform: rotateY(65deg);
+  }
+}
+
+.contacts__text-container {
+  // Position
+  
+  // block-model
+  width: 100%;
+  row-gap: 5px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
+
+.contacts__icon-position {
+  // Position
+  
+  // block-model
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  // Typography
+
+  // Decoration
+
+  // Animation
+  @extend %transition-basic;
+  // Various
+  & > :first-child {
+    @extend %transition-basic;
+  }
+}
+
+.contacts__icon_background {
+  // Position
+  
+  // block-model
+  min-height: 17px;
+  padding: 15px 0;
+  // Typography
+
+  // Decoration
+  background-color: $color-highlight-light;
+  // Animation
+
+  // Various
+
+}
+
+.contacts__icon {
+  // Position
+  
+  // block-model
+  width: 24px;
+  height: 24px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+}
