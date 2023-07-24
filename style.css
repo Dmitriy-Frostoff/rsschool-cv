@@ -307,11 +307,11 @@ template {
   display: none;
 }
 
-.link, .paragraph-list__item, .paragraph-list, .paragraph-l, .paragraph-s, .title-h4, .title-h3, .title-h2, .title, .body {
+.courses__link, .link, .paragraph-list__item, .paragraph-list, .paragraph-l, .paragraph-s, .title-h4, .title-h3, .title-h2, .title, .body {
   font-family: "Cabin";
 }
 
-.footer__icon:hover, .footer__icon, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .nav__link:active, .nav__link:hover, .nav__link, .contacts__icon-position > :first-child, .contacts__icon-position, .contacts__item-container:hover .contacts__icon-position > :first-child, .contacts__item-container:hover .contacts__icon-position, .contacts__item-container:hover, .contacts__item-container, .link:hover, .link:active, .link {
+.footer__icon:hover, .footer__icon, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__link, .courses__link:hover, .courses__link:active, .courses__link, .nav__link:active, .nav__link:hover, .nav__link, .contacts__icon-position > :first-child, .contacts__icon-position, .contacts__item-container:hover .contacts__icon-position > :first-child, .contacts__item-container:hover .contacts__icon-position, .contacts__item-container:hover, .contacts__item-container, .link:hover, .link:active, .link {
   transition: all 0.7s ease 0s;
 }
 
@@ -816,6 +816,7 @@ aside {
 .job-experience__container {
   justify-content: center;
   row-gap: 25px;
+  padding-bottom: 28px;
 }
 
 .job__container {
@@ -840,6 +841,58 @@ aside {
 .job-resposibilities {
   row-gap: 3px;
   width: 100%;
+}
+
+.education__container {
+  row-gap: 25px;
+  width: 100%;
+}
+
+.courses__container {
+  width: 100%;
+  row-gap: 10px;
+}
+
+.courses-list {
+  width: 100%;
+  row-gap: 3px;
+}
+
+.courses-list__item {
+  align-items: center;
+  column-gap: 10px;
+}
+.courses-list__item > :first-child {
+  flex-basis: 24px;
+}
+.courses-list__item > :last-child {
+  flex-basis: auto;
+}
+
+.courses__link {
+  width: auto;
+  height: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.44rem;
+  letter-spacing: normal;
+  color: #FFFFFF;
+}
+.courses__link:hover {
+  color: #000000;
+  background-color: #FFCD04;
+  border-radius: inherit;
+}
+.courses__link:active {
+  color: #000000;
+  background-color: #FFCD04;
+  border-radius: inherit;
+}
+
+.eductaion__icon {
+  width: 24px;
+  height: 24px;
 }
 
 .footer {

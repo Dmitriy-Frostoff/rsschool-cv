@@ -437,7 +437,7 @@
                         <img class="section-img-certificate" src="./assets/img/CSS_cert_96dpi.png" alt="CSS certificate">
                     </li>
                     <li class="section-item courses-list">
-                        <a class="section-link" href="https://www.sololearn.com/certificates/CT-2R1CKLL5" title="click to see origin document" target="_blank">CodeBasics: CSS</a>
+                        <a class="section-link" href="https://code-basics.com/ru/languages/css" title="click to see origin document" target="_blank">CodeBasics: CSS</a>
                     </li>
                     <li class="section-item courses-list">
                         <a class="section-link" href="https://www.sololearn.com/certificates/CT-L3S4OUVO" title="click to see origin document" target="_blank">Sololearn: Responsive Web Design</a>
