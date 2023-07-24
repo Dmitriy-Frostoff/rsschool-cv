@@ -307,7 +307,7 @@ template {
   display: none;
 }
 
-.courses__link, .link, .paragraph-list__item, .paragraph-list, .paragraph-l, .paragraph-s, .title-h4, .title-h3, .title-h2, .title, .body {
+.courses__link, .link, .paragraph-l, .title-h4, .title-h3, .title-h2, .title, .body {
   font-family: "Cabin";
 }
 
@@ -499,34 +499,7 @@ html {
   border-bottom: solid 3px #FFCD04;
 }
 
-.paragraph-s {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 1.44rem;
-  letter-spacing: normal;
-  color: #000000;
-}
-
 .paragraph-l {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.4rem;
-  line-height: 1.68rem;
-  letter-spacing: normal;
-  color: #000000;
-}
-
-.paragraph-list {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.4rem;
-  line-height: 1.68rem;
-  letter-spacing: normal;
-  color: #000000;
-}
-
-.paragraph-list__item {
   font-style: normal;
   font-weight: 500;
   font-size: 1.4rem;
@@ -692,7 +665,7 @@ img {
 }
 
 .header {
-  background: url("../src/assets/background/noise_transparent@2x.png"), #FFFFFF;
+  background: url("./src/assets/background/noise_transparent@2x.png"), #FFFFFF;
 }
 
 .header__container {
