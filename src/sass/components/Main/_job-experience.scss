@@ -35,10 +35,27 @@
   // Position
 
   // block-model
-  @include flex-two-childs-basis ($first-basis: 18%, $last-basis: 82%);
+  @include flex-two-childs-basis ($first-basis: 163px, $last-basis: 82%);
   align-items: center;
   flex-wrap: nowrap;
   column-gap: 10px;
+  width: 100%;
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  
+}
+
+.job-resposibilities {
+  // Position
+
+  // block-model
+  row-gap: 3px;
   width: 100%;
 
   // Typography

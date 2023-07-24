@@ -110,29 +110,11 @@ aside {
     color: $color-highlight-light;
     @extend %transition-basic;
     @include animation ($name: pulsation, $duration: 1.5s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s);
-  &:before {
-    position: absolute;
-    @extend %transition-basic;
-
-    content: "";
-    bottom: 11px;
-    width: 100%;
-    border-bottom: 3px solid $color-text-light;
-    transform: scaleX(0);
-    transform-origin: bottom left;
-
-  }
   }
 
   &:active {
     color: $color-highlight-light;
     @extend %transition-basic;
-
-    &:before {
-      transform: scaleX(1);
-      @extend %transition-basic;
-      transform-origin: bottom right;
-    }
   }
 }
 
@@ -172,6 +154,7 @@ aside {
   // block-model
   @include flex-two-childs-basis ($first-basis: 40%, $last-basis: 55%);
   align-items: center;
+  flex-wrap: nowrap;
   padding: 10px 0;
   // Typography
   
