@@ -1,7 +1,7 @@
 # **Dmitriy Morozov**
 ![Dmitriy Frostoff](./assets/img/IMG_20210918_163706.png)
 
-## ***Junior Frontend Developer***
+## ***Frontend Developer***
 
 ***     
 
@@ -32,17 +32,19 @@ Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
 
  + the art of bonsai.
  
-Now I wanna to reveal my abilities in the best possible way in Front-end Developing.  
+Now I wanna to reveal my abilities in the best possible way in Frontend Development.  
 
 ***     
 
 ## **Skills and Proficiency:**
-* Python (beginner level)  
 * JavaScript
+* TypeScript
+* Python (beginner level)  
 * HTML 
 * CSS
-* Sass/SCSS (beginner level)
-* Webpack (beginner level)
+* Sass/SCSS
+* Pug
+* Webpack
 * Git, GitHub  
 * Markdown  
 * VS Code  
@@ -277,26 +279,28 @@ Civil Construction engineer
 ***2016** - bachelor degree (diploma with honor)*
 
 ### **Courses:**  
-* [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
-
-  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)   
-
-* [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)   
-
-* [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")  
-
-  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)   
 
 * [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 "click to see origin document")
 
     ![Stepik JavaScript certificate](./assets/img/Stepik_JavaScript_cert_96dpi.png)  
 
-* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
+* [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")  
+
+  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)   
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
-* [CodeBasics: TypeScript (in progress)](https://code-basics.com/ru/languages/typescript "click to go to the website")   
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
 
+* [Microsoft Learn: TypeScript (in progress)](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
+
+* [TypeScript Documentation (in progress)](https://www.typescriptlang.org/docs/ "click to go to the website")   
+
+* [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
+
+  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)   
+
+* [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)   
 * [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
 
   ![HTML certificate](./assets/img/HTML_cert_96dpi.png)
