@@ -45,6 +45,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 * Sass/SCSS
 * Pug
 * Webpack
+* Gulp
 * Git, GitHub  
 * Markdown  
 * VS Code  
