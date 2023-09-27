@@ -346,6 +346,20 @@ Civil Construction engineer
 
 ***     
 
+**js30#1.2-audio-player**    
+Project Description:   
+
+A music player that allows you to play music tracks in turn or flip through them by clicking on buttons. Each music track has a specific background image.
+
+  * [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html "click to view")   
+
+**CSS Meme Slider**    
+Project Description:   
+
+CSS Meme Slider is a task of Rolling Scopes School stage 0.
+
+  * [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 "click to view")   
+
 **Library**    
 Project Description:   
 
