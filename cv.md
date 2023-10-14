@@ -346,6 +346,13 @@ Civil Construction engineer
 
 ***     
 
+**js30#2.2-image-galery**    
+Project Description:   
+
+You need to create an application that displays the photos received from the API. Add a search to the application. When entering a search query, the photos that are displayed in the application are changed.
+
+  * [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html "click to view")   
+
 **js30#1.2-audio-player**    
 Project Description:   
 
