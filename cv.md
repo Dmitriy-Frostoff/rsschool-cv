@@ -338,13 +338,36 @@ Civil Construction engineer
 
 * RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1  
 
-* RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2 (in progress)  
+* [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq "click to see origin document")   
+
+* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4 (in progress)   
 
 ***       
 
 ## **RSSchool projects**
 
 ***     
+
+**js30#2.2-image-galery**    
+Project Description:   
+
+You need to create an application that displays the photos received from the API. Add a search to the application. When entering a search query, the photos that are displayed in the application are changed.
+
+  * [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html "click to view")   
+
+**js30#1.2-audio-player**    
+Project Description:   
+
+A music player that allows you to play music tracks in turn or flip through them by clicking on buttons. Each music track has a specific background image.
+
+  * [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html "click to view")   
+
+**CSS Meme Slider**    
+Project Description:   
+
+CSS Meme Slider is a task of Rolling Scopes School stage 0.
+
+  * [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 "click to view")   
 
 **Library**    
 Project Description:   
