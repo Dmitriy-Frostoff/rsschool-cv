@@ -388,7 +388,7 @@ Project Description:
 
 Accordion implemented with the only HTML and CSS.
 
-  * [CSSBayan](https://dmitriy-frostoff.github.io/cssBayan/ "click to view")   
+  * [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 "click to view")   
 
 **Momentum**    
 Project Description:   
