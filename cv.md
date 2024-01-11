@@ -44,6 +44,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 * CSS
 * Sass/SCSS
 * Pug
+* React
 * Webpack
 * Gulp
 * ESLint
