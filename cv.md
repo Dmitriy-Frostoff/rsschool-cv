@@ -46,6 +46,12 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 * Pug
 * Webpack
 * Gulp
+* ESLint
+* Prettier
+* Husky
+* Mocha
+* Chai
+* JSDoc
 * Git, GitHub  
 * Markdown  
 * VS Code  
