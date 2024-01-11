@@ -8,6 +8,7 @@
 ## **Contact information:**
 Phone: +7 987 654 32 10  
 E-mail: <dmitriy.frostoff@yandex.ru>  
+LinkedIn: [dmitriy-frostoff](https://www.linkedin.com/in/dmitriy-frostoff/ "my LinkedIn id: dmitriy-frostoff")  
 Telegram: @Dmitriy_Frostoff  
 Discord: @Dmitriy-Frostoff#9603  
 app.rs.school: Dmitriy_Morozov  
