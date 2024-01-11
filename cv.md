@@ -244,7 +244,7 @@ December 2019 — August 2022
   * participation in the commissioning of a finished construction facility;
 
 **Civil engineer (general construction) at "UNR-17", Moscow**    
-August 2018 — August 2019   
+August 2019 — October 2019   
   * Preparation of sets of documents for commissioning of the facility;
   * Input control of project and budget documents;
   * Interaction with the budget department;
