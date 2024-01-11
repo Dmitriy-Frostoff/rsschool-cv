@@ -291,11 +291,13 @@ Civil Construction engineer
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
-* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website")
 
-* [Microsoft Learn: TypeScript (in progress)](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
+* [Microsoft Learn: TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
 
-* [TypeScript Documentation (in progress)](https://www.typescriptlang.org/docs/ "click to go to the website")   
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/ "click to go to the website")   
+
+* [React Documentation](https://react.dev/learn "click to go to the website")   
 
 * [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
 
