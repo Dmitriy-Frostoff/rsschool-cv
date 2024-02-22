@@ -8,6 +8,7 @@
 ## **Contact information:**
 Phone: +7 987 654 32 10  
 E-mail: <dmitriy.frostoff@yandex.ru>  
+LinkedIn: [dmitriy-frostoff](https://www.linkedin.com/in/dmitriy-frostoff/ "my LinkedIn id: dmitriy-frostoff")  
 Telegram: @Dmitriy_Frostoff  
 Discord: @Dmitriy-Frostoff#9603  
 app.rs.school: Dmitriy_Morozov  
@@ -44,8 +45,15 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 * CSS
 * Sass/SCSS
 * Pug
+* React
 * Webpack
 * Gulp
+* ESLint
+* Prettier
+* Husky
+* Mocha
+* Chai
+* JSDoc
 * Git, GitHub  
 * Markdown  
 * VS Code  
@@ -244,7 +252,7 @@ December 2019 — August 2022
   * participation in the commissioning of a finished construction facility;
 
 **Civil engineer (general construction) at "UNR-17", Moscow**    
-August 2018 — August 2019   
+August 2019 — October 2019   
   * Preparation of sets of documents for commissioning of the facility;
   * Input control of project and budget documents;
   * Interaction with the budget department;
@@ -291,11 +299,13 @@ Civil Construction engineer
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
-* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website")
 
-* [Microsoft Learn: TypeScript (in progress)](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
+* [Microsoft Learn: TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
 
-* [TypeScript Documentation (in progress)](https://www.typescriptlang.org/docs/ "click to go to the website")   
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/ "click to go to the website")   
+
+* [React Documentation](https://react.dev/learn "click to go to the website")   
 
 * [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
 
