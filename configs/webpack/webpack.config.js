@@ -1,10 +1,11 @@
 import path from 'path';
-const __dirname = import.meta.dirname;
 
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 import ImageMinimizerPlugin from 'image-minimizer-webpack-plugin';
+
+const __dirname = import.meta.dirname;
 
 const mode = process.env.NODE_ENV || 'development';
 const devMode = mode === 'developmnet';
@@ -15,9 +16,9 @@ export default {
   mode,
   target,
   devtool,
-  entry: [path.resolve(__dirname, '../../projectName/src/components/index.js')],
+  entry: [path.resolve(__dirname, '../../CV/src/components/index.js')],
   output: {
-    path: path.resolve(__dirname, '../../projectName/dist'),
+    path: path.resolve(__dirname, '../../CV/dist'),
     clean: true,
     filename: '[name].[contenthash:4].js',
     // assetModuleFilename: 'assets/[name][ext]',
@@ -49,10 +50,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(
-        __dirname,
-        '../../projectName/src/components/index.html',
-      ),
+      template: path.resolve(__dirname, '../../CV/src/components/index.html'),
       inject: 'head',
     }),
     new MiniCssExtractPlugin({

@@ -1,11 +1,12 @@
 import gulp from 'gulp';
-const { src, dest, series } = gulp;
 import include from 'gulp-file-include';
 import replace from 'gulp-replace';
 import rename from 'gulp-rename';
 
+const { src, dest } = gulp;
+
 export function html() {
-  return src('../../projectName/src/components/index_gulp_include.html')
+  return src('../../CV/src/components/index_gulp_include.html')
     .pipe(
       include({
         prefix: '@@',
@@ -14,5 +15,8 @@ export function html() {
     )
     .pipe(replace(/="(\.\.\/){3,}/gi, '="../'))
     .pipe(rename('index.html'))
-    .pipe(dest('../../projectName/src/components/'));
+    .pipe(dest('../../CV/src/components/'));
 }
+
+// delete it if there's more than one function already (this is to prevent ESlint exception only)
+export function test() {}

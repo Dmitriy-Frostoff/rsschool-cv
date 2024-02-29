@@ -1,0 +1,25 @@
+// normalize
+@import './base/normalize';
+
+//abstracts
+@import './abstracts/constants';
+@import './abstracts/placeholders';
+@import './abstracts/mixins';
+@import './abstracts/animations';
+
+//layout
+@import './layout/content-structure';
+
+//base
+@import './base/typography';
+@import './base/common';
+@import './base/contacts';
+
+//components
+@import './components/header/header';
+@import './components/aside/aside';
+@import './components/job-experience/job-experience';
+@import './components/education/education';
+@import './components/code-example/code-example';
+@import './components/projects/projects';
+@import './components/footer/footer';
