@@ -18,7 +18,7 @@
     right: -50%;
     visibility: visible;
   }
-  
+
   to {
     right: 0%;
     visibility: visible;
@@ -35,13 +35,20 @@
     right: -50%;
     visibility: visible;
   }
-  
+
   to {
     right: -100%;
     visibility: hidden;
   }
 }
 
-@mixin animation ($name: pulsation, $duration: 1s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s) {
+@mixin animation(
+  $name: pulsation,
+  $duration: 1s,
+  $iteration-count: infinite,
+  $direction: normal,
+  $timing-function: ease,
+  $delay: 0s
+) {
   animation: $name $duration $iteration-count $direction $timing-function $delay;
 }

@@ -12,7 +12,6 @@
   // Animation
 
   // Various
-  
 }
 
 .job__container {
@@ -29,14 +28,13 @@
   // Animation
 
   // Various
-  
 }
 
 .job-definition__container {
   // Position
 
   // block-model
-  @include flex-two-childs-basis ($first-basis: 163px, $last-basis: 82%);
+  @include flex-two-childs-basis($first-basis: 163px, $last-basis: 82%);
   align-items: center;
   flex-wrap: nowrap;
   column-gap: 10px;
@@ -49,7 +47,6 @@
   // Animation
 
   // Various
-  
 }
 
 .job-resposibilities {
@@ -66,5 +63,4 @@
   // Animation
 
   // Various
-  
 }

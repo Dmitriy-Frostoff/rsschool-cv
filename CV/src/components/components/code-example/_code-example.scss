@@ -12,7 +12,6 @@
   // Animation
 
   // Various
-  
 }
 
 .task-description__container {
@@ -28,7 +27,6 @@
   // Animation
 
   // Various
-  
 }
 
 .description__container {
@@ -44,7 +42,6 @@
   // Animation
 
   // Various
-  
 }
 
 .code_highlight {
@@ -60,7 +57,6 @@
   // Animation
 
   // Various
-  
 }
 
 .description-details {
@@ -74,12 +70,13 @@
   @extend %cursor-pointer;
   // Animation
   @extend %transition-basic;
-  
+
   // Various
-  &:hover, &:active {
+  &:hover,
+  &:active {
     @extend %transition-basic;
   }
-  
+
   &:hover {
     @extend %transition-basic;
     color: $color-text-dark;
@@ -93,5 +90,4 @@
     background-color: $color-highlight-light;
     border-radius: inherit;
   }
-  
 }

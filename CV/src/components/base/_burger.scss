@@ -10,155 +10,155 @@ $burger-menu-height: 22px;
   /* Typography */
 
   /* Decoration */
-  
+
   /* Animation */
 
   /* Various */
-
 }
 
 @include media-tablet-minus1px {
-  
   .burger-menu {
-      /* Position */
-      
-      /* block-model */
-      width: $burger-menu-width;
-      height: $burger-menu-height;
-      display: block;
+    /* Position */
 
-      /* Typography */
-  
-      /* Decoration */
-      
-      /* Animation */
+    /* block-model */
+    width: $burger-menu-width;
+    height: $burger-menu-height;
+    display: block;
 
-      /* Various */
+    /* Typography */
 
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
   }
 
   .header__burger-menu {
-      /* Position */
-      position: relative;
-      z-index: 50;
+    /* Position */
+    position: relative;
+    z-index: 50;
 
-      /* block-model */
+    /* block-model */
 
-      /* Typography */
-  
-      /* Decoration */
-      
-      /* Animation */
-      @include transition ($property: all, $duration: 0.7s, $timing-function: ease, $delay: 0s);
+    /* Typography */
 
-      /* Various */
-    
+    /* Decoration */
+
+    /* Animation */
+    @include transition(
+      $property: all,
+      $duration: 0.7s,
+      $timing-function: ease,
+      $delay: 0s
+    );
+
+    /* Various */
   }
 
   .header__burger-menu::before {
-      /* Position */
-      top: 0;
-      left: 0;
-      /* block-model */
+    /* Position */
+    top: 0;
+    left: 0;
+    /* block-model */
 
-      /* Typography */
-  
-      /* Decoration */
-      content: "";
-      /* Animation */
+    /* Typography */
 
-      /* Various */
+    /* Decoration */
+    content: '';
+    /* Animation */
 
+    /* Various */
   }
 
   .header__burger-menu::after {
-      /* Position */
-      bottom: 0;
-      left: 0;
-      /* block-model */
+    /* Position */
+    bottom: 0;
+    left: 0;
+    /* block-model */
 
-      /* Typography */
-  
-      /* Decoration */
-      content: "";
-      /* Animation */
+    /* Typography */
 
-      /* Various */
+    /* Decoration */
+    content: '';
+    /* Animation */
 
+    /* Various */
   }
 
   .header__burger-menu_cutlet1 {
-      /* Position */
-      top: calc($burger-menu-height / 2 - 1px);
-      left: 0;
-      /* block-model */
+    /* Position */
+    top: calc($burger-menu-height / 2 - 1px);
+    left: 0;
+    /* block-model */
 
-      /* Typography */
-  
-      /* Decoration */
-      
-      /* Animation */
+    /* Typography */
 
-      /* Various */
+    /* Decoration */
 
+    /* Animation */
+
+    /* Various */
   }
-  
+
   .header__burger-menu_cutlet1,
   .header__burger-menu::before,
   .header__burger-menu::after {
-      /* Position */
-      position: absolute;
+    /* Position */
+    position: absolute;
 
-      /* block-model */
-      width: 100%;
-      height: 2px;
-      display: block;
+    /* block-model */
+    width: 100%;
+    height: 2px;
+    display: block;
 
-      /* Typography */
-      
-      /* Decoration */
-      background-color: $color-primary;
-      
-      /* Animation */
-      
-      /* Various */
-      
+    /* Typography */
+
+    /* Decoration */
+    background-color: $color-primary;
+
+    /* Animation */
+
+    /* Various */
   }
-  
+
   .header__burger-menu_cutlet1-pets,
   .header__burger-menu-pets::before,
   .header__burger-menu-pets::after {
-      /* Position */
-      position: absolute;
+    /* Position */
+    position: absolute;
 
-      /* block-model */
-      width: 100%;
-      height: 2px;
-      display: block;
+    /* block-model */
+    width: 100%;
+    height: 2px;
+    display: block;
 
-      /* Typography */
-      
-      /* Decoration */
-      background-color: $color-dark;
-      
-      /* Animation */
-      
-      /* Various */
-      
+    /* Typography */
+
+    /* Decoration */
+    background-color: $color-dark;
+
+    /* Animation */
+
+    /* Various */
   }
-  
-  .header__burger-menu_active {
-      /* Position */
-      z-index: 50;
-      /* block-model */
 
-      /* Typography */
-      
-      /* Decoration */
-      transform: rotate(90deg);
-      /* Animation */
-      @include transition ($property: all, $duration: 0.7s, $timing-function: ease, $delay: 0s);
-      /* Various */
-      
+  .header__burger-menu_active {
+    /* Position */
+    z-index: 50;
+    /* block-model */
+
+    /* Typography */
+
+    /* Decoration */
+    transform: rotate(90deg);
+    /* Animation */
+    @include transition(
+      $property: all,
+      $duration: 0.7s,
+      $timing-function: ease,
+      $delay: 0s
+    );
+    /* Various */
   }
 }

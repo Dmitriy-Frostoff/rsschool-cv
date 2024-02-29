@@ -10,8 +10,6 @@ aside {
   // Animation
 
   // Various
-  
-
 }
 
 .nav {
@@ -26,8 +24,6 @@ aside {
   // Animation
 
   // Various
-  
-
 }
 
 .nav__container {
@@ -42,13 +38,11 @@ aside {
   // Animation
 
   // Various
-  
 }
-
 
 .nav__list {
   // Position
-  
+
   // block-model
   width: 100%;
   row-gap: 30px;
@@ -59,38 +53,35 @@ aside {
   // Animation
 
   // Various
-
 }
 
 .nav__item {
   // Position
-  
+
   // block-model
 
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .nav__item-container {
   // Position
-  
+
   // block-model
   align-items: stretch;
   width: 100%;
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .nav__link {
@@ -109,7 +100,14 @@ aside {
   &:hover {
     color: $color-highlight-light;
     @extend %transition-basic;
-    @include animation ($name: pulsation, $duration: 1.5s, $iteration-count: infinite, $direction: normal, $timing-function: ease, $delay: 0s);
+    @include animation(
+      $name: pulsation,
+      $duration: 1.5s,
+      $iteration-count: infinite,
+      $direction: normal,
+      $timing-function: ease,
+      $delay: 0s
+    );
   }
 
   &:active {
@@ -120,75 +118,71 @@ aside {
 
 .skills__label {
   // Position
-  
+
   // block-model
 
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .nav__education-container {
   // Position
-  
+
   // block-model
   padding: 10px 0;
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .skills__label-container {
   // Position
-  
+
   // block-model
-  @include flex-two-childs-basis ($first-basis: 40%, $last-basis: 55%);
+  @include flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
   align-items: center;
   flex-wrap: nowrap;
   padding: 10px 0;
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .skills__text {
   // Position
-  
+
   // block-model
   display: block;
   // Typography
-  
+
   // Decoration
 
   // Animation
 
   // Various
-
 }
 
 .skills__progress {
   // Position
-  
+
   // block-model
   height: 5px;
-  
+
   // Typography
-  
+
   // Decoration
   -webkit-appearance: none;
   // Animation
@@ -206,4 +200,3 @@ aside {
     background-color: $color-highlight-dark;
   }
 }
-

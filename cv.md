@@ -1,10 +1,8 @@
 # **Dmitriy Morozov**
 
-![Dmitriy Frostoff](./assets/img/IMG_20210918_163706.png)
+![Dmitriy Frostoff](CV/src/assets/img/IMG_20210918_163706.png)
 
 ## **_Frontend Developer_**
-
----
 
 ## **Contact information:**
 
@@ -287,27 +285,25 @@ June 2015 — July 2015
 
 ## **Education**
 
----
-
 ### **University:**
 
 Moscow State University of Civil Engineering
 
 Civil Construction engineer
 
-**\*2018** - masters degree (diploma with honor)\*
+**2018** - masters degree (diploma with honor)
 
-**\*2016** - bachelor degree (diploma with honor)\*
+**2016** - bachelor degree (diploma with honor)
 
 ### **Courses:**
 
 - [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 'click to see origin document')
 
-  ![Stepik JavaScript certificate](./assets/img/Stepik_JavaScript_cert_96dpi.png)
+  ![Stepik JavaScript certificate](./CV/src/assets/img/Stepik_JavaScript_cert_96dpi.png)
 
 - [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK 'click to see origin document')
 
-  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)
+  ![Sololearn: my JavaScript certificate](./CV/src/assets/img/JavaScript_cert_96dpi.png)
 
 - [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript 'click to go to the website')
 
@@ -321,34 +317,34 @@ Civil Construction engineer
 
 - [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 'click to see origin document')
 
-  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)
+  ![Sololearn: my python certificate](./CV/src/assets/img/Python_cert_96dpi.png)
 
 - [CodeBasics: Python](https://code-basics.com/ru/languages/python 'click to go to the website') (in progress)
 - [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD 'click to see origin document')
 
-  ![HTML certificate](./assets/img/HTML_cert_96dpi.png)
+  ![HTML certificate](./CV/src/assets/img/HTML_cert_96dpi.png)
 
 - [CodeBasics: HTML](https://code-basics.com/ru/languages/html 'click to go to the website')
 
 - [Sololearn: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to see origin document')
 
-  ![CSS certificate](./assets/img/CSS_cert_96dpi.png)
+  ![CSS certificate](./CV/src/assets/img/CSS_cert_96dpi.png)
 
 - [CodeBasics: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to go to the website')
 
 - [Sololearn: Responsive Web Design](https://www.sololearn.com/certificates/CT-L3S4OUVO 'click to see origin document')
 
-  ![Responsive Web Design certificate](./assets/img/Responsive_Web_Design_cert_96dpi.png)
+  ![Responsive Web Design certificate](./CV/src/assets/img/Responsive_Web_Design_cert_96dpi.png)
 
 - [Sololearn: Web Development Fundamentals](https://www.sololearn.com/certificates/CT-IEFGC3DR 'click to see origin document')
 
-  ![Web Development Fundamentals certificate](./assets/img/WebDevelopmentFundamentals_cert_96dpi.png)
+  ![Web Development Fundamentals certificate](./CV/src/assets/img/WebDevelopmentFundamentals_cert_96dpi.png)
 
 - [Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn"](https://ru.coursera.org/learn/learning-how-to-learn 'click to go to the website') (in progress)
 
 - [Stepik: How to Study effectively - Polina Krivykh x I Love Economics](https://stepik.org/cert/1766516 'click to see origin document')
 
-  ![How to Study effectively certificate](./assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
+  ![How to Study effectively certificate](./CV/src/assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3
 
@@ -356,7 +352,7 @@ Civil Construction engineer
 
 - [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/7rf4cdis/ 'click to see origin document')
 
-  ![JS/FE Pre-School 2022Q4 certificate](./assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png 'click to see origin document')
+  ![JS/FE Pre-School 2022Q4 certificate](./CV/src/assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png 'click to see origin document')
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1
 
@@ -368,14 +364,14 @@ Civil Construction engineer
 
 ## **RSSchool projects**
 
----
-
 **js30#2.2-image-galery**  
 Project Description:
 
 You need to create an application that displays the photos received from the API. Add a search to the application. When entering a search query, the photos that are displayed in the application are changed.
 
 - [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html 'click to view')
+
+---
 
 **js30#1.2-audio-player**  
 Project Description:
@@ -384,12 +380,16 @@ A music player that allows you to play music tracks in turn or flip through them
 
 - [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html 'click to view')
 
+---
+
 **CSS Meme Slider**  
 Project Description:
 
 CSS Meme Slider is a task of Rolling Scopes School stage 0.
 
 - [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 'click to view')
+
+---
 
 **Library**  
 Project Description:
@@ -398,6 +398,8 @@ Library is a stage #0 task in the course of which you will make the landing page
 
 - [Library](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/library/index.html 'click to view')
 
+---
+
 **Shelter**  
 Project Description:
 
@@ -405,12 +407,16 @@ Shelter is a project in which you have to create a website consisting of two pag
 
 - [Shelter](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFE2023Q1/shelter/index.html 'click to view')
 
+---
+
 **CSSBayan**  
 Project Description:
 
 Accordion implemented with the only HTML and CSS.
 
 - [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 'click to view')
+
+---
 
 **Momentum**  
 Project Description:
@@ -421,6 +427,8 @@ The application has a clock, an image slider, weather widgets, an audio player, 
 
 - [Momentum web app](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/momentum/ 'click to view')
 
+---
+
 **Plants**  
 Project Description:
 
@@ -428,10 +436,14 @@ Plants is the stage#0 task during which you will make up the landing page of a s
 
 - [Plants landing page](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/plants/ 'click to view')
 
+---
+
 **CV#3. CV. Cross-Check**  
 CV implemented with HTML & CSS
 
 - [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv 'click to view')
+
+---
 
 **CV#1. Markdown & Git**  
 This page done using Markdown
@@ -448,7 +460,7 @@ English - Upper-Intermediate B2 according to the online EF SET test at
 
 [my certificate](https://www.efset.org/cert/4Tg7Hj 'click to see origin document')
 
-![my EF SET certificate](./assets/img/EF_SET_Certificate_cert_96dpi.png)
+![my EF SET certificate](./CV/src/assets/img/EF_SET_Certificate_cert_96dpi.png)
 
 (continue learning in [lingualeo](https://lingualeo.com/ 'click to go to the website'))
 

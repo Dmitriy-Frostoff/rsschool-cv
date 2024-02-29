@@ -12,7 +12,6 @@
   // Animation
 
   // Various
-  
 }
 
 .project-definition__container {
@@ -27,21 +26,19 @@
   // Animation
 
   // Various
-  
 }
 
-.projects-link { 
+.projects-link {
   // Position
 
   // block-model
 
   // Typography
-  @include text ($size: $font-size-H4, $height: calc($font-size-H4 * 1.2));
+  @include text($size: $font-size-H4, $height: calc($font-size-H4 * 1.2));
 
   // Decoration
 
   // Animation
-  
-  // Various
 
+  // Various
 }

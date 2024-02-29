@@ -1,4 +1,10 @@
-@mixin text ($style: normal, $weight: 400, $size: 1rem, $height:$size, $let-spacing: normal) {
+@mixin text(
+  $style: normal,
+  $weight: 400,
+  $size: 1rem,
+  $height: $size,
+  $let-spacing: normal
+) {
   font-style: $style;
   font-weight: $weight;
   font-size: $size;
@@ -6,15 +12,26 @@
   letter-spacing: $let-spacing;
 }
 
-@mixin border ($width: 2px, $style: solid, $color: $color-primary) {
+@mixin border($width: 2px, $style: solid, $color: $color-primary) {
   border: $width $style $color;
 }
 
-@mixin transition ($property: all, $duration: 0.7s, $timing-function: ease, $delay: 0s) {
+@mixin transition(
+  $property: all,
+  $duration: 0.7s,
+  $timing-function: ease,
+  $delay: 0s
+) {
   transition: $property $duration $timing-function $delay;
 }
 
-@mixin flex-model-two-columns ($first-basis: 50%, $last-basis: 50%, $align-content: space-between, $justify-content: space-between, $align-items: flex-start) {
+@mixin flex-model-two-columns(
+  $first-basis: 50%,
+  $last-basis: 50%,
+  $align-content: space-between,
+  $justify-content: space-between,
+  $align-items: flex-start
+) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,7 +46,7 @@
   }
 }
 
-@mixin flex-two-childs-basis ($first-basis: 50%, $last-basis: 50%) {
+@mixin flex-two-childs-basis($first-basis: 50%, $last-basis: 50%) {
   > :first-child {
     flex-basis: $first-basis;
   }
@@ -38,7 +55,12 @@
   }
 }
 
-@mixin flex-model-one-column ($flex-wrap: nowrap, $align-content: flex-start, $justify-content: flex-start, $align-items: flex-start) {
+@mixin flex-model-one-column(
+  $flex-wrap: nowrap,
+  $align-content: flex-start,
+  $justify-content: flex-start,
+  $align-items: flex-start
+) {
   display: flex;
   flex-direction: column;
   flex-wrap: $flex-wrap;
@@ -47,7 +69,12 @@
   align-items: $align-items;
 }
 
-@mixin flex-model-multiple-columns ($basis: auto, $align-content: space-between, $justify-content: center, $align-items: flex-start) {
+@mixin flex-model-multiple-columns(
+  $basis: auto,
+  $align-content: space-between,
+  $justify-content: center,
+  $align-items: flex-start
+) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -55,12 +82,17 @@
   justify-content: $justify-content;
   align-items: $align-items;
 
-  >* {
+  > * {
     flex-basis: $basis;
   }
 }
 
-@mixin grid-model-multiple-columns ($rows: 2, $columns: 4, $el-width: calc(270 / 1200 * 100%), $el-height: calc(435 / 1200 * 100%)) {
+@mixin grid-model-multiple-columns(
+  $rows: 2,
+  $columns: 4,
+  $el-width: calc(270 / 1200 * 100%),
+  $el-height: calc(435 / 1200 * 100%)
+) {
   display: grid;
   grid-template-rows: repeat($rows, $el-width);
   grid-template-columns: repeat($columns, $el-height);

@@ -12,7 +12,6 @@
   // Animation
 
   // Various
-  
 }
 
 .courses__container {
@@ -28,7 +27,6 @@
   // Animation
 
   // Various
-  
 }
 
 .courses-list {
@@ -44,14 +42,13 @@
   // Animation
 
   // Various
-  
 }
 
 .courses-list__item {
   // Position
 
   // block-model
-  @include flex-two-childs-basis ($first-basis: 24px, $last-basis: auto);
+  @include flex-two-childs-basis($first-basis: 24px, $last-basis: auto);
   align-items: center;
   column-gap: 10px;
   // Typography
@@ -61,10 +58,9 @@
   // Animation
 
   // Various
-  
 }
 
-.courses__link { 
+.courses__link {
   // Position
 
   // block-model
@@ -72,18 +68,22 @@
   height: auto;
   // Typography
   @extend %font-Cabin;
-  @include text ($size: $font-size-addText, $height: calc($font-size-addText * 1.2));
+  @include text(
+    $size: $font-size-addText,
+    $height: calc($font-size-addText * 1.2)
+  );
 
   // Decoration
   color: $color-text-light;
   // Animation
   @extend %transition-basic;
-  
+
   // Various
-  &:hover, &:active {
+  &:hover,
+  &:active {
     @extend %transition-basic;
   }
-  
+
   &:hover {
     @extend %transition-basic;
     color: $color-text-dark;
@@ -112,5 +112,4 @@
   // Animation
 
   // Various
-  
 }
