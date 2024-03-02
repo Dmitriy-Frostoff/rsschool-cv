@@ -69,12 +69,12 @@
   // Typography
   @extend %font-Cabin;
   @include text(
-    $size: $font-size-addText,
-    $height: calc($font-size-addText * 1.2)
+    $size: var(--font-size-addText),
+    $height: calc(var(--font-size-addText) * 1.2)
   );
 
   // Decoration
-  color: $color-text-light;
+  color: var(--color-text-light);
   // Animation
   @extend %transition-basic;
 
@@ -86,15 +86,15 @@
 
   &:hover {
     @extend %transition-basic;
-    color: $color-text-dark;
-    background-color: $color-highlight-light;
+    color: var(--color-text-dark);
+    background-color: var(--color-highlight-light);
     border-radius: inherit;
   }
 
   &:active {
     @extend %transition-basic;
-    color: $color-text-dark;
-    background-color: $color-highlight-light;
+    color: var(--color-text-dark);
+    background-color: var(--color-highlight-light);
     border-radius: inherit;
   }
 }

@@ -7,7 +7,7 @@
 
   // Decoration
   background: url('../../../assets/background/noise_transparent@2x.png'),
-    $color-background-left;
+    var(--color-background-left);
   // Animation
 
   // Various
@@ -39,7 +39,7 @@
   // block-model
 
   // Typography
-  color: $color-text-light;
+  color: var(--color-text-light);
   // Decoration
 
   // Animation
@@ -69,8 +69,8 @@
   &:hover .footer__icon,
   &:active,
   &:active .footer__icon {
-    color: $color-highlight-light;
-    fill: $color-highlight-light;
+    color: var(--color-highlight-light);
+    fill: var(--color-highlight-light);
     @extend %cursor-pointer;
     @extend %transition-basic;
     @include animation(
@@ -92,7 +92,7 @@
   // Typography
 
   // Decoration
-  fill: $color-background-light;
+  fill: var(--color-background-light);
 
   @extend %pointer-events-disable;
   // @extend %cursor-pointer;
@@ -102,7 +102,7 @@
 
   // Various
   &:hover {
-    fill: $color-highlight-light;
+    fill: var(--color-highlight-light);
     @extend %cursor-pointer;
     @extend %transition-basic;
     @include animation(
@@ -124,7 +124,7 @@
   // Typography
   text-align: right;
   // Decoration
-  fill: $color-background-light;
+  fill: var(--color-background-light);
   // Animation
 
   // Various

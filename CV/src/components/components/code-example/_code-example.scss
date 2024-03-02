@@ -50,9 +50,9 @@
   // block-model
   padding: 1px 4px;
   // Typography
-  color: $color-text-dark;
+  color: var(--color-text-dark);
   // Decoration
-  background-color: $color-background-light;
+  background-color: var(--color-background-light);
   border-radius: 4px;
   // Animation
 
@@ -79,15 +79,15 @@
 
   &:hover {
     @extend %transition-basic;
-    color: $color-text-dark;
-    background-color: $color-highlight-light;
+    color: var(--color-text-dark);
+    background-color: var(--color-highlight-light);
     border-radius: inherit;
   }
 
   &:active {
     @extend %transition-basic;
-    color: $color-text-dark;
-    background-color: $color-highlight-light;
+    color: var(--color-text-dark);
+    background-color: var(--color-highlight-light);
     border-radius: inherit;
   }
 }

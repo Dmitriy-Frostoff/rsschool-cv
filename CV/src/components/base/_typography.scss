@@ -6,3 +6,14 @@ $font-size-H3: 1.6rem;
 $font-size-H4: 1.4rem;
 $font-size-paragraph: 1.4rem;
 $font-size-addText: 1.2rem;
+
+:root {
+  --font-size-initial: #{$font-size-initial};
+
+  --font-size-H1: #{$font-size-H1};
+  --font-size-H2: #{$font-size-H2};
+  --font-size-H3: #{$font-size-H3};
+  --font-size-H4: #{$font-size-H4};
+  --font-size-paragraph: #{$font-size-paragraph};
+  --font-size-addText: #{$font-size-addText};
+}

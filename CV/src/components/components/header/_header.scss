@@ -6,6 +6,14 @@ $cv-photo__container-height: calc(320px * 505 / 552); // === about 293px
 $cv-photo__streak-width: 48px;
 $cv-photo__streak-height: $cv-photo__container-height;
 
+:root {
+  --cv-photo__container-width: #{$cv-photo__container-width};
+
+  --cv-photo__container-height: #{$cv-photo__container-height};
+  --cv-photo__streak-width: #{$cv-photo__streak-width};
+  --cv-photo__streak-height: #{$cv-photo__streak-height};
+}
+
 .header {
   // Position
 
@@ -15,7 +23,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
 
   // Decoration
   background: url('../../../assets/background/noise_transparent@2x.png'),
-    $color-background-light;
+    var(--color-background-light);
 
   // Animation
 
@@ -51,11 +59,13 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // Position
 
   // block-model
-  width: $cv-photo__container-width;
-  height: $cv-photo__container-height;
+  width: var(--cv-photo__container-width);
+  height: var(--cv-photo__container-height);
   @include flex-two-childs-basis(
     $first-basis:
-      calc($cv-photo__streak-width / $cv-photo__container-width * 100%),
+      calc(
+        var(--cv-photo__streak-width) / var(--cv-photo__container-width) * 100%
+      ),
     $last-basis: 50%
   );
   flex-wrap: nowrap;
@@ -73,13 +83,13 @@ $cv-photo__streak-height: $cv-photo__container-height;
 
   // block-model
   display: block;
-  min-width: $cv-photo__streak-width;
-  min-height: $cv-photo__streak-height;
+  min-width: var(--cv-photo__streak-width);
+  min-height: var(--cv-photo__streak-height);
 
   // Typography
 
   // Decoration
-  background-color: rgba($color-highlight-light, $alpha: 0.7);
+  background-color: var(--color-highlight-light_alpha);
 
   // Animation
 
