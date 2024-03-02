@@ -37,9 +37,14 @@
     perspective: 50px;
   }
 
-  &:hover .contacts__icon-position > :first-child {
+  &:hover .contacts__icon {
     @extend %transition-basic;
     transform: rotateY(65deg);
+  }
+
+  &:hover .contacts__link:hover > .contacts__icon {
+    @extend %transition-basic;
+    transform: rotateY(0deg);
   }
 }
 

@@ -548,3 +548,18 @@ pre {
 
   // Various
 }
+
+.pointer-events_disable {
+  // Position
+
+  // block-model
+  @extend %pointer-events-disable;
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
