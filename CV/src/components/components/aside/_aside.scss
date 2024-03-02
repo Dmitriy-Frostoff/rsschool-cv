@@ -45,7 +45,7 @@ aside {
 
   // block-model
   width: 100%;
-  row-gap: 30px;
+  row-gap: 15px;
   // Typography
 
   // Decoration
@@ -151,7 +151,7 @@ aside {
   @include flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
   align-items: center;
   flex-wrap: nowrap;
-  padding: 10px 0;
+  padding: 5px 0;
   // Typography
 
   // Decoration
