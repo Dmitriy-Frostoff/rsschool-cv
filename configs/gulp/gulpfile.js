@@ -6,16 +6,16 @@ import rename from 'gulp-rename';
 const { src, dest } = gulp;
 
 export function html() {
-  return src('../../CV/src/components/index_gulp_include.html')
+  return src('../../CV/src/pages/index_gulp_include.html')
     .pipe(
       include({
         prefix: '@@',
         indent: true,
       }),
     )
-    .pipe(replace(/="(\.\.\/){3,}/gi, '="../'))
+    .pipe(replace(/="(\.\.\/){2,}/gi, '="../'))
     .pipe(rename('index.html'))
-    .pipe(dest('../../CV/src/components/'));
+    .pipe(dest('../../CV/src/pages/'));
 }
 
 // delete it if there's more than one function already (this is to prevent ESlint exception only)

@@ -16,7 +16,7 @@ export default {
   mode,
   target,
   devtool,
-  entry: [path.resolve(__dirname, '../../CV/src/components/index.js')],
+  entry: [path.resolve(__dirname, '../../CV/src/index.js')],
   output: {
     path: path.resolve(__dirname, '../../CV/dist'),
     clean: true,
@@ -50,7 +50,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, '../../CV/src/components/index.html'),
+      template: path.resolve(__dirname, '../../CV/src/pages/index.html'),
       inject: 'head',
     }),
     new MiniCssExtractPlugin({
