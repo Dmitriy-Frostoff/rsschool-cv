@@ -1,0 +1,157 @@
+.footer {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  background: url('../../shared/assets/background/noise_transparent@2x.png'),
+    var(--color-background-left);
+  // Animation
+
+  // Various
+}
+
+.footer__list {
+  // Position
+
+  // block-model
+  @include flex-model-multiple-columns(
+    $basis: auto,
+    $align-content: space-between,
+    $justify-content: space-between,
+    $align-items: center
+  );
+  padding: calc($padding-content-desktop / 2) 0;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.footer__item {
+  // Position
+
+  // block-model
+
+  // Typography
+  color: var(--color-text-light);
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.footer__link {
+  // Position
+
+  // block-model
+  @include flex-model-one-column(
+    $align-content: space-between,
+    $justify-content: center,
+    $align-items: center
+  );
+  // Typography
+
+  // Decoration
+  @extend %cursor-pointer;
+  @extend %pointer-events-auto;
+  // Animation
+  @extend %transition-transform;
+  @extend %transition-color;
+
+  // Various
+  &:hover,
+  &:active {
+    color: var(--color-highlight-light);
+    @extend %cursor-pointer;
+    @include animation(
+      $name: pulsation,
+      $duration: 1s,
+      $iteration-count: infinite,
+      $direction: normal,
+      $timing-function: ease,
+      $delay: 0s
+    );
+  }
+
+  &:hover .footer__icon:nth-child(1),
+  &:active .footer__icon:nth-child(1) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover .footer__icon:nth-child(2),
+  &:active .footer__icon:nth-child(2) {
+    visibility: visible;
+    width: inherit;
+    height: inherit;
+    @extend %cursor-pointer;
+    @include animation(
+      $name: pulsation,
+      $duration: 1s,
+      $iteration-count: infinite,
+      $direction: normal,
+      $timing-function: ease,
+      $delay: 0s
+    );
+  }
+}
+
+.footer__icon {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  @extend %pointer-events-disable;
+  // @extend %cursor-pointer;
+
+  // Animation
+  @extend %transition-transform;
+  @extend %transition-color;
+
+  // Various
+  &:nth-child(2) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+.rsschool-logo {
+  // Position
+
+  // block-model
+  width: 70px;
+  // Typography
+  text-align: right;
+  // Decoration
+  fill: var(--color-background-light);
+  // Animation
+
+  // Various
+}
+
+.github-text {
+  // Position
+
+  // block-model
+  padding-top: 3px;
+  // Typography
+
+  // Decoration
+  @extend %pointer-events-disable;
+
+  // Animation
+
+  // Various
+}
