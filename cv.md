@@ -1,13 +1,14 @@
 # **Dmitriy Morozov**
 ![Dmitriy Frostoff](./assets/img/IMG_20210918_163706.png)
 
-## ***Junior Frontend Developer***
+## ***Frontend Developer***
 
 ***     
 
 ## **Contact information:**
 Phone: +7 987 654 32 10  
 E-mail: <dmitriy.frostoff@yandex.ru>  
+LinkedIn: [dmitriy-frostoff](https://www.linkedin.com/in/dmitriy-frostoff/ "my LinkedIn id: dmitriy-frostoff")  
 Telegram: @Dmitriy_Frostoff  
 Discord: @Dmitriy-Frostoff#9603  
 app.rs.school: Dmitriy_Morozov  
@@ -32,17 +33,27 @@ Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
 
  + the art of bonsai.
  
-Now I wanna to reveal my abilities in the best possible way in Front-end Developing.  
+Now I wanna to reveal my abilities in the best possible way in Frontend Development.  
 
 ***     
 
 ## **Skills and Proficiency:**
-* Python (beginner level)  
 * JavaScript
+* TypeScript
+* Python (beginner level)  
 * HTML 
 * CSS
-* Sass/SCSS (beginner level)
-* Webpack (beginner level)
+* Sass/SCSS
+* Pug
+* React
+* Webpack
+* Gulp
+* ESLint
+* Prettier
+* Husky
+* Mocha
+* Chai
+* JSDoc
 * Git, GitHub  
 * Markdown  
 * VS Code  
@@ -241,7 +252,7 @@ December 2019 — August 2022
   * participation in the commissioning of a finished construction facility;
 
 **Civil engineer (general construction) at "UNR-17", Moscow**    
-August 2018 — August 2019   
+August 2019 — October 2019   
   * Preparation of sets of documents for commissioning of the facility;
   * Input control of project and budget documents;
   * Interaction with the budget department;
@@ -277,26 +288,30 @@ Civil Construction engineer
 ***2016** - bachelor degree (diploma with honor)*
 
 ### **Courses:**  
-* [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
-
-  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)   
-
-* [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)   
-
-* [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")  
-
-  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)   
 
 * [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 "click to see origin document")
 
     ![Stepik JavaScript certificate](./assets/img/Stepik_JavaScript_cert_96dpi.png)  
 
-* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website") (in progress)
+* [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")  
+
+  ![Sololearn: my JavaScript certificate](./assets/img/JavaScript_cert_96dpi.png)   
 
 * [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")   
 
-* [CodeBasics: TypeScript (in progress)](https://code-basics.com/ru/languages/typescript "click to go to the website")   
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website")
 
+* [Microsoft Learn: TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")   
+
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/ "click to go to the website")   
+
+* [React Documentation](https://react.dev/learn "click to go to the website")   
+
+* [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
+
+  ![Sololearn: my python certificate](./assets/img/Python_cert_96dpi.png)   
+
+* [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)   
 * [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")   
 
   ![HTML certificate](./assets/img/HTML_cert_96dpi.png)
@@ -333,13 +348,43 @@ Civil Construction engineer
 
 * RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1  
 
-* RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2 (in progress)  
+* [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq "click to see origin document")   
+
+* RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4 (in progress)   
 
 ***       
 
 ## **RSSchool projects**
 
 ***     
+
+**js30#2.2-image-galery**    
+Project Description:   
+
+You need to create an application that displays the photos received from the API. Add a search to the application. When entering a search query, the photos that are displayed in the application are changed.
+
+  * [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html "click to view")   
+
+**js30#1.2-audio-player**    
+Project Description:   
+
+A music player that allows you to play music tracks in turn or flip through them by clicking on buttons. Each music track has a specific background image.
+
+  * [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html "click to view")   
+
+**CSS Meme Slider**    
+Project Description:   
+
+CSS Meme Slider is a task of Rolling Scopes School stage 0.
+
+  * [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 "click to view")   
+
+**Library**    
+Project Description:   
+
+Library is a stage #0 task in the course of which you will make the landing page of the site for the selection and sale of books, make it adaptive and interactive.
+
+  * [Library](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/library/index.html "click to view")   
 
 **Shelter**    
 Project Description:   
@@ -353,7 +398,7 @@ Project Description:
 
 Accordion implemented with the only HTML and CSS.
 
-  * [CSSBayan](https://dmitriy-frostoff.github.io/cssBayan/ "click to view")   
+  * [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 "click to view")   
 
 **Momentum**    
 Project Description:   
