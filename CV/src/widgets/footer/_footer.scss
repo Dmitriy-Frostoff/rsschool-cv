@@ -62,17 +62,37 @@
   @extend %cursor-pointer;
   @extend %pointer-events-auto;
   // Animation
-  @extend %transition-basic;
+  @extend %transition-transform;
+  @extend %transition-color;
 
   // Various
   &:hover,
-  &:hover .footer__icon,
-  &:active,
-  &:active .footer__icon {
+  &:active {
     color: var(--color-highlight-light);
-    fill: var(--color-highlight-light);
     @extend %cursor-pointer;
-    @extend %transition-basic;
+    @include animation(
+      $name: pulsation,
+      $duration: 1s,
+      $iteration-count: infinite,
+      $direction: normal,
+      $timing-function: ease,
+      $delay: 0s
+    );
+  }
+
+  &:hover .footer__icon:nth-child(1),
+  &:active .footer__icon:nth-child(1) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover .footer__icon:nth-child(2),
+  &:active .footer__icon:nth-child(2) {
+    visibility: visible;
+    width: inherit;
+    height: inherit;
+    @extend %cursor-pointer;
     @include animation(
       $name: pulsation,
       $duration: 1s,
@@ -92,27 +112,18 @@
   // Typography
 
   // Decoration
-  fill: var(--color-background-light);
-
   @extend %pointer-events-disable;
   // @extend %cursor-pointer;
 
   // Animation
-  @extend %transition-basic;
+  @extend %transition-transform;
+  @extend %transition-color;
 
   // Various
-  &:hover {
-    fill: var(--color-highlight-light);
-    @extend %cursor-pointer;
-    @extend %transition-basic;
-    @include animation(
-      $name: pulsation,
-      $duration: 1s,
-      $iteration-count: infinite,
-      $direction: normal,
-      $timing-function: ease,
-      $delay: 0s
-    );
+  &:nth-child(2) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
 }
 

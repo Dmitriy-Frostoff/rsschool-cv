@@ -6,6 +6,14 @@
   transition: all 0.7s ease 0s;
 }
 
+%transition-transform {
+  transition: transform 0.7s ease 0s;
+}
+
+%transition-color {
+  transition: color 0.7s ease 0s;
+}
+
 %reset-padding-margin {
   padding: 0;
   margin: 0;

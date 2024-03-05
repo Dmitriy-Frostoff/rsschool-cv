@@ -25,26 +25,58 @@
   // Decoration
 
   // Animation
-  @extend %transition-basic;
 
   // Various
-  &:hover {
-    @extend %transition-basic;
-  }
 
   &:hover .contacts__icon-position {
-    @extend %transition-basic;
+    @extend %transition-transform;
     perspective: 50px;
   }
 
-  &:hover .contacts__icon {
-    @extend %transition-basic;
+  // elem:has(childElem > :last-child:nth-child(1)) => elem with childElem and the childElem has the only child
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(1))
+    .contacts__icon {
     transform: rotateY(65deg);
   }
 
-  &:hover .contacts__link:hover > .contacts__icon {
-    @extend %transition-basic;
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(1))
+    .contacts__icon:hover {
     transform: rotateY(0deg);
+  }
+
+  // elem:has(childElem > :last-child:nth-child(2)) => elem with childElem and the childElem has two childs
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__icon:nth-child(1) {
+    transform: rotateY(65deg);
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__link:hover
+    > .contacts__icon:nth-child(1) {
+    transform: rotateY(0deg);
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__icon:nth-child(2) {
+    transform: rotateY(65deg);
+    visibility: visible;
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__link:hover
+    > .contacts__icon:nth-child(2) {
+    transform: rotateY(0deg);
+    visibility: visible;
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -77,9 +109,6 @@
   // Animation
   @extend %transition-basic;
   // Various
-  & > :first-child {
-    @extend %transition-basic;
-  }
 }
 
 .contacts__icon_background {
@@ -108,6 +137,12 @@
   // Decoration
 
   // Animation
-
+  @extend %transition-transform;
   // Various
+
+  &:nth-child(2) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
 }
