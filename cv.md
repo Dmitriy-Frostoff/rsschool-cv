@@ -258,6 +258,27 @@ There is no preloaded code to help you. _This is not about coding skills; think 
 
 ## **Job experience**
 
+**Student Frontend Developer at "The Rolling Scopes School"**  
+September 2022 — present
+
+- creating of landing pages based on Figma layouts (stack: Webpack 5 + Gulp 4, Vanilla JS, SCSS /CSS, HTML);
+- development of simple applications (stack: Webpack 5, Vanilla JS / TS, SCSS /CSS, HTML);
+- formatting of own code and commit messages using: ESLint, Prettier, Husky;
+- learning the Behavior-driven development (BDD) and writing Unit tests (Jest, Mocha + Chai);
+- debug of own code using Chrome DevTools, VSCode devtools (node.js debugger); refactoring of own code;
+- learning the Frameworks (React and its infrastructure);
+- development within the time limits set in the TOR;
+- code review of other students' Build projects based on the established TOR;
+- fix the discrepancies with TOR found by another students over the cross - check review of my Builds;
+- learning the modern stack of technologies and methodologies of Frontend Development ([course program](https://github.com/rolling-scopes-school/tasks/blob/master/roadmap.md));
+
+- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature sliced design;
+- learning the Software Development Lifecycle (SDLC), facing with the basics of Agile (Scrum, Kanban) and Waterfall software development methodologies;
+- in-depth learning of modern vanilla JavaScript, TypeScript and the programming in principle;
+- a self - rely searching for solutions of emerging technical problems and up-to-date technical information to complete the tasks;
+- interaction with other students and an old hand developers - to improve the quality of own code, to find optimal solutions, and to solve technical
+  problems (the "30-minute Rule");
+
 **Civil engineer at Department of construction and repair of FSUE "Production Supply Enterprise", Moscow**  
 December 2019 — August 2022
 
