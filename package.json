@@ -1,11 +1,21 @@
 {
   "name": "dmitriy-frostoffs-cv",
   "version": "1.0.0",
-  "description": "Dmitriy Frostoff's CV - trainee Frontend developer",
+  "description": "Dmitriy Frostoff's CV - Frontend developer",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "style": "sass --watch src/sass/main.scss:style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint ./CV/src --ignore-path ./configs/eslint/.eslintignore --config ./configs/eslint/.eslintrc.cjs",
+    "lint:fix": "npx eslint ./CV/src --ignore-path ./configs/eslint/.eslintignore --config ./configs/eslint/.eslintrc.cjs --fix",
+    "prettier": "npx prettier ./CV/src --check --ignore-path ./configs/prettier/.prettierignore --config ./configs/prettier/.prettierrc",
+    "prettier:fix": "npx prettier ./CV/src --write --ignore-path ./configs/prettier/.prettierignore --config ./configs/prettier/.prettierrc",
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "prepare": "husky",
+    "html+dev": "gulp --gulpfile ./configs/gulp/gulpfile.js html && webpack --config ./configs/webpack/webpack.config.js --progress",
+    "html": "gulp --gulpfile ./configs/gulp/gulpfile.js html --progress",
+    "start": "webpack-dev-server --config ./configs/webpack/webpack.config.js --progress",
+    "dev": "webpack --config ./configs/webpack/webpack.config.js --progress",
+    "build": "webpack --config ./configs/webpack/webpack.config.js --node-env=production --progress"
   },
   "repository": {
     "type": "git",
@@ -16,5 +26,35 @@
   "bugs": {
     "url": "https://github.com/Dmitriy-Frostoff/rsschool-cv/issues"
   },
-  "homepage": "https://github.com/Dmitriy-Frostoff/rsschool-cv#readme"
+  "homepage": "https://github.com/Dmitriy-Frostoff/rsschool-cv#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "css-loader": "^6.10.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "image-minimizer-webpack-plugin": "^4.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "mini-css-extract-plugin": "^2.8.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
 }
