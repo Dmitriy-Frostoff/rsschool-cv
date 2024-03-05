@@ -41,6 +41,8 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 
 ## **Skills and Proficiency:**
 
+- Functional Programming (FP)
+- Object-Oriented Programming (OOP)
 - JavaScript
 - TypeScript
 - Python (beginner level)
@@ -64,6 +66,16 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 - Figma
 - Adobe Photoshop (beginner level)
 - Krita (beginner level)
+
+Frontend Architecture  
+(basic knowledge and usage)
+
+- MVC
+- MVP
+- MVVM
+- Modular Architecture
+- Atomic design
+- Feature sliced design
 
 ---
 
