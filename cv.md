@@ -1,6 +1,6 @@
 # **Dmitriy Morozov**
 
-![Dmitriy Frostoff](./CV/src/shared/assets/img/IMG_20210918_163706.png)
+![Dmitriy Frostoff](./CV/src/shared/assets/images/img/IMG_20210918_163706.png)
 
 ## **_Frontend Developer_**
 
@@ -53,6 +53,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 - React
 - Webpack
 - Gulp
+- Regex
 - ESLint
 - Prettier
 - Husky
@@ -75,7 +76,7 @@ Frontend Architecture
 - MVVM
 - Modular Architecture
 - Atomic design
-- Feature sliced design
+- Feature-Sliced Design(FSD)
 
 ---
 
@@ -272,7 +273,7 @@ September 2022 — present
 - fix the discrepancies with TOR found by another students over the cross - check review of my Builds;
 - learning the modern stack of technologies and methodologies of Frontend Development ([course program](https://github.com/rolling-scopes-school/tasks/blob/master/roadmap.md));
 
-- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature sliced design;
+- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature-Sliced Design;
 - learning the Software Development Lifecycle (SDLC), facing with the basics of Agile (Scrum, Kanban) and Waterfall software development methodologies;
 - in-depth learning of modern vanilla JavaScript, TypeScript and the programming in principle;
 - a self - rely searching for solutions of emerging technical problems and up-to-date technical information to complete the tasks;
@@ -331,11 +332,11 @@ Civil Construction engineer
 
 - [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 'click to see origin document')
 
-  ![Stepik JavaScript certificate](./CV/src/shared/assets/img/Stepik_JavaScript_cert_96dpi.png)
+  ![Stepik JavaScript certificate](./CV/src/shared/assets/images/img/Stepik_JavaScript_cert_96dpi.png)
 
 - [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK 'click to see origin document')
 
-  ![Sololearn: my JavaScript certificate](./CV/src/shared/assets/img/JavaScript_cert_96dpi.png)
+  ![Sololearn: my JavaScript certificate](./CV/src/shared/assets/images/img/JavaScript_cert_96dpi.png)
 
 - [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript 'click to go to the website')
 
@@ -349,34 +350,34 @@ Civil Construction engineer
 
 - [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 'click to see origin document')
 
-  ![Sololearn: my python certificate](./CV/src/shared/assets/img/Python_cert_96dpi.png)
+  ![Sololearn: my python certificate](./CV/src/shared/assets/images/img/Python_cert_96dpi.png)
 
 - [CodeBasics: Python](https://code-basics.com/ru/languages/python 'click to go to the website') (in progress)
 - [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD 'click to see origin document')
 
-  ![HTML certificate](./CV/src/shared/assets/img/HTML_cert_96dpi.png)
+  ![HTML certificate](./CV/src/shared/assets/images/img/HTML_cert_96dpi.png)
 
 - [CodeBasics: HTML](https://code-basics.com/ru/languages/html 'click to go to the website')
 
 - [Sololearn: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to see origin document')
 
-  ![CSS certificate](./CV/src/shared/assets/img/CSS_cert_96dpi.png)
+  ![CSS certificate](./CV/src/shared/assets/images/img/CSS_cert_96dpi.png)
 
 - [CodeBasics: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to go to the website')
 
 - [Sololearn: Responsive Web Design](https://www.sololearn.com/certificates/CT-L3S4OUVO 'click to see origin document')
 
-  ![Responsive Web Design certificate](./CV/src/shared/assets/img/Responsive_Web_Design_cert_96dpi.png)
+  ![Responsive Web Design certificate](./CV/src/shared/assets/images/img/Responsive_Web_Design_cert_96dpi.png)
 
 - [Sololearn: Web Development Fundamentals](https://www.sololearn.com/certificates/CT-IEFGC3DR 'click to see origin document')
 
-  ![Web Development Fundamentals certificate](./CV/src/shared/assets/img/WebDevelopmentFundamentals_cert_96dpi.png)
+  ![Web Development Fundamentals certificate](./CV/src/shared/assets/images/img/WebDevelopmentFundamentals_cert_96dpi.png)
 
 - [Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn"](https://ru.coursera.org/learn/learning-how-to-learn 'click to go to the website') (in progress)
 
 - [Stepik: How to Study effectively - Polina Krivykh x I Love Economics](https://stepik.org/cert/1766516 'click to see origin document')
 
-  ![How to Study effectively certificate](./CV/src/shared/assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
+  ![How to Study effectively certificate](./CV/src/shared/assets/images/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3
 
@@ -384,7 +385,7 @@ Civil Construction engineer
 
 - [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/7rf4cdis/ 'click to see origin document')
 
-  ![JS/FE Pre-School 2022Q4 certificate](./CV/src/shared/assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png 'click to see origin document')
+  ![JS/FE Pre-School 2022Q4 certificate](./CV/src/shared/assets/images/img/RSSchool%202022Q4%20Stage%200%20sertificate.png 'click to see origin document')
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1
 
@@ -492,7 +493,7 @@ English - Upper-Intermediate B2 according to the online EF SET test at
 
 [my certificate](https://www.efset.org/cert/4Tg7Hj 'click to see origin document')
 
-![my EF SET certificate](./CV/src/shared/assets/img/EF_SET_Certificate_cert_96dpi.png)
+![my EF SET certificate](./CV/src/shared/assets/images/img/EF_SET_Certificate_cert_96dpi.png)
 
 (continue learning in [lingualeo](https://lingualeo.com/ 'click to go to the website'))
 
