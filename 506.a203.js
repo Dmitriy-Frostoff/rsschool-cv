@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdmitriy_frostoffs_cv=self.webpackChunkdmitriy_frostoffs_cv||[]).push([[506],{506:function(f,s,t){t.r(s)}}]);
