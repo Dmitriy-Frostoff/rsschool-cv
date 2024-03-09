@@ -1,6 +1,6 @@
 # **Dmitriy Morozov**
 
-![Dmitriy Frostoff](src/shared/assets/img/IMG_20210918_163706.png)
+![Dmitriy Frostoff](src/shared/assets/images/img/IMG_20210918_163706.png)
 
 ## **_Frontend Developer_**
 
@@ -8,14 +8,14 @@
 
 Phone: +7 987 654 32 10  
 E-mail: <dmitriy.frostoff@yandex.ru>  
-LinkedIn: [dmitriy-frostoff](https://www.linkedin.com/in/dmitriy-frostoff/ 'my LinkedIn id: dmitriy-frostoff')  
+LinkedIn: [dmitriy-frostoff](https://www.linkedin.com/in/dmitriy-frostoff/ "my LinkedIn id: dmitriy-frostoff")  
 Telegram: @Dmitriy_Frostoff  
 Discord: @Dmitriy-Frostoff#9603  
 app.rs.school: Dmitriy_Morozov  
-GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ 'My github acc')  
-[instagram](https://www.instagram.com 'my insta id: dmitriy.frostoff')  
-[sololearn](https://www.sololearn.com/profile/16514154 'my acc on sololearn.com')  
-[codewars](https://www.codewars.com/users/rsschool_78dcfb24c923f558 'my acc in codewars.com')
+GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")  
+[instagram](https://www.instagram.com "my insta id: dmitriy.frostoff")  
+[sololearn](https://www.sololearn.com/profile/16514154 "my acc on sololearn.com")  
+[codewars](https://www.codewars.com/users/rsschool_78dcfb24c923f558 "my acc in codewars.com")
 
 ---
 
@@ -53,6 +53,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 - React
 - Webpack
 - Gulp
+- Regex
 - ESLint
 - Prettier
 - Husky
@@ -75,7 +76,7 @@ Frontend Architecture
 - MVVM
 - Modular Architecture
 - Atomic design
-- Feature sliced design
+- Feature-Sliced Design(FSD)
 
 ---
 
@@ -84,7 +85,7 @@ Frontend Architecture
 **DESCRIPTION:**
 
 **Never visit a . . . !?**  
-[Codewars Kata description](https://www.codewars.com/kata/56c5847f27be2c3db20009c3/javascript 'click to go to Codewars')  
+[Codewars Kata description](https://www.codewars.com/kata/56c5847f27be2c3db20009c3/javascript "click to go to Codewars")  
 **Subtract the sum**  
 Complete the function which get an input number n such that `n >= 10` and `n < 10000`, then:  
 Sum all the digits of `n`.  
@@ -272,7 +273,7 @@ September 2022 — present
 - fix the discrepancies with TOR found by another students over the cross - check review of my Builds;
 - learning the modern stack of technologies and methodologies of Frontend Development ([course program](https://github.com/rolling-scopes-school/tasks/blob/master/roadmap.md));
 
-- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature sliced design;
+- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature-Sliced Design;
 - learning the Software Development Lifecycle (SDLC), facing with the basics of Agile (Scrum, Kanban) and Waterfall software development methodologies;
 - in-depth learning of modern vanilla JavaScript, TypeScript and the programming in principle;
 - a self - rely searching for solutions of emerging technical problems and up-to-date technical information to complete the tasks;
@@ -329,66 +330,66 @@ Civil Construction engineer
 
 ### **Courses:**
 
-- [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 'click to see origin document')
+- [Stepik: JavaScript для начинающих](https://stepik.org/cert/1760637 "click to see origin document")
 
-  ![Stepik JavaScript certificate](src/shared/assets/img/Stepik_JavaScript_cert_96dpi.png)
+  ![Stepik JavaScript certificate](src/shared/assets/images/img/Stepik_JavaScript_cert_96dpi.png)
 
-- [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK 'click to see origin document')
+- [Sololearn: JavaScript](https://www.sololearn.com/certificates/CT-INUG28VK "click to see origin document")
 
-  ![Sololearn: my JavaScript certificate](src/shared/assets/img/JavaScript_cert_96dpi.png)
+  ![Sololearn: my JavaScript certificate](src/shared/assets/images/img/JavaScript_cert_96dpi.png)
 
-- [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript 'click to go to the website')
+- [CodeBasics: JavaScript](https://code-basics.com/ru/languages/javascript "click to go to the website")
 
-- JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru 'click to go to the website')
+- JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru "click to go to the website")
 
-- [Microsoft Learn: TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ 'click to go to the website')
+- [Microsoft Learn: TypeScript](https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/ "click to go to the website")
 
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/ 'click to go to the website')
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/ "click to go to the website")
 
-- [React Documentation](https://react.dev/learn 'click to go to the website')
+- [React Documentation](https://react.dev/learn "click to go to the website")
 
-- [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 'click to see origin document')
+- [Sololearn: Python for beginners](https://www.sololearn.com/certificates/CT-KHNYMAG8 "click to see origin document")
 
-  ![Sololearn: my python certificate](src/shared/assets/img/Python_cert_96dpi.png)
+  ![Sololearn: my python certificate](src/shared/assets/images/img/Python_cert_96dpi.png)
 
-- [CodeBasics: Python](https://code-basics.com/ru/languages/python 'click to go to the website') (in progress)
-- [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD 'click to see origin document')
+- [CodeBasics: Python](https://code-basics.com/ru/languages/python "click to go to the website") (in progress)
+- [Sololearn: HTML](https://www.sololearn.com/certificates/CT-ACB0NUVD "click to see origin document")
 
-  ![HTML certificate](src/shared/assets/img/HTML_cert_96dpi.png)
+  ![HTML certificate](src/shared/assets/images/img/HTML_cert_96dpi.png)
 
-- [CodeBasics: HTML](https://code-basics.com/ru/languages/html 'click to go to the website')
+- [CodeBasics: HTML](https://code-basics.com/ru/languages/html "click to go to the website")
 
-- [Sololearn: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to see origin document')
+- [Sololearn: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 "click to see origin document")
 
-  ![CSS certificate](src/shared/assets/img/CSS_cert_96dpi.png)
+  ![CSS certificate](src/shared/assets/images/img/CSS_cert_96dpi.png)
 
-- [CodeBasics: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 'click to go to the website')
+- [CodeBasics: CSS](https://www.sololearn.com/certificates/CT-2R1CKLL5 "click to go to the website")
 
-- [Sololearn: Responsive Web Design](https://www.sololearn.com/certificates/CT-L3S4OUVO 'click to see origin document')
+- [Sololearn: Responsive Web Design](https://www.sololearn.com/certificates/CT-L3S4OUVO "click to see origin document")
 
-  ![Responsive Web Design certificate](src/shared/assets/img/Responsive_Web_Design_cert_96dpi.png)
+  ![Responsive Web Design certificate](src/shared/assets/images/img/Responsive_Web_Design_cert_96dpi.png)
 
-- [Sololearn: Web Development Fundamentals](https://www.sololearn.com/certificates/CT-IEFGC3DR 'click to see origin document')
+- [Sololearn: Web Development Fundamentals](https://www.sololearn.com/certificates/CT-IEFGC3DR "click to see origin document")
 
-  ![Web Development Fundamentals certificate](src/shared/assets/img/WebDevelopmentFundamentals_cert_96dpi.png)
+  ![Web Development Fundamentals certificate](src/shared/assets/images/img/WebDevelopmentFundamentals_cert_96dpi.png)
 
-- [Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn"](https://ru.coursera.org/learn/learning-how-to-learn 'click to go to the website') (in progress)
+- [Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn"](https://ru.coursera.org/learn/learning-how-to-learn "click to go to the website") (in progress)
 
-- [Stepik: How to Study effectively - Polina Krivykh x I Love Economics](https://stepik.org/cert/1766516 'click to see origin document')
+- [Stepik: How to Study effectively - Polina Krivykh x I Love Economics](https://stepik.org/cert/1766516 "click to see origin document")
 
-  ![How to Study effectively certificate](src/shared/assets/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
+  ![How to Study effectively certificate](src/shared/assets/images/img/Stepik_How_to_Study_effectively_cert_96dpi.png)
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3
 
 - RS Schools Course Javascript/Front-end Mentoring Program (in English)» JS/FE Course EN 2022Q3
 
-- [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/7rf4cdis/ 'click to see origin document')
+- [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/7rf4cdis/ "click to see origin document")
 
-  ![JS/FE Pre-School 2022Q4 certificate](src/shared/assets/img/RSSchool%202022Q4%20Stage%200%20sertificate.png 'click to see origin document')
+  ![JS/FE Pre-School 2022Q4 certificate](src/shared/assets/images/img/RSSchool%202022Q4%20Stage%200%20sertificate.png "click to see origin document")
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1
 
-- [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq 'click to see origin document')
+- [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq "click to see origin document")
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4 (in progress)
 
@@ -401,7 +402,7 @@ Project Description:
 
 You need to create an application that displays the photos received from the API. Add a search to the application. When entering a search query, the photos that are displayed in the application are changed.
 
-- [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html 'click to view')
+- [js30#2.2-image-galery](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/image-galery/index.html "click to view")
 
 ---
 
@@ -410,7 +411,7 @@ Project Description:
 
 A music player that allows you to play music tracks in turn or flip through them by clicking on buttons. Each music track has a specific background image.
 
-- [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html 'click to view')
+- [js30#1.2-audio-player](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/audio-player/index.html "click to view")
 
 ---
 
@@ -419,7 +420,7 @@ Project Description:
 
 CSS Meme Slider is a task of Rolling Scopes School stage 0.
 
-- [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 'click to view')
+- [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 "click to view")
 
 ---
 
@@ -428,7 +429,7 @@ Project Description:
 
 Library is a stage #0 task in the course of which you will make the landing page of the site for the selection and sale of books, make it adaptive and interactive.
 
-- [Library](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/library/index.html 'click to view')
+- [Library](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2023Q2/library/index.html "click to view")
 
 ---
 
@@ -437,7 +438,7 @@ Project Description:
 
 Shelter is a project in which you have to create a website consisting of two pages, make it adaptive and interactive.
 
-- [Shelter](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFE2023Q1/shelter/index.html 'click to view')
+- [Shelter](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFE2023Q1/shelter/index.html "click to view")
 
 ---
 
@@ -446,7 +447,7 @@ Project Description:
 
 Accordion implemented with the only HTML and CSS.
 
-- [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 'click to view')
+- [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 "click to view")
 
 ---
 
@@ -457,7 +458,7 @@ Momentum is an analogue of the Chrome Web Store application of the same name. Th
 
 The application has a clock, an image slider, weather widgets, an audio player, a quote of the day block, and settings. Local storage is used to store the username and location.
 
-- [Momentum web app](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/momentum/ 'click to view')
+- [Momentum web app](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/momentum/ "click to view")
 
 ---
 
@@ -466,21 +467,21 @@ Project Description:
 
 Plants is the stage#0 task during which you will make up the landing page of a site that offers its services for growing plants in the garden and caring for them, making it adaptive and interactive.
 
-- [Plants landing page](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/plants/ 'click to view')
+- [Plants landing page](https://rolling-scopes-school.github.io/dmitriy-frostoff-JSFEPRESCHOOL2022Q4/plants/ "click to view")
 
 ---
 
 **CV#3. CV. Cross-Check**  
 CV implemented with HTML & CSS
 
-- [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv 'click to view')
+- [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv "click to view")
 
 ---
 
 **CV#1. Markdown & Git**  
 This page done using Markdown
 
-- [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv/cv 'click to view')
+- [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv/cv "click to view")
 
 ---
 
@@ -488,12 +489,12 @@ This page done using Markdown
 
 English - Upper-Intermediate B2 according to the online EF SET test at
 
-![EF SET logo](https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg) [www.efset.org](www.efset.org 'click to go to the website')
+![EF SET logo](https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg) [www.efset.org](www.efset.org "click to go to the website")
 
-[my certificate](https://www.efset.org/cert/4Tg7Hj 'click to see origin document')
+[my certificate](https://www.efset.org/cert/4Tg7Hj "click to see origin document")
 
-![my EF SET certificate](src/shared/assets/img/EF_SET_Certificate_cert_96dpi.png)
+![my EF SET certificate](src/shared/assets/images/img/EF_SET_Certificate_cert_96dpi.png)
 
-(continue learning in [lingualeo](https://lingualeo.com/ 'click to go to the website'))
+(continue learning in [lingualeo](https://lingualeo.com/ "click to go to the website"))
 
 Russian - Native
