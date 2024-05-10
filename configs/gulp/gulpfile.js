@@ -1,12 +1,13 @@
 import gulp from 'gulp';
+const { src, dest } = gulp;
 import include from 'gulp-file-include';
 import replace from 'gulp-replace';
 import rename from 'gulp-rename';
 
-const { src, dest } = gulp;
-
 export function html() {
-  return src('../../CV/src/pages/index_gulp_include.html')
+  return src('CV/src/pages/index_gulp_include.html', {
+    cwd: '../../',
+  })
     .pipe(
       include({
         prefix: '@@',
