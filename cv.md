@@ -57,6 +57,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 - ESLint
 - Prettier
 - Husky
+- Babel
 - Jest
 - Mocha
 - Chai
