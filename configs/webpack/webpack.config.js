@@ -8,7 +8,7 @@ import ImageMinimizerPlugin from 'image-minimizer-webpack-plugin';
 const __dirname = import.meta.dirname;
 
 const mode = process.env.NODE_ENV || 'development';
-const devMode = mode === 'developmnet';
+const devMode = mode === 'development';
 const target = devMode ? 'web' : 'browserslist';
 const devtool = 'source-map';
 

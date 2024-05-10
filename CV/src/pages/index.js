@@ -1,1 +1,1 @@
-export const indexHTML = import('./index.html');
+import './index.html';
