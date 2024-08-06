@@ -149,9 +149,11 @@ aside {
 
   // block-model
   @include flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
-  align-items: center;
-  flex-wrap: nowrap;
-  padding: 5px 0;
+  & {
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+  }
   // Typography
 
   // Decoration

@@ -45,7 +45,9 @@ $cv-photo__streak-height: $cv-photo__container-height;
     $justify-content: space-between,
     $align-items: flex-start
   );
-  flex-wrap: wrap;
+  & {
+    flex-wrap: wrap;
+  }
   // Typography
 
   // Decoration
@@ -68,7 +70,9 @@ $cv-photo__streak-height: $cv-photo__container-height;
       ),
     $last-basis: 50%
   );
-  flex-wrap: nowrap;
+  & {
+    flex-wrap: nowrap;
+  }
   // Typography
 
   // Decoration

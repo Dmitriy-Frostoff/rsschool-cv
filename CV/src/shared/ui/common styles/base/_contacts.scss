@@ -18,8 +18,10 @@
   // block-model
   width: 100%;
   @include flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
-  align-items: center;
-  flex-wrap: nowrap;
+  & {
+    align-items: center;
+    flex-wrap: nowrap;
+  }
   // Typography
 
   // Decoration

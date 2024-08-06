@@ -35,10 +35,12 @@
 
   // block-model
   @include flex-two-childs-basis($first-basis: 163px, $last-basis: 82%);
-  align-items: center;
-  flex-wrap: nowrap;
-  column-gap: 10px;
-  width: 100%;
+  & {
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    width: 100%;
+  }
 
   // Typography
 

@@ -23,7 +23,9 @@
     $justify-content: space-between,
     $align-items: center
   );
-  padding: calc($padding-content-desktop / 2) 0;
+  & {
+    padding: calc($padding-content-desktop / 2) 0;
+  }
   // Typography
 
   // Decoration

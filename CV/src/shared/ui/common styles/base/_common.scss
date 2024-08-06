@@ -436,7 +436,9 @@ pre {
   //left 275px / 618px
   // rigth 343px / 618px due to draft
   @include flex-two-childs-basis($first-basis: 25%, $last-basis: 75%);
-  flex-wrap: nowrap;
+  & {
+    flex-wrap: nowrap;
+  }
   // Typography
 
   // Decoration
