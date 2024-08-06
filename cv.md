@@ -263,10 +263,10 @@ There is no preloaded code to help you. _This is not about coding skills; think 
 **Student Frontend Developer at "The Rolling Scopes School"**  
 September 2022 — present
 
-- creating of landing pages based on Figma layouts (stack: Webpack 5 + Gulp 4, Vanilla JS, SCSS /CSS, HTML);
+- creating of landing pages based on Figma layouts (stack: Webpack 5 + Gulp 5, Vanilla JS, SCSS /CSS, HTML);
 - development of simple applications (stack: Webpack 5, Vanilla JS / TS, SCSS /CSS, HTML);
 - formatting of own code and commit messages using: ESLint, Prettier, Husky;
-- learning the Behavior-driven development (BDD) and writing Unit tests (Jest, Mocha + Chai);
+- learning the Test-driven development (TDD) and writing Unit tests (Jest, Mocha + Chai);
 - debug of own code using Chrome DevTools, VSCode devtools (node.js debugger); refactoring of own code;
 - learning the Frameworks (React and its infrastructure);
 - development within the time limits set in the TOR;
