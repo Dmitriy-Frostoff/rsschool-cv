@@ -41,7 +41,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 
 ## **Skills and Proficiency:**
 
-- Functional Programming (FP)
+- Functional Programming
 - Object-Oriented Programming (OOP)
 - JavaScript
 - TypeScript

@@ -180,11 +180,11 @@ var code = `<!doctype html>
                 <span class="title_underline">&nbsp;</span>
                 <ul class="skills__label">
                   <li class="skills__label layout-two-columns skills__label-container">
-                    <span class="skills__text title-h3 text-light">FP</span>
+                    <span class="skills__text title-h3 text-light">Functional programming</span>
                     <progress class="skills__progress" max="100" value="75">75%</progress>
                   </li>
                   <li class="skills__label layout-two-columns skills__label-container">
-                    <span class="skills__text title-h3 text-light">OOP</span>
+                    <span class="skills__text title-h3 text-light">Object-oriented programming (OOP)</span>
                     <progress class="skills__progress" max="100" value="75">75%</progress>
                   </li>
                   <li class="skills__label layout-two-columns skills__label-container">
@@ -1180,7 +1180,7 @@ var code = `<!doctype html>
             </a>
           </li>
           <li class="footer__item">
-            <a class="footer__link rsschool-logo" href="https://rs.school/js/" title="click to go to the RS School Course" target="_blank">
+            <a class="footer__link rsschool-logo" href="https://rs.school/courses/javascript-ru" title="click to go to the RS School Course" target="_blank">
               <img class="footer__icon" src="${___HTML_LOADER_IMPORT_26___}" alt="rs_school_js logo" />
               <img class="footer__icon" src="${___HTML_LOADER_IMPORT_27___}" alt="rs_school_js active" />
             </a>
@@ -1701,4 +1701,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.ef19.js.map
+//# sourceMappingURL=main.72f4.js.map
