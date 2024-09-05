@@ -248,6 +248,10 @@ var code = `<!doctype html>
                     <progress class="skills__progress" max="100" value="65">65%</progress>
                   </li>
                   <li class="skills__label layout-two-columns skills__label-container">
+                    <span class="skills__text title-h3 text-light">Testing Library</span>
+                    <progress class="skills__progress" max="100" value="65">65%</progress>
+                  </li>
+                  <li class="skills__label layout-two-columns skills__label-container">
                     <span class="skills__text title-h3 text-light">Jest</span>
                     <progress class="skills__progress" max="100" value="75">75%</progress>
                   </li>
@@ -1701,4 +1705,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.72f4.js.map
+//# sourceMappingURL=main.3725.js.map
