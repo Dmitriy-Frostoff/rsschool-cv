@@ -943,6 +943,10 @@ aside {
   color: var(--color-highlight-light);
 }
 
+.skills__label-wrapper {
+  row-gap: 20px;
+}
+
 .nav__education-container {
   padding: 10px 0;
 }
@@ -1177,4 +1181,4 @@ aside {
   padding-top: 3px;
 }
 
-/*# sourceMappingURL=main.106b.css.map*/
+/*# sourceMappingURL=main.8b63.css.map*/

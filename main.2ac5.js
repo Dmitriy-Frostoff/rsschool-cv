@@ -178,10 +178,10 @@ var code = `<!doctype html>
               <li class="nav__item layout-one-column nav__item-container">
                 <h2 class="title title-h2"><a href="#skills-and-proficiency" class="nav__link title-h2 title_uppercase">Skills and Proficiency</a></h2>
                 <span class="title_underline">&nbsp;</span>
-                <ul class="skills__label">
+                <div class="skills__label-wrapper layout-one-column">
                   <!-- computer-science-basics start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Computer Science Basics</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Computer Science Basics</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Functional programming</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -195,7 +195,7 @@ var code = `<!doctype html>
                   <!-- computer-science-basics end -->
                   <!-- languages start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Languages</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Languages</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">JavaScript</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -225,7 +225,7 @@ var code = `<!doctype html>
                   <!-- languages end -->
                   <!-- preprocessors start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Preprocessors</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Preprocessors</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Sass/SCSS</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -239,7 +239,7 @@ var code = `<!doctype html>
                   <!-- preprocessors end -->
                   <!-- frameworks start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Frameworks</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Frameworks</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">React</span>
                       <progress class="skills__progress" max="100" value="50">50%</progress>
@@ -249,7 +249,7 @@ var code = `<!doctype html>
                   <!-- frameworks end -->
                   <!-- bundlers-and-task-runners start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Bundlers and Task Runners</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Bundlers and Task Runners</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Webpack</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -263,7 +263,7 @@ var code = `<!doctype html>
                   <!-- bundlers-and-task-runners end -->
                   <!-- code-formatting start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Code formatting</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Code formatting</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">ESLint</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -285,7 +285,7 @@ var code = `<!doctype html>
                   <!-- code-formatting end -->
                   <!-- testing start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Testing</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Testing</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Testing Library</span>
                       <progress class="skills__progress" max="100" value="65">65%</progress>
@@ -307,7 +307,7 @@ var code = `<!doctype html>
                   <!-- testing end -->
                   <!-- documenting start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Documenting</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Documenting</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">JSDoc</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -321,7 +321,7 @@ var code = `<!doctype html>
                   <!-- documenting end -->
                   <!-- version-control-system start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Version Control System (VCS)</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Version Control System (VCS)</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Git, GitHub</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -331,7 +331,7 @@ var code = `<!doctype html>
                   <!-- version-control-system end -->
                   <!-- ides_editors start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">IDEs/Editors</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">IDEs/Editors</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">VS Code</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
@@ -341,7 +341,7 @@ var code = `<!doctype html>
                   <!-- ides_editors end -->
                   <!-- design-applications start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light text-italic">Design applications</h3>
+                    <li class="skills__text title-h3 text-light text-italic skills__label-container">Design applications</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Figma</span>
                       <progress class="skills__progress" max="100" value="50">50%</progress>
@@ -353,12 +353,12 @@ var code = `<!doctype html>
                   </ul>
 
                   <!-- design-applications end -->
-                </ul>
+                </div>
                 <span class="skills__text title-h3 text-light">&nbsp;</span>
-                <ul class="skills__label">
+                <div class="skills__label-wrapper">
                   <!-- architecture start -->
                   <ul class="skills__label">
-                    <h3 class="skills__text title-h3 text-light">Frontend Architecture</h3>
+                    <li class="skills__text title-h3 text-light skills__label-container">Frontend Architecture</li>
                     <li class="title_underline">&nbsp;</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">MVC</span>
@@ -387,7 +387,7 @@ var code = `<!doctype html>
                   </ul>
 
                   <!-- architecture end -->
-                </ul>
+                </div>
               </li>
 
               <!-- skills-and-proficiency end -->
@@ -1774,4 +1774,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.31e8.js.map
+//# sourceMappingURL=main.2ac5.js.map
