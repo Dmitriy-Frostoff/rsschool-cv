@@ -58,6 +58,7 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 - Prettier
 - Husky
 - Babel
+- Testing Library
 - Jest
 - Mocha
 - Chai
