@@ -41,36 +41,68 @@ Now I wanna to reveal my abilities in the best possible way in Frontend Developm
 
 ## **Skills and Proficiency:**
 
+_Computer Science Basics_
+
 - Functional Programming
 - Object-Oriented Programming (OOP)
+
+_Languages_
+
 - JavaScript
 - TypeScript
 - Python (beginner level)
 - HTML
 - CSS
+- Regex
+
+_Preprocessors_
+
 - Sass/SCSS
 - Pug
+
+_Frameworks_
+
 - React
+
+_Bundlers and Task Runners_
+
 - Webpack
 - Gulp
-- Regex
+
+_Code formatting_
+
 - ESLint
 - Prettier
 - Husky
 - Babel
+
+_Testing_
+
 - Testing Library
 - Jest
 - Mocha
 - Chai
+
+_Documenting_
+
 - JSDoc
-- Git, GitHub
 - Markdown
+
+_Version Control System (VCS)_
+
+- Git, GitHub
+
+_IDEs/Editors_
+
 - VS Code
+
+_Design applications_
+
 - Figma
 - Adobe Photoshop (beginner level)
 - Krita (beginner level)
 
-Frontend Architecture  
+**Frontend Architecture**  
 (basic knowledge and usage)
 
 - MVC
