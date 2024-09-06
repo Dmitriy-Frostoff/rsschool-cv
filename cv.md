@@ -425,11 +425,78 @@ Civil Construction engineer
 
 - [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq "click to see origin document")
 
-- RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4 (in progress)
+- RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
 
 ---
 
-## **RSSchool projects**
+## **Projects**
+
+**Youtube-dl_utility**  
+Project Description:
+
+Custom utility created by me for downloading videos and audios from a range of sites. Maintained by me.
+
+- [youtube-dl_utility](https://github.com/Dmitriy-Frostoff/youtube-dl_utility "click to view repo")
+
+---
+
+**Boilerplate-jest**  
+Project Description:
+
+Custom boilerplate created by me for integrating the Jest testing framework (with optional Testing-library) into future projects (ESM - based). Maintained by me.
+
+- [boilerplate-jest](https://github.com/Dmitriy-Frostoff/boilerplate-jest "click to view repo")
+
+---
+
+**Boilerplate-webpack-react-ts**  
+Project Description:
+
+Custom boilerplate created by me for integrating React (with hooks) with TS into future projects (ESM && FSD - based. note: boilerplate-webpack-gulp-html-scss-ts-components required! (Gulp can be deleted smoothly)). Maintained by me.
+
+- [boilerplate-webpack-react-ts](https://github.com/Dmitriy-Frostoff/boilerplate-webpack-react-ts "click to view repo")
+
+---
+
+**Boilerplate-webpack-react-js**  
+Project Description:
+
+Custom boilerplate created by me for integrating React (with hooks) with pure JS into future projects (ESM && FSD - based. note: boilerplate-webpack-gulp-html-scss-js-components required! (Gulp can be deleted smoothly)). Maintained by me.
+
+- [boilerplate-webpack-react-js](https://github.com/Dmitriy-Frostoff/boilerplate-webpack-react-js "click to view repo")
+
+---
+
+**Boilerplate-webpack-gulp-html-scss-js-components**  
+Project Description:
+
+Custom boilerplate created by me for integrating Webpack, Gulp, SCSS, HTML, TS (ESM && FSD - based) into future projects. Maintained by me.
+
+- [boilerplate-webpack-gulp-html-scss-ts-components](https://github.com/Dmitriy-Frostoff/boilerplate-webpack-gulp-html-scss-ts-components "click to view repo")
+
+---
+
+**Boilerplate-webpack-gulp-html-scss-js-components**  
+Project Description:
+
+Custom boilerplate created by me for integrating Webpack, Gulp, SCSS, HTML, JS (ESM && FSD - based) into future projects. Maintained by me.
+
+- [boilerplate-webpack-gulp-html-scss-js-components](https://github.com/Dmitriy-Frostoff/boilerplate-webpack-gulp-html-scss-js-components "click to view repo")
+
+---
+
+**Boilerplate-eslint-prettier-husky**  
+Project Description:
+
+Custom boilerplate created by me for integrating ESLint, Prettier, and Husky (with hooks) into future projects.
+
+There are several frontend-oriented boilerplates that I developed, designed for specific tasks in frontend development. These boilerplates follow the FSD architecture and are built on principles of low coupling and high cohesion, allowing them to be easily combined or removed as needed. You can selectively include only the required boilerplates (note: the React-based boilerplate requires the Webpack boilerplate).
+
+All of them are maintained by me.
+
+- [boilerplate-eslint-prettier-husky](https://github.com/Dmitriy-Frostoff/boilerplate-eslint-prettier-husky "click to view repo")
+
+---
 
 **js30#2.2-image-galery**  
 Project Description:
@@ -515,7 +582,7 @@ CV implemented with HTML & CSS
 **CV#1. Markdown & Git**  
 This page done using Markdown
 
-- [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv/cv "click to view")
+- [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv "click to view")
 
 ---
 
