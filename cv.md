@@ -425,7 +425,7 @@ Civil Construction engineer
 
 - [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq 'click to see origin document')
 
-- RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4 (in progress)
+- RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
 
 ---
 
