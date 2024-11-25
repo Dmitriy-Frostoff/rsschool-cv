@@ -1,25 +1,11 @@
-// normalize
-@import '../shared/ui/common styles/base/normalize';
-
-//abstracts
-@import '../shared/ui/common styles/abstracts/constants';
-@import '../shared/ui/common styles/abstracts/placeholders';
-@import '../shared/ui/common styles/abstracts/mixins';
-@import '../shared/ui/common styles/abstracts/animations';
-
-//layout
-@import '../shared/ui/common styles/layout/content-structure';
-
-//base
-@import '../shared/ui/common styles/base/typography';
-@import '../shared/ui/common styles/base/common';
-@import '../shared/ui/common styles/base/contacts';
+// common project styles
+@use '../shared/ui/common styles/index.scss';
 
 //components
-@import '../widgets/header/header';
-@import '../widgets/aside/aside';
-@import '../widgets/job-experience/job-experience';
-@import '../widgets/education/education';
-@import '../widgets/code-example/code-example';
-@import '../widgets/projects/projects';
-@import '../widgets/footer/footer';
+@use '../widgets/header/header';
+@use '../widgets/aside/aside';
+@use '../widgets/job-experience/job-experience';
+@use '../widgets/education/education';
+@use '../widgets/code-example/code-example';
+@use '../widgets/projects/projects';
+@use '../widgets/footer/footer';

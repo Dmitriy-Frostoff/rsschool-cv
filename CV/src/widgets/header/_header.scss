@@ -1,3 +1,5 @@
+@use '../../shared/ui/common styles/index.scss' as ui_common;
+
 // 254px && 265px are dimensions of img from template,
 // 595px width of the template;
 $cv-photo__container-width: 320px;
@@ -38,7 +40,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
   padding-bottom: 30px;
   //width of image 254px width of text 279px due to draft
   // draft width 595px
-  @include flex-model-two-columns(
+  @include ui_common.flex-model-two-columns(
     $first-basis: 20%,
     $last-basis: 40%,
     $align-content: space-between,
@@ -63,7 +65,7 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // block-model
   width: var(--cv-photo__container-width);
   height: var(--cv-photo__container-height);
-  @include flex-two-childs-basis(
+  @include ui_common.flex-two-childs-basis(
     $first-basis:
       calc(
         var(--cv-photo__streak-width) / var(--cv-photo__container-width) * 100%

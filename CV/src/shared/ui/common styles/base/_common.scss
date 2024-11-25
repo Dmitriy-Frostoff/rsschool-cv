@@ -1,3 +1,7 @@
+@use '../abstracts/placeholders';
+@use '../abstracts/mixins';
+@use '../abstracts/animations';
+
 $padding-content-desktop: 20px;
 $padding-content-tablet: 20px;
 $padding-content-mobile: 10px;
@@ -57,7 +61,7 @@ html {
   // Various
 }
 
-@include media-tablet-minus1px {
+@include mixins.media-tablet-minus1px {
   .body_scroll-lock {
     /* Position */
 
@@ -82,7 +86,7 @@ html {
 
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-H1),
@@ -102,7 +106,7 @@ html {
   // block-model
 
   // Typography
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-H1),
@@ -123,7 +127,7 @@ html {
 
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-H2),
@@ -144,7 +148,7 @@ html {
 
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-H3),
@@ -165,7 +169,7 @@ html {
 
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-H4),
@@ -185,7 +189,7 @@ html {
   // block-model
 
   // Typography
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 600,
     $size: var(--font-size-addText),
@@ -239,7 +243,7 @@ html {
 
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $style: normal,
     $weight: 500,
     $size: var(--font-size-paragraph),
@@ -262,7 +266,7 @@ html {
   height: inherit;
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include mixins.text(
     $size: var(--font-size-addText),
     $height: calc(var(--font-size-addText) * 1.2)
   );
@@ -276,7 +280,7 @@ html {
   &:hover,
   &:active {
     @extend %transition-basic;
-    @include animation(
+    @include animations.animation(
       $name: pulsation,
       $duration: 1s,
       $iteration-count: infinite,
@@ -411,19 +415,19 @@ pre {
 
   // Various
 
-  @include media-wide-desktop {
+  @include mixins.media-wide-desktop {
     max-width: var(--content-width-desktop);
   }
 
-  @include media-desktop {
+  @include mixins.media-desktop {
     padding: 0 var(--padding-content-desktop);
   }
 
-  @include media-tablet {
+  @include mixins.media-tablet {
     padding: 0 var(--padding-content-tablet);
   }
 
-  @include media-mobile {
+  @include mixins.media-mobile {
     padding: 0 var(--padding-content-mobile);
   }
 }
@@ -449,7 +453,7 @@ pre {
   // block-model
   //left 275px / 618px
   // rigth 343px / 618px due to draft
-  @include flex-two-childs-basis($first-basis: 25%, $last-basis: 75%);
+  @include mixins.flex-two-childs-basis($first-basis: 25%, $last-basis: 75%);
   & {
     flex-wrap: nowrap;
   }
@@ -480,7 +484,7 @@ pre {
   // Position
 
   // block-model
-  @include flex-model-one-column(
+  @include mixins.flex-model-one-column(
     $flex-wrap: wrap,
     $align-content: space-between,
     $justify-content: center,

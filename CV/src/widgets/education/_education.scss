@@ -1,3 +1,5 @@
+@use '../../shared/ui/common styles/index.scss' as ui_common;
+
 .education__container {
   // Position
 
@@ -48,7 +50,10 @@
   // Position
 
   // block-model
-  @include flex-two-childs-basis($first-basis: 24px, $last-basis: auto);
+  @include ui_common.flex-two-childs-basis(
+    $first-basis: 24px,
+    $last-basis: auto
+  );
   & {
     align-items: center;
     column-gap: 10px;
@@ -70,7 +75,7 @@
   height: auto;
   // Typography
   @extend %font-Cabin;
-  @include text(
+  @include ui_common.text(
     $size: var(--font-size-addText),
     $height: calc(var(--font-size-addText) * 1.2)
   );

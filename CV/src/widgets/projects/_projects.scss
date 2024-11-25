@@ -1,3 +1,5 @@
+@use '../../shared/ui/common styles/index.scss' as ui_common;
+
 .projects__container {
   // Position
 
@@ -34,7 +36,7 @@
   // block-model
 
   // Typography
-  @include text(
+  @include ui_common.text(
     $size: var(--font-size-H4),
     $height: calc(var(--font-size-H4) * 1.2)
   );

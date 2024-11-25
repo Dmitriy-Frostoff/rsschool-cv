@@ -1,19 +1,21 @@
+@use '../abstracts/mixins';
+
 .layout-one-column {
-  @include flex-model-one-column();
+  @include mixins.flex-model-one-column();
 }
 
 .layout-two-columns {
-  @include flex-model-two-columns($first-basis: 50%, $last-basis: 50%);
+  @include mixins.flex-model-two-columns($first-basis: 50%, $last-basis: 50%);
 }
 
 .layout-multiple-flex-columns {
-  @include flex-model-multiple-columns(
+  @include mixins.flex-model-multiple-columns(
     $basis: calc(82 / 1026 * 100%)
   ); //TODO check this!
 }
 
 .layout-multiple-grid-columns {
-  @include grid-model-multiple-columns(
+  @include mixins.grid-model-multiple-columns(
     $rows: 2,
     $columns: 4,
     $el-width: calc(270 / 1200 * 100%),
