@@ -1,1 +1,2 @@
-export { default as logSelfCheck } from './CVSelfCheck/CVSelfCheck.js';
+import logSelfCheck from './CVSelfCheck/CVSelfCheck.js';
+export default logSelfCheck;

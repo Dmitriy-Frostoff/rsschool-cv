@@ -3,7 +3,9 @@
 
 //components
 @use '../widgets/header/header';
+@use '../widgets/burger-menu/ui/burger-menu';
 @use '../widgets/aside/aside';
+@use '../entities/aside parts/contact-information/contacts';
 @use '../widgets/job-experience/job-experience';
 @use '../widgets/education/education';
 @use '../widgets/code-example/code-example';

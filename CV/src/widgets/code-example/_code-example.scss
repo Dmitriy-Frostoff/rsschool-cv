@@ -65,6 +65,7 @@
   // Position
 
   // block-model
+  max-width: 60vw;
 
   // Typography
 
@@ -91,5 +92,20 @@
     color: var(--color-text-dark);
     background-color: var(--color-highlight-light);
     border-radius: inherit;
+  }
+
+  @include ui_common.media-tablet {
+    // Position
+
+    // block-model
+    max-width: 80vw;
+
+    // Typography
+
+    // Decoration
+
+    // Animation
+
+    // Various
   }
 }

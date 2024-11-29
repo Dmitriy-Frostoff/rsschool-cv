@@ -10,8 +10,56 @@ aside {
   // Decoration
   background-color: var(--color-background-left);
   // Animation
+  @extend %transition-basic;
 
   // Various
+  @include ui_common.media-tablet {
+    // Position
+    position: fixed;
+    top: 0;
+    left: -200%;
+    z-index: 90;
+
+    // block-model
+    height: 100%;
+    overflow: scroll;
+    // Typography
+
+    // Decoration
+
+    // Animation
+
+    // Various;
+  }
+}
+
+._aside_active {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+  @extend %transition-basic;
+
+  // Various
+  @include ui_common.media-tablet {
+    // Position
+    left: 0;
+
+    // block-model
+
+    // Typography
+
+    // Decoration
+
+    // Animation
+
+    // Various;
+  }
 }
 
 .nav {
@@ -40,6 +88,13 @@ aside {
   // Animation
 
   // Various
+  @include ui_common.media-tablet {
+    padding: 30px 24px 15px 70px;
+  }
+
+  @include ui_common.media-mobile {
+    padding: 30px 24px 15px 50px;
+  }
 }
 
 .nav__list {

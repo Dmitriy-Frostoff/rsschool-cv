@@ -1,3 +1,5 @@
+@use '../abstracts/constants';
+
 @mixin text(
   $style: normal,
   $weight: 400,
@@ -55,6 +57,24 @@
   }
 }
 
+@mixin flex-three-childs-basis(
+  $first-basis: 25px,
+  $second-basis: 25%,
+  $last-basis: 75%
+) {
+  > :first-child {
+    flex-basis: $first-basis;
+  }
+
+  > :nth-child(2) {
+    flex-basis: $second-basis;
+  }
+
+  > :last-child {
+    flex-basis: $last-basis;
+  }
+}
+
 @mixin flex-model-one-column(
   $flex-wrap: nowrap,
   $align-content: flex-start,
@@ -99,31 +119,31 @@
 }
 
 @mixin media-wide-desktop {
-  @media (min-width: calc(var(--width-desktop) + 1px)) {
+  @media (min-width: calc(constants.$width-desktop + 1px)) {
     @content;
   }
 }
 
 @mixin media-desktop {
-  @media (max-width: var(--width-desktop)) {
+  @media (max-width: constants.$width-desktop) {
     @content;
   }
 }
 
 @mixin media-tablet {
-  @media (max-width: var(--width-tablet)) {
+  @media (max-width: constants.$width-tablet) {
     @content;
   }
 }
 
 @mixin media-tablet-minus1px {
-  @media (max-width: calc(var(--width-tablet) - 1px)) {
+  @media (max-width: calc(constants.$width-tablet - 1px)) {
     @content;
   }
 }
 
 @mixin media-mobile {
-  @media (max-width: var(--width-mobile)) {
+  @media (max-width: constants.$width-mobile) {
     @content;
   }
 }

@@ -57,6 +57,21 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // Animation
 
   // Various
+  @include ui_common.media-mobile {
+    & > :last-child {
+      // Position
+
+      // block-model
+      flex-basis: 100%;
+      // Typography
+
+      // Decoration
+
+      // Animation
+
+      // Various
+    }
+  }
 }
 
 .cv-photo__container {
@@ -100,6 +115,21 @@ $cv-photo__streak-height: $cv-photo__container-height;
   // Animation
 
   // Various
+
+  @include ui_common.media-mobile {
+    // Position
+
+    // block-model
+    min-width: var(--padding-content-tablet);
+
+    // Typography
+
+    // Decoration
+
+    // Animation
+
+    // Various
+  }
 }
 
 .cv-photo {

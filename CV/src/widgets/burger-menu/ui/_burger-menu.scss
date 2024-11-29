@@ -1,0 +1,175 @@
+@use '../../../shared/ui/common styles/index.scss' as ui_common;
+
+.burger-menu {
+  // Position
+
+  // block-model
+  display: none;
+  width: 30px;
+  height: 15px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+  & > :nth-child(1) {
+    // Position
+
+    // block-model
+    width: 100%;
+
+    // Typography
+    content: '';
+
+    // Decoration
+    transform: rotate(0);
+
+    // Animation
+    @extend %transition-basic;
+    // Various
+  }
+
+  & > :nth-child(2) {
+    // Position
+
+    // block-model
+    width: 100%;
+
+    // Typography
+    content: '';
+
+    // Decoration
+    transform: scale(1);
+    // Animation
+    @extend %transition-basic;
+
+    // Various
+  }
+
+  & > :nth-child(3) {
+    // Position
+
+    // block-model
+    width: 100%;
+
+    // Typography
+    content: '';
+
+    // Decoration
+    transform: rotate(0);
+    // Animation
+    @extend %transition-basic;
+
+    // Various
+  }
+
+  @include ui_common.media-tablet {
+    // Position
+
+    // block-model
+    display: flex;
+    justify-content: space-between;
+    // Typography
+
+    // Decoration
+
+    // Animation
+
+    // Various
+  }
+}
+
+.burger-menu_position {
+  // Position
+  position: sticky;
+  z-index: 100;
+  top: 10px;
+  // block-model
+  margin: var(--padding-content-mobile) 0 0 0;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.burger-menu_active {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+  & > :nth-child(1) {
+    // Position
+
+    // block-model
+
+    // Typography
+
+    // Decoration
+    transform: rotate(45deg) translate(5px, 5px);
+
+    // Animation
+    @extend %transition-basic;
+
+    // Various
+  }
+
+  & > :nth-child(2) {
+    // Position
+
+    // block-model
+
+    // Typography
+
+    // Decoration
+    transform: scale(0);
+
+    // Animation
+    @extend %transition-basic;
+
+    // Various
+  }
+
+  & > :nth-child(3) {
+    // Position
+
+    // block-model
+
+    // Typography
+
+    // Decoration
+    transform: rotate(-45deg) translate(5px, -5px);
+    // Animation
+    @extend %transition-basic;
+
+    // Various
+  }
+}
+
+.burger-menu__cutlet {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  border-bottom: 1px solid var(--color-background-light);
+
+  // Animation
+
+  // Various
+}
