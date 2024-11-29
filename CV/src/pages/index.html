@@ -923,7 +923,7 @@
               </div>
               <details class="description-details paragraph-l text-light">
                 <summary>click to view drawn-out object (CAUTION! far drawn-out!!!)</summary>
-                <pre class="language-javascript">
+                <pre><code class="language-javascript line-numbers">
                   const DICTIONARY = {
                       1:`kiwi`,
                       2:`pear`,
@@ -1026,13 +1026,13 @@
                       99:`apple`,
                       100:`pineapple`,
                     }
-                  </pre
-                >
+                </code>
+                  </pre>
               </details>
               <p class="paragraph-l text_highlight">My decision:</p>
               <details class="description-details paragraph-l text-light">
                 <summary>click to view</summary>
-                <pre class="language-javascript"><code>
+                <pre><code class="language-javascript line-numbers">
                 // JavaScript
                 "use strict";
 
@@ -1043,17 +1043,17 @@
                       .map(elem => +elem)
                       .reduce((sum, num) => sum + num, 0)
                   }
-        
+
                   function newNumber(oldNumber, sum) {
                     return oldNumber - sum;
                   }
-        
+
                   function checkTheDictionary(newNumber, DICTIONARY) {
                     return DICTIONARY[newNumber] ? true : false;
                   }
-        
+
                   let nextNumber = newNumber(n, numberToSumOfNumbers(n));
-        
+
                   function recursionIteration(nextNumber) {
                     if (checkTheDictionary(nextNumber, DICTIONARY)) {
                       return DICTIONARY[nextNumber];
@@ -1062,10 +1062,10 @@
                       return recursionIteration(nextNumber);
                     }
                   }
-        
+
                   return recursionIteration(nextNumber);
-        
-                  // or just return `apple`, it'll fit perfectly)))  
+
+                  // or just return `apple`, it'll fit perfectly)))
                   // extremely enjoyed this Kata)))))))))) :)
                   //  return "apple";
                   }
