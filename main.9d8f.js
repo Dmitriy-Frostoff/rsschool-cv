@@ -114,6 +114,14 @@ var code = `<!doctype html>
     <!-- main start -->
     <main class="main">
       <div class="container layout-two-columns main__container">
+        <!-- burger start -->
+        <div class="layout-one-column burger-menu burger-menu_position">
+          <div class="burger-menu__cutlet burger-menu__cutlet_position"></div>
+          <div class="burger-menu__cutlet burger-menu__cutlet_position"></div>
+          <div class="burger-menu__cutlet burger-menu__cutlet_position"></div>
+        </div>
+
+        <!-- burger end -->
         <!-- aside start -->
         <aside>
           <nav class="nav nav__container">
@@ -176,7 +184,9 @@ var code = `<!doctype html>
               <!-- projects end -->
               <!-- skills-and-proficiency start -->
               <li class="nav__item layout-one-column nav__item-container">
-                <h2 class="title title-h2"><a href="#skills-and-proficiency" class="nav__link title-h2 title_uppercase">Skills and Proficiency</a></h2>
+                <h2 class="title title-h2">
+                  <a href="#skills-and-proficiency" class="nav__link title-h2 title_uppercase" data-burger-mark="non-closing">Skills and Proficiency</a>
+                </h2>
                 <span class="title_underline">&nbsp;</span>
                 <div class="skills__label-wrapper layout-one-column">
                   <!-- computer-science-basics start -->
@@ -393,7 +403,7 @@ var code = `<!doctype html>
               <!-- skills-and-proficiency end -->
               <!-- languages start -->
               <li class="nav__item layout-one-column nav__item-container">
-                <h2 class="title title-h2"><a href="#languages" class="nav__link title-h2 title_uppercase">Languages</a></h2>
+                <h2 class="title title-h2"><a href="#languages" class="nav__link title-h2 title_uppercase" data-burger-mark="non-closing">Languages</a></h2>
                 <span class="title_underline">&nbsp;</span>
                 <div class="layout-two-columns skills__label-container">
                   <span class="skills__text title-h3 text-light">English</span>
@@ -410,7 +420,9 @@ var code = `<!doctype html>
               <!-- languages end -->
               <!-- contact-information start -->
               <li class="nav__item layout-one-column nav__item-container">
-                <h2 class="title title-h2"><a href="#contact-information" class="nav__link title-h2 title_uppercase">Contact information</a></h2>
+                <h2 class="title title-h2">
+                  <a href="#contact-information" class="nav__link title-h2 title_uppercase" data-burger-mark="non-closing">Contact information</a>
+                </h2>
                 <span class="title_underline">&nbsp;</span>
                 <ul class="layout-one-column contacts__container">
                   <li class="layout-two-columns contacts__item-container">
@@ -432,7 +444,7 @@ var code = `<!doctype html>
                     </div>
                     <div class="layout-one-column contacts__text-container">
                       <span class="title-h4 title_uppercase text-light">Location</span>
-                      <span class="paragraph-s text-light">Moscow, Russia</span>
+                      <span class="paragraph-s text-light">Kaluga, Russia</span>
                     </div>
                   </li>
                   <li class="layout-two-columns contacts__item-container">
@@ -1342,7 +1354,7 @@ var code = `<!doctype html>
     <footer class="footer">
       <div class="container">
         <ul class="footer__list">
-          <li class="footer__item">&copy; 2023 Dmitriy Frostoff</li>
+          <li class="footer__item">&copy; 2024 Dmitriy Frostoff</li>
           <li class="footer__item">
             <a class="footer__link" href="https://github.com/Dmitriy-Frostoff" title="click to visit Dmitriy-Frostoff's GitHub" target="_blank">
               <img class="footer__icon" src="${___HTML_LOADER_IMPORT_24___}" alt="github logo" />
@@ -1757,10 +1769,112 @@ https://rolling-scopes-school.github.io/checklist/
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   logSelfCheck: () => (/* reexport safe */ _CVSelfCheck_CVSelfCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _CVSelfCheck_CVSelfCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CVSelfCheck/CVSelfCheck.js */ "./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.js");
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_CVSelfCheck_CVSelfCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/index.js":
+/*!*********************************************!*\
+  !*** ./CV/src/widgets/burger-menu/index.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ui_burgerMenu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/burgerMenu.js */ "./CV/src/widgets/burger-menu/ui/burgerMenu.js");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_ui_burgerMenu_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/ui/burgerMenu.js":
+/*!*****************************************************!*\
+  !*** ./CV/src/widgets/burger-menu/ui/burgerMenu.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ burgerMenu)
+/* harmony export */ });
+function burgerMenu() {
+  const bodyElement = document.querySelector('body');
+  const burgerMenuIcon = document.querySelector('.burger-menu');
+  const asideElement = document.querySelector('aside');
+
+  if (bodyElement) {
+    bodyElement.addEventListener('pointerdown', burgerMenuHandler);
+  }
+
+  /**
+   *  Burger - menu and aside panel logic for opening / closing at tablet device widths (<=768px).
+   *  Also defines @type {HTMLAnchorElement} nav__link behavior and logic
+   *
+   * @param {PointerEvent} event - pointer event (click, tap)
+   * @returns {void}
+   */
+  function burgerMenuHandler(event) {
+    if (!(event.target instanceof HTMLElement)) {
+      throw new Error(`the 'event.target' is not an HTMLElement!`);
+    }
+
+    if (!bodyElement) {
+      throw new Error(`Body has not been loaded!`);
+    }
+
+    if (!burgerMenuIcon) {
+      throw new Error(`Burger Menu has not been loaded!`);
+    }
+
+    if (!asideElement) {
+      throw new Error(`Aside has not been loaded!`);
+    }
+
+    // tablet only (<=768px)
+    // open burger menu if clicked at the burger menu;
+    if (
+      event.target.closest('.burger-menu') ||
+      event.target.closest('.nav__link')
+    ) {
+      // deal with nav__link that not closing burger - menu
+      // the nav__link behavior
+      if (event.target.dataset.burgerMark === 'non-closing') {
+        event.target.scrollIntoView({ behavior: 'smooth' });
+        return;
+      }
+
+      // burger menu and aside close / open logic
+      if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+        bodyElement.classList.remove('body_scroll-lock');
+        burgerMenuIcon.classList.remove('burger-menu_active');
+        asideElement?.classList.remove('_aside_active');
+      } else {
+        bodyElement.classList.add('body_scroll-lock');
+        burgerMenuIcon.classList.add('burger-menu_active');
+        asideElement?.classList.add('_aside_active');
+      }
+    }
+
+    // close burger menu if click was out of the burger menu or aside
+    if (
+      !(event.target.closest('.burger-menu') || event.target.closest('aside'))
+    ) {
+      if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+        bodyElement.classList.remove('body_scroll-lock');
+        burgerMenuIcon.classList.remove('burger-menu_active');
+        asideElement?.classList.remove('_aside_active');
+      }
+    }
+  }
+}
 
 
 /***/ })
@@ -1856,19 +1970,28 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
+(() => {
 /*!*************************!*\
   !*** ./CV/src/index.js ***!
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/index.js */ "./CV/src/app/index.js");
 /* harmony import */ var _shared_CVSelfCheck_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/CVSelfCheck/index.js */ "./CV/src/shared/CVSelfCheck/index.js");
+/* harmony import */ var _widgets_burger_menu_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./widgets/burger-menu/index.js */ "./CV/src/widgets/burger-menu/index.js");
+
+
+
 
 
 
 window.addEventListener('load', () => {
-  (0,_shared_CVSelfCheck_index_js__WEBPACK_IMPORTED_MODULE_1__.logSelfCheck)();
+  (0,_shared_CVSelfCheck_index_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  (0,_widgets_burger_menu_index_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
 });
+
+})();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.47f2.js.map
+//# sourceMappingURL=main.9d8f.js.map
