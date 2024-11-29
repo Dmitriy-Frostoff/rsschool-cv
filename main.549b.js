@@ -968,7 +968,7 @@ var code = `<!doctype html>
               </div>
               <details class="description-details paragraph-l text-light">
                 <summary>click to view drawn-out object (CAUTION! far drawn-out!!!)</summary>
-                <pre class="language-javascript">
+                <pre><code class="language-javascript line-numbers">
                   const DICTIONARY = {
                       1:\`kiwi\`,
                       2:\`pear\`,
@@ -1071,13 +1071,13 @@ var code = `<!doctype html>
                       99:\`apple\`,
                       100:\`pineapple\`,
                     }
-                  </pre
-                >
+                </code>
+                  </pre>
               </details>
               <p class="paragraph-l text_highlight">My decision:</p>
               <details class="description-details paragraph-l text-light">
                 <summary>click to view</summary>
-                <pre class="language-javascript"><code>
+                <pre><code class="language-javascript line-numbers">
                 // JavaScript
                 "use strict";
 
@@ -1088,17 +1088,17 @@ var code = `<!doctype html>
                       .map(elem => +elem)
                       .reduce((sum, num) => sum + num, 0)
                   }
-        
+
                   function newNumber(oldNumber, sum) {
                     return oldNumber - sum;
                   }
-        
+
                   function checkTheDictionary(newNumber, DICTIONARY) {
                     return DICTIONARY[newNumber] ? true : false;
                   }
-        
+
                   let nextNumber = newNumber(n, numberToSumOfNumbers(n));
-        
+
                   function recursionIteration(nextNumber) {
                     if (checkTheDictionary(nextNumber, DICTIONARY)) {
                       return DICTIONARY[nextNumber];
@@ -1107,10 +1107,10 @@ var code = `<!doctype html>
                       return recursionIteration(nextNumber);
                     }
                   }
-        
+
                   return recursionIteration(nextNumber);
-        
-                  // or just return \`apple\`, it'll fit perfectly)))  
+
+                  // or just return \`apple\`, it'll fit perfectly)))
                   // extremely enjoyed this Kata)))))))))) :)
                   //  return "apple";
                   }
@@ -1413,7 +1413,7 @@ module.exports = __webpack_require__.p + "src/shared/assets/images/icons/favicon
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.d760.js";
+module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.23d1.js";
 
 /***/ }),
 
@@ -1994,4 +1994,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.9d8f.js.map
+//# sourceMappingURL=main.549b.js.map
