@@ -1,7 +1,8 @@
-export default function burgerMenu() {
-  const bodyElement = document.querySelector('body');
-  const burgerMenuIcon = document.querySelector('.burger-menu');
-  const asideElement = document.querySelector('aside');
+export default function burgerMenu(): void {
+  const bodyElement: HTMLBodyElement | null = document.querySelector('body');
+  const burgerMenuIcon: HTMLElement | null =
+    document.querySelector('.burger-menu');
+  const asideElement: HTMLElement | null = document.querySelector('aside');
 
   if (bodyElement) {
     bodyElement.addEventListener('pointerdown', burgerMenuHandler);
@@ -14,7 +15,7 @@ export default function burgerMenu() {
    * @param {PointerEvent} event - pointer event (click, tap)
    * @returns {void}
    */
-  function burgerMenuHandler(event) {
+  function burgerMenuHandler(event: PointerEvent): void {
     if (!(event.target instanceof HTMLElement)) {
       throw new Error(`the 'event.target' is not an HTMLElement!`);
     }
