@@ -4,7 +4,7 @@ Dmitriy Frostoff's CV 👨‍🎓📝:
 
 ---
 
-### Implemented with HTML, CSS, JavaScript: ✔️
+### Implemented with HTML, CSS, JavaScript, TypeScript: ✔️
 
 - https://Dmitriy-Frostoff.github.io/rsschool-cv/
 
@@ -19,7 +19,9 @@ Dmitriy Frostoff's CV 👨‍🎓📝:
   <img src="https://img.shields.io/badge/css3-%23090909.svg?style=for-the-badge&logo=css3&logoColor=%231572B6" height="24" alt="CSS3 badge">
   <img src="https://img.shields.io/badge/-scss-%23090909?style=for-the-badge&logo=sass" height="24" alt="SCSS badge">
   <img src="https://img.shields.io/badge/-javascript-%23090909?style=for-the-badge&logo=javascript" height="24" alt="JavaScript badge">
+  <img src="https://img.shields.io/badge/-typescript-%23090909?style=for-the-badge&logo=typescript" height="24" alt="TypeScript badge">
   <img src="https://img.shields.io/badge/-ESLint-%23090909?style=for-the-badge&logo=ESLint&logoColor=341BAB" height="24" alt="ESLint badge">
+  <img src="https://img.shields.io/badge/-Airbnb-%23090909?style=for-the-badge&logo=Airbnb&logoColor=23ff5a5f" height="24" alt="Airbnb badge">
   <img src="https://img.shields.io/badge/-prettier-%23090909?style=for-the-badge&logo=prettier&logoColor=F7BA3E" height="24" alt="Prettier badge">
   <img src="https://img.shields.io/badge/-Husky-%23090909?style=for-the-badge&logo=Husky&logoColor=FFFF56" height="24" alt="Husky badge">
 </div

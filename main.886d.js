@@ -1397,6 +1397,185 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./CV/src/app/index.ts":
+/*!*****************************!*\
+  !*** ./CV/src/app/index.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pages_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index */ "./CV/src/pages/index.ts");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./CV/src/app/index.scss");
+
+
+
+
+/***/ }),
+
+/***/ "./CV/src/pages/index.ts":
+/*!*******************************!*\
+  !*** ./CV/src/pages/index.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ "./CV/src/pages/index.html");
+
+
+
+/***/ }),
+
+/***/ "./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.ts":
+/*!**************************************************************!*\
+  !*** ./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.ts ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ logSelfCheck)
+/* harmony export */ });
+/**
+ * Log to the browser's console the message of the job selfcheck
+ *
+ *  @return {void} - log the result
+ *
+ */
+function logSelfCheck() {
+    const messageSelfCheck = `
+  **ТЗ**
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks
+
+        **Форма для проверки**
+https://rolling-scopes-school.github.io/checklist/
+
+
+**Ваша оценка - {number} балла**
+
+#### Отзыв по пунктам ТЗ:
+
+#####**Не выполненные/не засчитанные пункты:**
+======================================================
+1) Something usefull
+
+#####**Выполненные пункты:**
+=====================================================
+
+1) Something pretty sweet and usefull
+`;
+    console.log(messageSelfCheck);
+}
+
+
+/***/ }),
+
+/***/ "./CV/src/shared/CVSelfCheck/index.ts":
+/*!********************************************!*\
+  !*** ./CV/src/shared/CVSelfCheck/index.ts ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CVSelfCheck_CVSelfCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CVSelfCheck/CVSelfCheck */ "./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.ts");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_CVSelfCheck_CVSelfCheck__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/index.ts":
+/*!*********************************************!*\
+  !*** ./CV/src/widgets/burger-menu/index.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/burgerMenu */ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts":
+/*!*****************************************************!*\
+  !*** ./CV/src/widgets/burger-menu/ui/burgerMenu.ts ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ burgerMenu)
+/* harmony export */ });
+function burgerMenu() {
+    const bodyElement = document.querySelector('body');
+    const burgerMenuIcon = document.querySelector('.burger-menu');
+    const asideElement = document.querySelector('aside');
+    if (bodyElement) {
+        bodyElement.addEventListener('pointerdown', burgerMenuHandler);
+    }
+    /**
+     *  Burger - menu and aside panel logic for opening / closing at tablet device widths (<=768px).
+     *  Also defines @type {HTMLAnchorElement} nav__link behavior and logic
+     *
+     * @param {PointerEvent} event - pointer event (click, tap)
+     * @returns {void}
+     */
+    function burgerMenuHandler(event) {
+        if (!(event.target instanceof HTMLElement)) {
+            throw new Error(`the 'event.target' is not an HTMLElement!`);
+        }
+        if (!bodyElement) {
+            throw new Error(`Body has not been loaded!`);
+        }
+        if (!burgerMenuIcon) {
+            throw new Error(`Burger Menu has not been loaded!`);
+        }
+        if (!asideElement) {
+            throw new Error(`Aside has not been loaded!`);
+        }
+        // tablet only (<=768px)
+        // open burger menu if clicked at the burger menu;
+        if (event.target.closest('.burger-menu') ||
+            event.target.closest('.nav__link')) {
+            // deal with nav__link that not closing burger - menu
+            // the nav__link behavior
+            if (event.target.dataset.burgerMark === 'non-closing') {
+                event.target.scrollIntoView({ behavior: 'smooth' });
+                return;
+            }
+            // burger menu and aside close / open logic
+            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+                bodyElement.classList.remove('body_scroll-lock');
+                burgerMenuIcon.classList.remove('burger-menu_active');
+                asideElement?.classList.remove('_aside_active');
+            }
+            else {
+                bodyElement.classList.add('body_scroll-lock');
+                burgerMenuIcon.classList.add('burger-menu_active');
+                asideElement?.classList.add('_aside_active');
+            }
+        }
+        // close burger menu if click was out of the burger menu or aside
+        if (!(event.target.closest('.burger-menu') || event.target.closest('aside'))) {
+            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+                bodyElement.classList.remove('body_scroll-lock');
+                burgerMenuIcon.classList.remove('burger-menu_active');
+                asideElement?.classList.remove('_aside_active');
+            }
+        }
+    }
+}
+
+
+/***/ }),
+
 /***/ "./CV/src/shared/assets/images/icons/favicon64x64.ico":
 /*!************************************************************!*\
   !*** ./CV/src/shared/assets/images/icons/favicon64x64.ico ***!
@@ -1685,198 +1864,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZwogIGNsYXNzPSJmb290ZXJfX2ljb24i
 
 module.exports = __webpack_require__.p + "src/shared/assets/images/svg/footer/rs_school_js.9d8f.svg";
 
-/***/ }),
-
-/***/ "./CV/src/app/index.js":
-/*!*****************************!*\
-  !*** ./CV/src/app/index.js ***!
-  \*****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _pages_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index.js */ "./CV/src/pages/index.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./CV/src/app/index.scss");
-
-
-
-
-/***/ }),
-
-/***/ "./CV/src/pages/index.js":
-/*!*******************************!*\
-  !*** ./CV/src/pages/index.js ***!
-  \*******************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ "./CV/src/pages/index.html");
-
-
-
-/***/ }),
-
-/***/ "./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.js":
-/*!**************************************************************!*\
-  !*** ./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ logSelfCheck)
-/* harmony export */ });
-/**
- * Log to the browser's console the message of the job selfcheck
- *
- *  @return {void} - log the result
- *
- */
-
-function logSelfCheck() {
-  const messageSelfCheck = `
-  **ТЗ** 
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks
-
-        **Форма для проверки** 
-https://rolling-scopes-school.github.io/checklist/
-
-
-**Ваша оценка - {number} балла** 
-
-#### Отзыв по пунктам ТЗ:
-
-#####**Не выполненные/не засчитанные пункты:**
-======================================================
-1) Something usefull 
-
-#####**Выполненные пункты:**
-=====================================================
-
-1) Something pretty sweet and usefull
-`;
-
-  console.log(messageSelfCheck);
-}
-
-
-/***/ }),
-
-/***/ "./CV/src/shared/CVSelfCheck/index.js":
-/*!********************************************!*\
-  !*** ./CV/src/shared/CVSelfCheck/index.js ***!
-  \********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _CVSelfCheck_CVSelfCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CVSelfCheck/CVSelfCheck.js */ "./CV/src/shared/CVSelfCheck/CVSelfCheck/CVSelfCheck.js");
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_CVSelfCheck_CVSelfCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-
-/***/ }),
-
-/***/ "./CV/src/widgets/burger-menu/index.js":
-/*!*********************************************!*\
-  !*** ./CV/src/widgets/burger-menu/index.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _ui_burgerMenu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/burgerMenu.js */ "./CV/src/widgets/burger-menu/ui/burgerMenu.js");
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_ui_burgerMenu_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-
-/***/ }),
-
-/***/ "./CV/src/widgets/burger-menu/ui/burgerMenu.js":
-/*!*****************************************************!*\
-  !*** ./CV/src/widgets/burger-menu/ui/burgerMenu.js ***!
-  \*****************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ burgerMenu)
-/* harmony export */ });
-function burgerMenu() {
-  const bodyElement = document.querySelector('body');
-  const burgerMenuIcon = document.querySelector('.burger-menu');
-  const asideElement = document.querySelector('aside');
-
-  if (bodyElement) {
-    bodyElement.addEventListener('pointerdown', burgerMenuHandler);
-  }
-
-  /**
-   *  Burger - menu and aside panel logic for opening / closing at tablet device widths (<=768px).
-   *  Also defines @type {HTMLAnchorElement} nav__link behavior and logic
-   *
-   * @param {PointerEvent} event - pointer event (click, tap)
-   * @returns {void}
-   */
-  function burgerMenuHandler(event) {
-    if (!(event.target instanceof HTMLElement)) {
-      throw new Error(`the 'event.target' is not an HTMLElement!`);
-    }
-
-    if (!bodyElement) {
-      throw new Error(`Body has not been loaded!`);
-    }
-
-    if (!burgerMenuIcon) {
-      throw new Error(`Burger Menu has not been loaded!`);
-    }
-
-    if (!asideElement) {
-      throw new Error(`Aside has not been loaded!`);
-    }
-
-    // tablet only (<=768px)
-    // open burger menu if clicked at the burger menu;
-    if (
-      event.target.closest('.burger-menu') ||
-      event.target.closest('.nav__link')
-    ) {
-      // deal with nav__link that not closing burger - menu
-      // the nav__link behavior
-      if (event.target.dataset.burgerMark === 'non-closing') {
-        event.target.scrollIntoView({ behavior: 'smooth' });
-        return;
-      }
-
-      // burger menu and aside close / open logic
-      if (burgerMenuIcon.classList.contains('burger-menu_active')) {
-        bodyElement.classList.remove('body_scroll-lock');
-        burgerMenuIcon.classList.remove('burger-menu_active');
-        asideElement?.classList.remove('_aside_active');
-      } else {
-        bodyElement.classList.add('body_scroll-lock');
-        burgerMenuIcon.classList.add('burger-menu_active');
-        asideElement?.classList.add('_aside_active');
-      }
-    }
-
-    // close burger menu if click was out of the burger menu or aside
-    if (
-      !(event.target.closest('.burger-menu') || event.target.closest('aside'))
-    ) {
-      if (burgerMenuIcon.classList.contains('burger-menu_active')) {
-        bodyElement.classList.remove('body_scroll-lock');
-        burgerMenuIcon.classList.remove('burger-menu_active');
-        asideElement?.classList.remove('_aside_active');
-      }
-    }
-  }
-}
-
-
 /***/ })
 
 /******/ 	});
@@ -1973,25 +1960,22 @@ var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
 /*!*************************!*\
-  !*** ./CV/src/index.js ***!
+  !*** ./CV/src/index.ts ***!
   \*************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _app_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/index.js */ "./CV/src/app/index.js");
-/* harmony import */ var _shared_CVSelfCheck_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/CVSelfCheck/index.js */ "./CV/src/shared/CVSelfCheck/index.js");
-/* harmony import */ var _widgets_burger_menu_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./widgets/burger-menu/index.js */ "./CV/src/widgets/burger-menu/index.js");
-
-
-
+/* harmony import */ var _app_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/index */ "./CV/src/app/index.ts");
+/* harmony import */ var _shared_CVSelfCheck_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/CVSelfCheck/index */ "./CV/src/shared/CVSelfCheck/index.ts");
+/* harmony import */ var _widgets_burger_menu_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./widgets/burger-menu/index */ "./CV/src/widgets/burger-menu/index.ts");
 
 
 
 window.addEventListener('load', () => {
-  (0,_shared_CVSelfCheck_index_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
-  (0,_widgets_burger_menu_index_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
+    (0,_shared_CVSelfCheck_index__WEBPACK_IMPORTED_MODULE_1__["default"])();
+    (0,_widgets_burger_menu_index__WEBPACK_IMPORTED_MODULE_2__["default"])();
 });
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.549b.js.map
+//# sourceMappingURL=main.886d.js.map
