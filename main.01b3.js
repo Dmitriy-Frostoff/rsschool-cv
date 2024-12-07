@@ -1329,7 +1329,7 @@ var code = `<!doctype html>
             <div class="layout-one-column project-definition__container">
               <h3 class="title title-h3 title_uppercase text-light">CV#3. CV. Cross-Check</h3>
               <p class="paragraph-l text-light">Project Description:</p>
-              <p class="paragraph-l text-light">CV implemented with HTML, CSS & JS</p>
+              <p class="paragraph-l text-light">CV implemented with HTML, CSS, JS and TS</p>
               <a class="link projects-link text_highlight" href="https://dmitriy-frostoff.github.io/rsschool-cv" title="project deploy link" target="_blank"
                 >CV#3. CV. Cross-Check deploy</a
               >
@@ -1978,4 +1978,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.886d.js.map
+//# sourceMappingURL=main.01b3.js.map
