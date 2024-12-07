@@ -573,7 +573,7 @@ Plants is the stage#0 task during which you will make up the landing page of a s
 ---
 
 **CV#3. CV. Cross-Check**  
-CV implemented with HTML & CSS
+CV implemented with HTML, CSSm JS and TS
 
 - [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv 'click to view')
 
