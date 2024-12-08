@@ -1,0 +1,34 @@
+$color-background-light: #ffffff;
+$color-background-left: #292935;
+$color-background-right: #22222e;
+
+$color-text-light: #ffffff;
+$color-text-dark: #000000;
+
+$color-highlight-light: #ffcd04;
+$color-highlight-light_alpha: rgba(255, 205, 4, 0.7);
+$color-highlight-dark: #5e5d6b;
+
+$width-desktop: 1440px;
+$width-tablet: 768px;
+$width-mobile: 540px;
+
+$content-width-desktop: 1360px;
+$content-width-tablet: 708px;
+$content-width-mobile: 300px;
+
+:root {
+  --color-background-light: #{$color-background-light};
+  --color-background-left: #{$color-background-left};
+  --color-background-right: #{$color-background-right};
+
+  --color-text-light: #{$color-text-light};
+  --color-text-dark: #{$color-text-dark};
+  --color-highlight-light: #{$color-highlight-light};
+  --color-highlight-light_alpha: #{$color-highlight-light_alpha};
+  --color-highlight-dark: #{$color-highlight-dark};
+
+  --content-width-desktop: #{$content-width-desktop};
+  --content-width-tablet: #{$content-width-tablet};
+  --content-width-mobile: #{$content-width-mobile};
+}
