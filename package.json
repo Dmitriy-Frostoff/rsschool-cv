@@ -43,7 +43,7 @@
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
-    "execa": "^9.5.1",
+    "execa": "^9.5.2",
     "gulp": "^5.0.0",
     "gulp-cli": "^3.0.0",
     "gulp-file-include": "^2.3.0",
