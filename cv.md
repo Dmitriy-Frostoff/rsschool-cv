@@ -21,21 +21,11 @@ GitHub: [dmitriy-frostoff](https://github.com/Dmitriy-Frostoff/ "My github acc")
 
 ## **About Me:**
 
-Hi! I'm Dmitriy Morozov (or Dmitriy Frostoff as I prefer in most conditions :).
+Hi!) I'm Dmitriy Morozov (a.k.a Dmitriy Frostoff).
 
-I'm a civil construction engineer, but recently (about march - june of 2022) after 5 years of working I've understood finally, that I didn't like constructional sphere at all. And as because I always was intrested in programming, then I started learning "Python for beginners" and it was so satisfying for me to have challenges and resolve them and then growing up (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red diplomas)).
+Positive, sympathetic, responsible, friendly person that likes learning how to learn and applying this skill for reaching mastery in interesting business!))
 
-After conducting a deep introspection, I realized that I was equally interested in the following aspects:
-
-- programming (I love being in a state of flow, brainstorming and growing above myself 🤩);
-
-- playing and composing music (I can play guitar, keys, a little on drums, I study vocals, I'm obsessed with music 😍);
-
-- studying the learning process itself (cognitive science);
-
-- the art of bonsai.
-
-Now I wanna to reveal my abilities in the best possible way in Frontend Development.
+I want to reveal all my abilities in the best possible way in Frontend Development and Software Engineering)
 
 ---
 
@@ -68,6 +58,7 @@ _Bundlers and Task Runners_
 
 - Webpack
 - Gulp
+- Execa
 
 _Code formatting_
 
@@ -86,6 +77,7 @@ _Testing_
 _Documenting_
 
 - JSDoc
+- TSDoc
 - Markdown
 
 _Version Control System (VCS)_
@@ -105,6 +97,7 @@ _Design applications_
 **Frontend Architecture**  
 (basic knowledge and usage)
 
+- Clean Architecture
 - MVC
 - MVP
 - MVVM
@@ -141,152 +134,152 @@ n = `306-9` = `297` (not in the list)
 There is no preloaded code to help you. _This is not about coding skills; think before you code_
 
 <details>
-                    <summary>click to view drawn-out object (CAUTION! far drawn-out!!!)</summary>
-                    <pre>
-                        const DICTIONARY = {
-                            1:`kiwi`,
-                            2:`pear`,
-                            3:`kiwi`,
-                            4:`banana`,
-                            5:`melon`,
-                            6:`banana`,
-                            7:`melon`,
-                            8:`pineapple`,
-                            9:`apple`,
-                            10:`pineapple`,
-                            11:`cucumber`,
-                            12:`pineapple`,
-                            13:`cucumber`,
-                            14:`orange`,
-                            15:`grape`,
-                            16:`orange`,
-                            17:`grape`,
-                            18:`apple`,
-                            19:`grape`,
-                            20:`cherry`,
-                            21:`pear`,
-                            22:`cherry`,
-                            23:`pear`,
-                            24:`kiwi`,
-                            25:`banana`,
-                            26:`kiwi`,
-                            27:`apple`,
-                            28:`melon`,
-                            29:`banana`,
-                            30:`melon`,
-                            31:`pineapple`,
-                            32:`melon`,
-                            33:`pineapple`,
-                            34:`cucumber`,
-                            35:`orange`,
-                            36:`apple`,
-                            37:`orange`,
-                            38:`grape`,
-                            39:`orange`,
-                            40:`grape`,
-                            41:`cherry`,
-                            42:`pear`,
-                            43:`cherry`,
-                            44:`pear`,
-                            45:`apple`,
-                            46:`pear`,
-                            47:`kiwi`,
-                            48:`banana`,
-                            49:`kiwi`,
-                            50:`banana`,
-                            51:`melon`,
-                            52:`pineapple`,
-                            53:`melon`,
-                            54:`apple`,
-                            55:`cucumber`,
-                            56:`pineapple`,
-                            57:`cucumber`,
-                            58:`orange`,
-                            59:`cucumber`,
-                            60:`orange`,
-                            61:`grape`,
-                            62:`cherry`,
-                            63:`apple`,
-                            64:`cherry`,
-                            65:`pear`,
-                            66:`cherry`,
-                            67:`pear`,
-                            68:`kiwi`,
-                            69:`pear`,
-                            70:`kiwi`,
-                            71:`banana`,
-                            72:`apple`,
-                            73:`banana`,
-                            74:`melon`,
-                            75:`pineapple`,
-                            76:`melon`,
-                            77:`pineapple`,
-                            78:`cucumber`,
-                            79:`pineapple`,
-                            80:`cucumber`,
-                            81:`apple`,
-                            82:`grape`,
-                            83:`orange`,
-                            84:`grape`,
-                            85:`cherry`,
-                            86:`grape`,
-                            87:`cherry`,
-                            88:`pear`,
-                            89:`cherry`,
-                            90:`apple`,
-                            91:`kiwi`,
-                            92:`banana`,
-                            93:`kiwi`,
-                            94:`banana`,
-                            95:`melon`,
-                            96:`banana`,
-                            97:`melon`,
-                            98:`pineapple`,
-                            99:`apple`,
-                            100:`pineapple`,
-                          }
-                        </pre>
-                </details>
+    <summary>click to view drawn-out object (CAUTION! far drawn-out!!!)</summary>
+    <pre>
+        const DICTIONARY = {
+            1:`kiwi`,
+            2:`pear`,
+            3:`kiwi`,
+            4:`banana`,
+            5:`melon`,
+            6:`banana`,
+            7:`melon`,
+            8:`pineapple`,
+            9:`apple`,
+            10:`pineapple`,
+            11:`cucumber`,
+            12:`pineapple`,
+            13:`cucumber`,
+            14:`orange`,
+            15:`grape`,
+            16:`orange`,
+            17:`grape`,
+            18:`apple`,
+            19:`grape`,
+            20:`cherry`,
+            21:`pear`,
+            22:`cherry`,
+            23:`pear`,
+            24:`kiwi`,
+            25:`banana`,
+            26:`kiwi`,
+            27:`apple`,
+            28:`melon`,
+            29:`banana`,
+            30:`melon`,
+            31:`pineapple`,
+            32:`melon`,
+            33:`pineapple`,
+            34:`cucumber`,
+            35:`orange`,
+            36:`apple`,
+            37:`orange`,
+            38:`grape`,
+            39:`orange`,
+            40:`grape`,
+            41:`cherry`,
+            42:`pear`,
+            43:`cherry`,
+            44:`pear`,
+            45:`apple`,
+            46:`pear`,
+            47:`kiwi`,
+            48:`banana`,
+            49:`kiwi`,
+            50:`banana`,
+            51:`melon`,
+            52:`pineapple`,
+            53:`melon`,
+            54:`apple`,
+            55:`cucumber`,
+            56:`pineapple`,
+            57:`cucumber`,
+            58:`orange`,
+            59:`cucumber`,
+            60:`orange`,
+            61:`grape`,
+            62:`cherry`,
+            63:`apple`,
+            64:`cherry`,
+            65:`pear`,
+            66:`cherry`,
+            67:`pear`,
+            68:`kiwi`,
+            69:`pear`,
+            70:`kiwi`,
+            71:`banana`,
+            72:`apple`,
+            73:`banana`,
+            74:`melon`,
+            75:`pineapple`,
+            76:`melon`,
+            77:`pineapple`,
+            78:`cucumber`,
+            79:`pineapple`,
+            80:`cucumber`,
+            81:`apple`,
+            82:`grape`,
+            83:`orange`,
+            84:`grape`,
+            85:`cherry`,
+            86:`grape`,
+            87:`cherry`,
+            88:`pear`,
+            89:`cherry`,
+            90:`apple`,
+            91:`kiwi`,
+            92:`banana`,
+            93:`kiwi`,
+            94:`banana`,
+            95:`melon`,
+            96:`banana`,
+            97:`melon`,
+            98:`pineapple`,
+            99:`apple`,
+            100:`pineapple`,
+          }
+        </pre>
+</details>
 
 **My decision:**
 
 ```JavaScript
 
-                    // "use strict";
+// "use strict";
 
-                    function SubtractSum(n) {
-                        function numberToSumOfNumbers(num) {
-                          return `${num}`
-                            .split(``)
-                            .map(elem => +elem)
-                            .reduce((sum, num) => sum + num, 0)
-                        }
+function SubtractSum(n) {
+    function numberToSumOfNumbers(num) {
+      return `${num}`
+        .split(``)
+        .map(elem => +elem)
+        .reduce((sum, num) => sum + num, 0)
+    }
 
-                        function newNumber(oldNumber, sum) {
-                          return oldNumber - sum;
-                        }
+    function newNumber(oldNumber, sum) {
+      return oldNumber - sum;
+    }
 
-                        function checkTheDictionary(newNumber, DICTIONARY) {
-                          return DICTIONARY[newNumber] ? true : false;
-                        }
+    function checkTheDictionary(newNumber, DICTIONARY) {
+      return DICTIONARY[newNumber] ? true : false;
+    }
 
-                        let nextNumber = newNumber(n, numberToSumOfNumbers(n));
+    let nextNumber = newNumber(n, numberToSumOfNumbers(n));
 
-                        function recursionIteration(nextNumber) {
-                          if (checkTheDictionary(nextNumber, DICTIONARY)) {
-                            return DICTIONARY[nextNumber];
-                        } else {
-                            nextNumber = newNumber(nextNumber, numberToSumOfNumbers(nextNumber));
-                            return recursionIteration(nextNumber);
-                          }
-                        }
+    function recursionIteration(nextNumber) {
+      if (checkTheDictionary(nextNumber, DICTIONARY)) {
+        return DICTIONARY[nextNumber];
+    } else {
+        nextNumber = newNumber(nextNumber, numberToSumOfNumbers(nextNumber));
+        return recursionIteration(nextNumber);
+      }
+    }
 
-                        return recursionIteration(nextNumber);
+    return recursionIteration(nextNumber);
 
-                        // or just return `apple`, it'll fit perfectly)))
-                        // extremely enjoyed this Kata)))))))))) :)
-                      //   return "apple";
-                      }
+    // or just return `apple`, it'll fit perfectly)))
+    // extremely enjoyed this Kata)))))))))) :)
+  //   return "apple";
+  }
 ```
 
 ---
@@ -296,23 +289,24 @@ There is no preloaded code to help you. _This is not about coding skills; think 
 **Student Frontend Developer at "The Rolling Scopes School"**  
 September 2022 — present
 
-- creating of landing pages based on Figma layouts (stack: Webpack 5 + Gulp 5, Vanilla JS, SCSS /CSS, HTML);
-- development of simple applications (stack: Webpack 5, Vanilla JS / TS, SCSS /CSS, HTML);
-- formatting of own code and commit messages using: ESLint, Prettier, Husky;
-- learning the Test-driven development (TDD) and writing Unit tests (Jest, Mocha + Chai);
-- debug of own code using Chrome DevTools, VSCode devtools (node.js debugger); refactoring of own code;
-- learning the Frameworks (React and its infrastructure);
-- development within the time limits set in the TOR;
-- code review of other students' Build projects based on the established TOR;
-- fix the discrepancies with TOR found by another students over the cross - check review of my Builds;
-- learning the modern stack of technologies and methodologies of Frontend Development ([course program](https://github.com/rolling-scopes-school/tasks/blob/master/roadmap.md));
+Learning Software Engineering and Frontend Development at the Rolling Scopes School. I also do part-time jobs at the moment.
 
-- basic understanding of application architectures: MVC, MVP, MVVM, Modular Architecture, Atomic design, Feature-Sliced Design;
-- learning the Software Development Lifecycle (SDLC), facing with the basics of Agile (Scrum, Kanban) and Waterfall software development methodologies;
-- in-depth learning of modern vanilla JavaScript, TypeScript and the programming in principle;
-- a self - rely searching for solutions of emerging technical problems and up-to-date technical information to complete the tasks;
-- interaction with other students and an old hand developers - to improve the quality of own code, to find optimal solutions, and to solve technical
-  problems (the "30-minute Rule");
+**Activity:**
+
+- creating landing pages based on Figma layouts (Webpack 5, Gulp 5, JavaScript, TypeScript, SCSS / CSS, HTML);
+- development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);
+- development within the time limits set in the TOR;
+- code review of other students' work based on the established TOR;
+- independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;
+- correction and refactoring of my works due to the comments received during the code review (Cross-Check);
+- learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software Development Methodology;
+- learning the modern stack of technologies and methodologies of Frontend development;
+- learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;
+- learning Behavior-driven development (BDD), Test - driven development (TDD) and writing Unit, integration tests (Mocha + Chai, Jest, React Testing library);
+- interaction with other students and more experienced developers - to improve the quality of own code, to find optimal solutions. Active usage "30 minutes rule" for solving technical problems with your application. Active AI helpers usage (actual chatGPT);
+
+**Stack:**
+HTML5, CSS3, JavaScript, TypeScript, SCSS, React 18, Webpack 5, Gulp 5, Eslint, AirBnB config, Prettier, Husky, Babel, Execa, NodeJS, Testing Library, Jest, Mocha, Chai, JSDoc, TSDoc, Markdown, Git, VSCode, Figma, RegExp, Windows
 
 **Civil engineer at Department of construction and repair of FSUE "Production Supply Enterprise", Moscow**  
 December 2019 — August 2022
