@@ -293,20 +293,24 @@ Learning Software Engineering and Frontend Development at the Rolling Scopes Sch
 
 **Activity:**
 
+Learning Software Engineering and Frontend Development at the Rolling Scopes School. I also do part-time jobs at the moment.
+
+Activity:
+
 - creating landing pages based on Figma layouts (Webpack 5, Gulp 5, JavaScript, TypeScript, SCSS / CSS, HTML);
 - development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);
-- development within the time limits set in the TOR;
-- code review of other students' work based on the established TOR;
-- independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;
-- correction and refactoring of my works due to the comments received during the code review (Cross-Check);
-- learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software Development Methodology;
 - learning the modern stack of technologies and methodologies of Frontend development;
 - learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;
+- learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software Development Methodology;
+- independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;
+- development within the time limits set in the TOR;
+- code review of other students' work based on the established TOR (Cross-Check);
+- correction and refactoring of my works due to the comments received during the code review (Cross-Check);
 - learning Behavior-driven development (BDD), Test - driven development (TDD) and writing Unit, integration tests (Mocha + Chai, Jest, React Testing library);
 - interaction with other students and more experienced developers - to improve the quality of own code, to find optimal solutions. Active usage "30 minutes rule" for solving technical problems with your application. Active AI helpers usage (actual chatGPT);
 
 **Stack:**
-HTML5, CSS3, JavaScript, TypeScript, SCSS, React 18, Webpack 5, Gulp 5, Eslint, AirBnB config, Prettier, Husky, Babel, Execa, NodeJS, Testing Library, Jest, Mocha, Chai, JSDoc, TSDoc, Markdown, Git, VSCode, Figma, RegExp, Windows
+HTML5, CSS3, JavaScript, TypeScript, SCSS, React 18, Webpack 5, Gulp 5, Execa, NodeJS, Eslint, AirBnB config, Prettier, Husky, Babel, Execa, NodeJS, Testing Library, Jest, Mocha, Chai, JSDoc, TSDoc, Markdown, Git, VSCode, Figma, RegExp, Windows
 
 **Civil engineer at Department of construction and repair of FSUE "Production Supply Enterprise", Moscow**  
 December 2019 — August 2022
