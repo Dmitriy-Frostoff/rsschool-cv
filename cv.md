@@ -356,9 +356,9 @@ Moscow State University of Civil Engineering
 
 Civil Construction engineer
 
-**2018** - masters degree (diploma with honor)
+**2018** - Master of Science (diploma with honor)
 
-**2016** - bachelor degree (diploma with honor)
+**2016** - Bachelor of Science (diploma with honor)
 
 ### **Courses:**
 
