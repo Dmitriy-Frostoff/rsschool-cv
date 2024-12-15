@@ -157,12 +157,12 @@ var code = `<!doctype html>
                   <span class="skills__text title-h3 title_uppercase text-light">Civil Construction engineer</span>
                   <div class="layout-one-column nav__education-container">
                     <span class="skills__text title-h4 text-light">Moscow State University of Civil Engineering</span>
-                    <span class="skills__text title-h4 text-light">masters degree (diploma with honor)</span>
+                    <span class="skills__text title-h4 text-light">Master of Science (diploma with honors)</span>
                     <span class="skills__text title-h4 text-light">2016 - 2018</span>
                   </div>
                   <div class="layout-one-column nav__education-container">
                     <span class="skills__text title-h4 text-light">Moscow State University of Civil Engineering</span>
-                    <span class="skills__text title-h4 text-light">bachelor degree (diploma with honor)</span>
+                    <span class="skills__text title-h4 text-light">Bachelor of Science (diploma with honors)</span>
                     <span class="skills__text title-h4 text-light">2012 - 2016</span>
                   </div>
                 </div>
@@ -301,6 +301,14 @@ var code = `<!doctype html>
                   <!-- testing start -->
                   <ul class="skills__label">
                     <li class="skills__text title-h3 text-light text-italic skills__label-container">Testing</li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Test design techniques</span>
+                      <progress class="skills__progress" max="100" value="25">25%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Tests Design patterns</span>
+                      <progress class="skills__progress" max="100" value="25">25%</progress>
+                    </li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Testing Library</span>
                       <progress class="skills__progress" max="100" value="65">65%</progress>
@@ -685,16 +693,15 @@ var code = `<!doctype html>
                 <li>Learning Software Engineering and Frontend Development at the Rolling Scopes School. I also do part-time jobs at the moment.</li>
                 <li>Activity:</li>
                 <li>creating landing pages based on Figma layouts (Webpack 5, Gulp 5, JavaScript, TypeScript, SCSS / CSS, HTML);</li>
-                <li>development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML); - development within the time limits set in the TOR;</li>
-                <li>code review of other students' work based on the established TOR;</li>
-                <li>independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;</li>
-                <li>correction and refactoring of my works due to the comments received during the code review (Cross-Check);</li>
-                <li>
-                  learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software
-                  Development Methodology;
-                </li>
+                <li>development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);</li>
                 <li>learning the modern stack of technologies and methodologies of Frontend development;</li>
                 <li>learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;</li>
+                learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software
+                Development Methodology;
+                <li>independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;</li>
+                <li>development within the time limits set in the TOR;</li>
+                <li>code review of other students' work based on the established TOR (Cross-Check);</li>
+                <li>correction and refactoring of my works due to the comments received during the code review (Cross-Check);</li>
                 <li>
                   learning Behavior-driven development (BDD), Test - driven development (TDD) and writing Unit, integration tests (Mocha + Chai, Jest, React Testing
                   library);
@@ -705,8 +712,8 @@ var code = `<!doctype html>
                 </li>
                 <li>Stack:</li>
                 <li>
-                  HTML5, CSS3, JavaScript, TypeScript, SCSS, React 18, Webpack 5, Gulp 5, Eslint, AirBnB config, Prettier, Husky, Babel, Execa, NodeJS, Testing Library,
-                  Jest, Mocha, Chai, JSDoc, TSDoc, Markdown, Git, VSCode, Figma, RegExp, Windows
+                  HTML5, CSS3, JavaScript, TypeScript, SCSS, React 18, Webpack 5, Gulp 5, Execa, NodeJS, Eslint, AirBnB config, Prettier, Husky, Babel, Execa, NodeJS,
+                  Testing Library, Jest, Mocha, Chai, JSDoc, TSDoc, Markdown, Git, VSCode, Figma, RegExp, Windows
                 </li>
               </ul>
             </div>
@@ -779,7 +786,7 @@ var code = `<!doctype html>
                 <span class="title-h4 text-light">LLC GC "Olimproekt", Moscow</span>
               </div>
               <ul class="layout-one-column job-resposibilities paragraph-l text-light">
-                <li>Collective development of project and detailed documentation of excavation enclosures, of structural elements of buildings;</li>
+                <li>development of project and detailed documentation of excavation enclosures, of structural elements of buildings;</li>
               </ul>
             </div>
 
@@ -811,26 +818,35 @@ var code = `<!doctype html>
             <div class="layout-one-column courses__container">
               <h3 class="title title-h3 title_uppercase text-light">Courses</h3>
               <ul class="layout-one-column courses-list paragraph-l text-light">
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://stepik.org/cert/1760637" title="Stepik JavaScript sertificate" target="_blank"
-                    >Stepik: JavaScript for beginners</a
-                  >
+                  <a class="courses__link" href="https://stepik.org/cert/1760637" title="Stepik JavaScript sertificate" target="_blank">Stepik: JavaScript for beginners</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://www.sololearn.com/certificates/CT-INUG28VK" title="JavaScript sertificate" target="_blank"
-                    >Sololearn: JavaScript</a
-                  >
+                  <a class="courses__link" href="https://www.sololearn.com/certificates/CT-INUG28VK" title="JavaScript sertificate" target="_blank">Sololearn: JavaScript</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/javascript" title="JavaScript course" target="_blank">CodeBasics: JavaScript</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://learn.javascript.ru" title="visit site" target="_blank">JavaScript Manual: learn.javascript.ru</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a
@@ -841,96 +857,152 @@ var code = `<!doctype html>
                     >Microsoft Learn: TypeScript</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.typescriptlang.org/docs/" title="TypeScript docs" target="_blank">TypeScript Documentation</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://react.dev/learn" title="React docs" target="_blank">React Documentation (in progress)</a>
+                  <a class="courses__link" href="https://react.dev/learn" title="React docs" target="_blank">React Documentation</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-KHNYMAG8" title="python sertificate" target="_blank"
                     >Sololearn: Python for beginners</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/python" title="python course" target="_blank">CodeBasics: Python (in progress)</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-ACB0NUVD" title="HTML sertificate" target="_blank">Sololearn: HTML</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/html" title="HTML course" target="_blank">CodeBasics: HTML</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-2R1CKLL5" title="CSS sertificate" target="_blank">Sololearn: CSS</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/css" title="CSS course" target="_blank">CodeBasics: CSS</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-L3S4OUVO" title="sertificate" target="_blank">Responsive Web Design</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-IEFGC3DR" title="sertificate" target="_blank">Web Development Fundamentals</a>
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://ru.coursera.org/learn/learning-how-to-learn" title="course" target="_blank"
                     >Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn" (in progress)</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
                   <a class="courses__link" href="https://stepik.org/cert/1766516" title="sertificate" target="_blank"
                     >Stepik: How to Study effectively - Polina Krivykh x I Love Economics</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://rs.school/js/" title="RSSchool course" target="_blank"
+                  <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://rs.school/js-en/" title="RSSchool course" target="_blank"
+                  <a class="courses__link" href="https://rs.school/courses/javascript" title="RS School course" target="_blank"
                     >RS Schools Course Javascript/Front-end Mentoring Program (in English)» JS/FE Course EN 2022Q3</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://app.rs.school/certificate/7rf4cdis/" title="RSSchool sertificate" target="_blank"
+                  <a class="courses__link" href="https://app.rs.school/certificate/7rf4cdis/" title="RS School sertificate" target="_blank"
                     >RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://rs.school/js/" title="RSSchool course" target="_blank"
+                  <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://app.rs.school/certificate/od2zjglq" title="RSSchool sertificate" target="_blank"
+                  <a class="courses__link" href="https://app.rs.school/certificate/od2zjglq" title="RS School sertificate" target="_blank"
                     >RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2</a
                   >
                 </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
                   <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
-                  <a class="courses__link" href="https://rs.school/js/" title="RSSchool course" target="_blank"
+                  <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
                   </a>
                 </li>
+
+                <!-- courses data end -->
               </ul>
             </div>
           </section>
@@ -1990,4 +2062,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.eeac.js.map
+//# sourceMappingURL=main.f344.js.map
