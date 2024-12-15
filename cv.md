@@ -25,7 +25,7 @@ Hi!) I'm Dmitriy Morozov (a.k.a Dmitriy Frostoff).
 
 Positive, sympathetic, responsible, friendly person that likes learning how to learn and applying this skill for reaching mastery in interesting business!))
 
-I want to reveal all my abilities in the best possible way in Frontend Development and Software Engineering)
+I want to reveal all my abilities in the best possible way in Frontend Development and Software Engineering!)
 
 ---
 
