@@ -69,6 +69,8 @@ _Code formatting_
 
 _Testing_
 
+- Test design techniques
+- Tests Design patterns
 - Testing Library
 - Jest
 - Mocha
