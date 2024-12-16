@@ -724,8 +724,10 @@ var code = `<!doctype html>
                 <li>development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);</li>
                 <li>learning the modern stack of technologies and methodologies of Frontend development;</li>
                 <li>learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;</li>
-                learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software
-                Development Methodology;
+                <li>
+                  learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software
+                  Development Methodology;
+                </li>
                 <li>independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;</li>
                 <li>development within the time limits set in the TOR;</li>
                 <li>code review of other students' work based on the established TOR (Cross-Check);</li>
@@ -2153,4 +2155,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.e6c7.js.map
+//# sourceMappingURL=main.4a0a.js.map
