@@ -219,7 +219,7 @@ aside {
   // Position
 
   // block-model
-  @include ui_common.flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
+  @include ui_common.flex-two-childs-basis($first-basis: 65%, $last-basis: 25%);
   & {
     align-items: center;
     flex-wrap: nowrap;
@@ -232,6 +232,11 @@ aside {
   // Animation
 
   // Various
+  @include ui_common.media-tablet {
+    & > :first-child {
+      flex-basis: 40%;
+    }
+  }
 }
 
 .skills__text {
