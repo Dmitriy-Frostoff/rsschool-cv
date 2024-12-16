@@ -1116,15 +1116,20 @@ aside {
 }
 
 .skills__label-container > :first-child {
-  flex-basis: 40%;
+  flex-basis: 65%;
 }
 .skills__label-container > :last-child {
-  flex-basis: 55%;
+  flex-basis: 25%;
 }
 .skills__label-container {
   align-items: center;
   flex-wrap: nowrap;
   padding: 5px 0;
+}
+@media (max-width: 768px) {
+  .skills__label-container > :first-child {
+    flex-basis: 40%;
+  }
 }
 
 .skills__text {
@@ -1431,4 +1436,4 @@ aside {
   padding-top: 3px;
 }
 
-/*# sourceMappingURL=main.7c08.css.map*/
+/*# sourceMappingURL=main.b6a0.css.map*/
