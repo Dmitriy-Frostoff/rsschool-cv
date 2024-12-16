@@ -96,7 +96,7 @@ _Design applications_
 - Adobe Photoshop (beginner level)
 - Krita (beginner level)
 
-**Frontend Architecture**  
+**Architecture**  
 (basic knowledge and usage)
 
 - Clean Architecture
