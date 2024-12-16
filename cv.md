@@ -521,7 +521,7 @@ Project Description:
 
 CSS Meme Slider is a task of Rolling Scopes School stage 0.
 
-- [CSS Meme Slider PR](https://github.com/Dmitriy-Frostoff/cssMemeSlider/pull/1 'click to view')
+- [CSS Meme Slider](https://dmitriy-frostoff.github.io/cssMemeSlider/cssMemeSlider/index.html 'click to view')
 
 ---
 
@@ -548,7 +548,7 @@ Project Description:
 
 Accordion implemented with the only HTML and CSS.
 
-- [CSSBayan](https://github.com/Dmitriy-Frostoff/cssBayan/pull/6 'click to view')
+- [CSSBayan](https://dmitriy-frostoff.github.io/cssBayan/cssBayan/index.html 'click to view')
 
 ---
 
@@ -582,7 +582,7 @@ CV implemented with HTML, CSS, JS and TS
 **CV#1. Markdown & Git**  
 This page done using Markdown
 
-- [CV#1. Markdown & Git](https://dmitriy-frostoff.github.io/rsschool-cv/cv 'click to view')
+- [CV#1. Markdown & Git](https://github.com/Dmitriy-Frostoff/rsschool-cv/blob/gh-pages/cv.md 'click to view')
 
 ---
 
