@@ -17,7 +17,7 @@ export default function burgerMenu(): void {
    */
   function burgerMenuHandler(event: PointerEvent): void {
     if (!(event.target instanceof HTMLElement)) {
-      throw new Error(`the 'event.target' is not an HTMLElement!`);
+      return;
     }
 
     if (!bodyElement) {
