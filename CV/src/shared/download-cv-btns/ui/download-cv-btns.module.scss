@@ -1,0 +1,97 @@
+@use '../../ui/common styles/index.scss' as ui_common;
+
+.download-cv {
+  // Position
+
+  // block-model
+  row-gap: 10px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.download-cv__container {
+  // Position
+
+  // block-model
+  width: 240px;
+  column-gap: 20px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  & > :nth-child(1),
+  & > :nth-child(2) {
+    flex-basis: 110px;
+  }
+}
+
+.download-cv__btns-container {
+  // Position
+
+  // block-model
+  align-items: center;
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  & > :nth-child(1),
+  & > :nth-child(2) {
+    flex-basis: 45%;
+  }
+}
+
+.download-cv__link {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+  border: 1px solid var(--color-highlight-light);
+  border-radius: 10px;
+
+  // Animation
+
+  // Various
+  &:active {
+    animation: press 0.7s ease 0s 1;
+    @extend %transition-basic;
+
+    border-radius: 10px;
+  }
+
+  &:hover {
+    border-radius: 10px;
+  }
+}
+
+.download-cv__icons-container {
+  // Position
+
+  // block-model
+
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+  & > :nth-child(1),
+  & > :nth-child(2) {
+    flex-basis: 45%;
+  }
+}
