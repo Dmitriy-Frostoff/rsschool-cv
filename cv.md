@@ -33,8 +33,15 @@ I want to reveal all my abilities in the best possible way in Frontend Developme
 
 _Computer Science Basics_
 
-- Functional Programming
-- Object-Oriented Programming (OOP)
+- Computer Science
+- Software Development Life Cycle (SDLC)
+- Clean Code Writing (including DRY, KISS, YAGNI)
+- Algorithms and Data Structures
+- Functional programming (Pure functions)
+- Object-oriented programming (OOP, SOLID)
+- OOP Design patterns
+- Test Driven Development (TDD)
+- Behavior Driven Development (BDD)
 
 _Languages_
 
