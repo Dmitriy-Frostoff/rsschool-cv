@@ -16,32 +16,34 @@ __webpack_require__.r(__webpack_exports__);
 var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/lib/prism/prism.css */ "./CV/src/shared/lib/prism/prism.css"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/icons/favicon64x64.ico */ "./CV/src/shared/assets/images/icons/favicon64x64.ico"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/img/IMG_20210918_16370a.jpg */ "./CV/src/shared/assets/images/img/IMG_20210918_16370a.jpg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/google-maps-2020-icon.svg */ "./CV/src/shared/assets/images/svg/contacts/google-maps-2020-icon.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts//_active/google-maps-2020-icon_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/google-maps-2020-icon_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-phone.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-phone.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-phone_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-phone_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/mail-ios.svg */ "./CV/src/shared/assets/images/svg/contacts/mail-ios.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/mail-ios_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/mail-ios_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-linkedin.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-linkedin.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-linkedin_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-linkedin_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/instagram-2016-5.svg */ "./CV/src/shared/assets/images/svg/contacts/instagram-2016-5.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/instagram-2016-5_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/instagram-2016-5_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-telegram-app.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-telegram-app.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-telegram-app_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-telegram-app_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-discord.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-discord.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-discord_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-discord_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/sololearn-2.svg */ "./CV/src/shared/assets/images/svg/contacts/sololearn-2.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/sololearn-2_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/sololearn-2_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/rs_school_js.svg */ "./CV/src/shared/assets/images/svg/contacts/rs_school_js.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/rs_school_js_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/rs_school_js_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/github.gif */ "./CV/src/shared/assets/images/svg/contacts/github.gif"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/codewars.gif */ "./CV/src/shared/assets/images/svg/contacts/codewars.gif"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/courses/graduation-cap-svgrepo-com.svg */ "./CV/src/shared/assets/images/svg/courses/graduation-cap-svgrepo-com.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/github logo.svg */ "./CV/src/shared/assets/images/svg/footer/github logo.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/_active/github logo_active.svg */ "./CV/src/shared/assets/images/svg/footer/_active/github logo_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/rs_school_js.svg */ "./CV/src/shared/assets/images/svg/footer/rs_school_js.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/_active/rs_school_js_active.svg */ "./CV/src/shared/assets/images/svg/footer/_active/rs_school_js_active.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/lib/prism/prism.js */ "./CV/src/shared/lib/prism/prism.js"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/download-cv-btns/download-icon.svg */ "./CV/src/shared/assets/images/svg/download-cv-btns/download-icon.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/download-cv-btns/pdf-icon.svg */ "./CV/src/shared/assets/images/svg/download-cv-btns/pdf-icon.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/google-maps-2020-icon.svg */ "./CV/src/shared/assets/images/svg/contacts/google-maps-2020-icon.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts//_active/google-maps-2020-icon_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/google-maps-2020-icon_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-phone.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-phone.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-phone_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-phone_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/mail-ios.svg */ "./CV/src/shared/assets/images/svg/contacts/mail-ios.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/mail-ios_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/mail-ios_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-linkedin.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-linkedin.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-linkedin_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-linkedin_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/instagram-2016-5.svg */ "./CV/src/shared/assets/images/svg/contacts/instagram-2016-5.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/instagram-2016-5_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/instagram-2016-5_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-telegram-app.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-telegram-app.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-telegram-app_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-telegram-app_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/icons8-discord.svg */ "./CV/src/shared/assets/images/svg/contacts/icons8-discord.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/icons8-discord_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/icons8-discord_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/sololearn-2.svg */ "./CV/src/shared/assets/images/svg/contacts/sololearn-2.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/sololearn-2_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/sololearn-2_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/rs_school_js.svg */ "./CV/src/shared/assets/images/svg/contacts/rs_school_js.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/_active/rs_school_js_active.svg */ "./CV/src/shared/assets/images/svg/contacts/_active/rs_school_js_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/github.gif */ "./CV/src/shared/assets/images/svg/contacts/github.gif"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/contacts/codewars.gif */ "./CV/src/shared/assets/images/svg/contacts/codewars.gif"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/courses/graduation-cap-svgrepo-com.svg */ "./CV/src/shared/assets/images/svg/courses/graduation-cap-svgrepo-com.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/github logo.svg */ "./CV/src/shared/assets/images/svg/footer/github logo.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/_active/github logo_active.svg */ "./CV/src/shared/assets/images/svg/footer/_active/github logo_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/rs_school_js.svg */ "./CV/src/shared/assets/images/svg/footer/rs_school_js.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/assets/images/svg/footer/_active/rs_school_js_active.svg */ "./CV/src/shared/assets/images/svg/footer/_active/rs_school_js_active.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(/*! ../shared/lib/prism/prism.js */ "./CV/src/shared/lib/prism/prism.js"), __webpack_require__.b);
 // Module
 var code = `<!doctype html>
 <html lang="en">
@@ -78,11 +80,15 @@ var code = `<!doctype html>
     <!-- Header start -->
     <header class="header">
       <div class="container header__container">
+        <!-- header chunk start -->
         <div class="layout-two-columns cv-photo__container">
           <span class="cv-photo__streak"></span>
           <img class="cv-photo" src="${___HTML_LOADER_IMPORT_2___}" alt="Dmitriy Frostoff. A young person standing behind rock fans" />
         </div>
+
+        <!-- header chunk end -->
         <div class="layout-one-column header__content-container">
+          <!-- header chunk start -->
           <div class="layout-one-column title-container">
             <h1 class="title title-h1">Dmitriy Morozov</h1>
             <h3 class="title title-h3 text_highlight">Frontend Developer</h3>
@@ -102,11 +108,45 @@ var code = `<!doctype html>
           </p>
           <img src="https://user-images.githubusercontent.com/74038190/238200839-9c351cb9-c9a2-4b20-8420-e96b8331a53b.gif" alt="gif animation facts" height="32" />
           <p class="paragraph-l">
-            Positive, sympathetic, responsible, friendly person that likes learning how to learn and applying this skill for reaching mastery in interesting
-            business!)) (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with
-            honors (red diplomas)).
+            Positive, sympathetic, responsible, friendly person that likes learning how to learn and applying this skill for reaching mastery in interesting business!))
+            (I extremely like Mathematic analisys and Phisics, Music, Drawing. In Moscow State University of Civil Engineering I had two diplomas with honors (red
+            diplomas)).
           </p>
           <p class="paragraph-l">I want to reveal all my abilities in the best possible way in Frontend Development and Software Engineering!)</p>
+
+          <!-- header chunk end -->
+          <!-- header chunk start -->
+          <div class="layout-one-column download-cv">
+            <p class="paragraph-l">Download brief CV</p>
+            <div class="layout-two-columns download-cv__container">
+              <a
+                class="layout-two-columns download-cv__btns-container link download-cv__link"
+                href="https://dmitriy-frostoff.github.io/cv-brief/pdf/Dmitriy%20Frostoff's%20CV%20EN.pdf"
+                download="CV-EN Dmitriy Morozov"
+                target="_blank"
+              >
+                <span class="layout-two-columns download-cv__icons-container">
+                  <img width="24" height="24" src="${___HTML_LOADER_IMPORT_3___}" alt="download-icon" />
+                  <img width="24" height="24" src="${___HTML_LOADER_IMPORT_4___}" alt="pdf-icon" />
+                </span>
+                <span class="paragraph-l text-dark">CV EN</span>
+              </a>
+              <a
+                class="layout-two-columns download-cv__btns-container link download-cv__link"
+                href="https://dmitriy-frostoff.github.io/cv-brief/pdf/Dmitriy%20Frostoff's%20CV%20RU.pdf"
+                download="CV-RU Dmitriy Morozov"
+                target="_blank"
+              >
+                <span class="layout-two-columns download-cv__icons-container">
+                  <img width="24" height="24" src="${___HTML_LOADER_IMPORT_3___}" alt="download-icon" />
+                  <img width="24" height="24" src="${___HTML_LOADER_IMPORT_4___}" alt="pdf-icon" />
+                </span>
+                <span class="paragraph-l text-dark">CV RU</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- header chunk end -->
         </div>
       </div>
     </header>
@@ -482,12 +522,12 @@ var code = `<!doctype html>
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <img
                         class="contacts__icon _pointer-events_disable"
-                        src="${___HTML_LOADER_IMPORT_3___}"
+                        src="${___HTML_LOADER_IMPORT_5___}"
                         alt="google-maps-2020 icon"
                       />
                       <img
                         class="contacts__icon _pointer-events_disable"
-                        src="${___HTML_LOADER_IMPORT_4___}"
+                        src="${___HTML_LOADER_IMPORT_6___}"
                         alt="google-maps-2020 icon active"
                       />
                     </div>
@@ -498,10 +538,10 @@ var code = `<!doctype html>
                   </li>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
-                      <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_5___}" alt="phone icon" />
+                      <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_7___}" alt="phone icon" />
                       <img
                         class="contacts__icon _pointer-events_disable"
-                        src="${___HTML_LOADER_IMPORT_6___}"
+                        src="${___HTML_LOADER_IMPORT_8___}"
                         alt="phone icon active"
                       />
                     </div>
@@ -513,10 +553,10 @@ var code = `<!doctype html>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <a class="link contacts__link layout-one-column contacts__icon-position" href="mailto:dmitriy.frostoff@yandex.ru" title="e-mail" target="_blank">
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_7___}" alt="mail icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_9___}" alt="mail icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_8___}"
+                          src="${___HTML_LOADER_IMPORT_10___}"
                           alt="mail icon active"
                       /></a>
                     </div>
@@ -535,10 +575,10 @@ var code = `<!doctype html>
                         title="my LinkedIn acc"
                         target="_blank"
                       >
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_9___}" alt="linkedin icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_11___}" alt="linkedin icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_10___}"
+                          src="${___HTML_LOADER_IMPORT_12___}"
                           alt="linkedin icon active"
                         />
                       </a>
@@ -560,10 +600,10 @@ var code = `<!doctype html>
                         title="my insta"
                         target="_blank"
                       >
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_11___}" alt="instagram icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_13___}" alt="instagram icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_12___}"
+                          src="${___HTML_LOADER_IMPORT_14___}"
                           alt="instagram icon active"
                         />
                       </a>
@@ -578,10 +618,10 @@ var code = `<!doctype html>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <a class="link contacts__link layout-one-column contacts__icon-position" href="https://t.me/Dmitriy_Frostoff" title="telegram" target="_blank">
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_13___}" alt="telegram icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_15___}" alt="telegram icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_14___}"
+                          src="${___HTML_LOADER_IMPORT_16___}"
                           alt="telegram icon active"
                         />
                       </a>
@@ -596,10 +636,10 @@ var code = `<!doctype html>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <a class="link contacts__link layout-one-column contacts__icon-position" href="https://discord.com/" title="discord" target="_blank">
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_15___}" alt="discord icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_17___}" alt="discord icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_16___}"
+                          src="${___HTML_LOADER_IMPORT_18___}"
                           alt="discord icon active"
                         />
                       </a>
@@ -619,10 +659,10 @@ var code = `<!doctype html>
                         title="sololearn.com acc"
                         target="_blank"
                       >
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_17___}" alt="sololearn icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_19___}" alt="sololearn icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_18___}"
+                          src="${___HTML_LOADER_IMPORT_20___}"
                           alt="sololearn icon active"
                         />
                       </a>
@@ -637,10 +677,10 @@ var code = `<!doctype html>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <a class="link contacts__link layout-one-column contacts__icon-position" href="https://app.rs.school/" title="RS App" target="_blank">
-                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_19___}" alt="rs_school_js icon" />
+                        <img class="contacts__icon _pointer-events_disable" src="${___HTML_LOADER_IMPORT_21___}" alt="rs_school_js icon" />
                         <img
                           class="contacts__icon _pointer-events_disable"
-                          src="${___HTML_LOADER_IMPORT_20___}"
+                          src="${___HTML_LOADER_IMPORT_22___}"
                           alt="rs_school_js icon active"
                         />
                       </a>
@@ -655,7 +695,7 @@ var code = `<!doctype html>
                   <li class="layout-two-columns contacts__item-container">
                     <div class="layout-one-column contacts__icon-position contacts__icon_background">
                       <a class="link contacts__link layout-one-column contacts__icon-position" href="https://github.com/Dmitriy-Frostoff/" title="my github" target="_blank"
-                        ><img class="contacts__icon" src="${___HTML_LOADER_IMPORT_21___}" alt="github icon octocat gif" />
+                        ><img class="contacts__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="github icon octocat gif" />
                       </a>
                     </div>
                     <div class="layout-one-column contacts__text-container">
@@ -672,7 +712,7 @@ var code = `<!doctype html>
                         href="https://www.codewars.com/users/rsschool_78dcfb24c923f558"
                         title="my codewars acc"
                         target="_blank"
-                        ><img class="contacts__icon" src="${___HTML_LOADER_IMPORT_22___}" alt="codewars icon gif"
+                        ><img class="contacts__icon" src="${___HTML_LOADER_IMPORT_24___}" alt="codewars icon gif"
                       /></a>
                     </div>
                     <div class="layout-one-column contacts__text-container">
@@ -723,7 +763,7 @@ var code = `<!doctype html>
                 <li>creating landing pages based on Figma layouts (Webpack 5, Gulp 5, JavaScript, TypeScript, SCSS / CSS, HTML);</li>
                 <li>development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);</li>
                 <li>learning the modern stack of technologies and methodologies of Frontend development;</li>
-                <li>learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;</li>
+                <li>learning how to write "Clean code". Formatting of own code and commits messages using ESLint, AirBnB config, Prettier, Husky;</li>
                 <li>
                   learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software
                   Development Methodology;
@@ -850,35 +890,35 @@ var code = `<!doctype html>
               <ul class="layout-one-column courses-list paragraph-l text-light">
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://stepik.org/cert/1760637" title="Stepik JavaScript sertificate" target="_blank">Stepik: JavaScript for beginners</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-INUG28VK" title="JavaScript sertificate" target="_blank">Sololearn: JavaScript</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/javascript" title="JavaScript course" target="_blank">CodeBasics: JavaScript</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://learn.javascript.ru" title="visit site" target="_blank">JavaScript Manual: learn.javascript.ru</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a
                     class="courses__link"
                     href="https://learn.microsoft.com/ru-ru/training/paths/build-javascript-applications-typescript/"
@@ -891,21 +931,21 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.typescriptlang.org/docs/" title="TypeScript docs" target="_blank">TypeScript Documentation</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://react.dev/learn" title="React docs" target="_blank">React Documentation</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-KHNYMAG8" title="python sertificate" target="_blank"
                     >Sololearn: Python for beginners</a
                   >
@@ -914,56 +954,56 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/python" title="python course" target="_blank">CodeBasics: Python (in progress)</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-ACB0NUVD" title="HTML sertificate" target="_blank">Sololearn: HTML</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/html" title="HTML course" target="_blank">CodeBasics: HTML</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-2R1CKLL5" title="CSS sertificate" target="_blank">Sololearn: CSS</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://code-basics.com/ru/languages/css" title="CSS course" target="_blank">CodeBasics: CSS</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-L3S4OUVO" title="sertificate" target="_blank">Responsive Web Design</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://www.sololearn.com/certificates/CT-IEFGC3DR" title="sertificate" target="_blank">Web Development Fundamentals</a>
                 </li>
 
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://ru.coursera.org/learn/learning-how-to-learn" title="course" target="_blank"
                     >Coursera: Barbara Oakley and Dr. Terrence Sejnowski "Learning-how-to-learn" (in progress)</a
                   >
@@ -972,7 +1012,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://stepik.org/cert/1766516" title="sertificate" target="_blank"
                     >Stepik: How to Study effectively - Polina Krivykh x I Love Economics</a
                   >
@@ -981,7 +1021,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2022Q3</a
                   >
@@ -990,7 +1030,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://rs.school/courses/javascript" title="RS School course" target="_blank"
                     >RS Schools Course Javascript/Front-end Mentoring Program (in English)» JS/FE Course EN 2022Q3</a
                   >
@@ -999,7 +1039,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://app.rs.school/certificate/7rf4cdis/" title="RS School sertificate" target="_blank"
                     >RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2022Q4</a
                   >
@@ -1008,7 +1048,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q1</a
                   >
@@ -1017,7 +1057,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://app.rs.school/certificate/od2zjglq" title="RS School sertificate" target="_blank"
                     >RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2</a
                   >
@@ -1026,7 +1066,7 @@ var code = `<!doctype html>
                 <!-- courses data end -->
                 <!-- courses data start -->
                 <li class="layout-two-columns courses-list__item">
-                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_23___}" alt="mortar board" />
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
                   <a class="courses__link" href="https://rs.school/courses/javascript-ru" title="RS School course" target="_blank"
                     >RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
                   </a>
@@ -1495,9 +1535,25 @@ var code = `<!doctype html>
             <!-- project data end -->
             <!-- project data start -->
             <div class="layout-one-column project-definition__container">
+              <h3 class="title title-h3 title_uppercase text-light">CV-brief (EN/RU)</h3>
+              <p class="paragraph-l text-light">Project Description:</p>
+              <p class="paragraph-l text-light">
+                Brief CV version (EN / RU pdfs including) implemented with HTML5, CSS3, SCSS, JavaScript, TypeScript, Webpack 5, Gulp 5, ESLint, Airbnb preset, Prettier,
+                Husky, Execa
+              </p>
+              <a class="link projects-link text_highlight" href="https://dmitriy-frostoff.github.io/cv-brief/" title="project deploy link" target="_blank"
+                >CV-brief deploy</a
+              >
+            </div>
+
+            <!-- project data end -->
+            <!-- project data start -->
+            <div class="layout-one-column project-definition__container">
               <h3 class="title title-h3 title_uppercase text-light">CV#3. CV. Cross-Check</h3>
               <p class="paragraph-l text-light">Project Description:</p>
-              <p class="paragraph-l text-light">CV implemented with HTML, CSS, JS and TS</p>
+              <p class="paragraph-l text-light">
+                CV implemented with HTML5, CSS3, SCSS, JavaScript, TypeScript, Webpack 5, Gulp 5, ESLint, Airbnb preset, Prettier, Husky, Execa
+              </p>
               <a class="link projects-link text_highlight" href="https://dmitriy-frostoff.github.io/rsschool-cv" title="project deploy link" target="_blank"
                 >CV#3. CV. Cross-Check deploy</a
               >
@@ -1534,15 +1590,15 @@ var code = `<!doctype html>
           <li class="footer__item">&copy; 2024 Dmitriy Frostoff</li>
           <li class="footer__item">
             <a class="footer__link" href="https://github.com/Dmitriy-Frostoff" title="click to visit Dmitriy-Frostoff's GitHub" target="_blank">
-              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_24___}" alt="github logo" />
-              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="github logo active" />
+              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_26___}" alt="github logo" />
+              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_27___}" alt="github logo active" />
               <span class="github-text">GitHub</span>
             </a>
           </li>
           <li class="footer__item">
             <a class="footer__link rsschool-logo" href="https://rs.school/courses/javascript-ru" title="click to go to the RS School Course" target="_blank">
-              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_26___}" alt="rs_school_js logo" />
-              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_27___}" alt="rs_school_js active" />
+              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_28___}" alt="rs_school_js logo" />
+              <img class="footer__icon" src="${___HTML_LOADER_IMPORT_29___}" alt="rs_school_js active" />
             </a>
           </li>
         </ul>
@@ -1551,7 +1607,7 @@ var code = `<!doctype html>
 
     <!-- footer end -->
     <!-- prism script start -->
-    ${"<" + "script"} src="${___HTML_LOADER_IMPORT_28___}">${"<" + "/script"}>
+    ${"<" + "script"} src="${___HTML_LOADER_IMPORT_30___}">${"<" + "/script"}>
 
     <!-- prism script end -->
   </body>
@@ -1706,7 +1762,7 @@ function burgerMenu() {
      */
     function burgerMenuHandler(event) {
         if (!(event.target instanceof HTMLElement)) {
-            throw new Error(`the 'event.target' is not an HTMLElement!`);
+            return;
         }
         if (!bodyElement) {
             throw new Error(`Body has not been loaded!`);
@@ -2003,6 +2059,26 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
+/***/ "./CV/src/shared/assets/images/svg/download-cv-btns/download-icon.svg":
+/*!****************************************************************************!*\
+  !*** ./CV/src/shared/assets/images/svg/download-cv-btns/download-icon.svg ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik01IDEyVjE4QzUgMTguNTUyMyA1LjQ0NzcyIDE5IDYgMTlIMThDMTguNTUyMyAxOSAxOSAxOC41NTIzIDE5IDE4VjEyIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTIgM0wxMiAxNU0xMiAxNUwxNiAxMU0xMiAxNUw4IDExIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K";
+
+/***/ }),
+
+/***/ "./CV/src/shared/assets/images/svg/download-cv-btns/pdf-icon.svg":
+/*!***********************************************************************!*\
+  !*** ./CV/src/shared/assets/images/svg/download-cv-btns/pdf-icon.svg ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "src/shared/assets/images/svg/download-cv-btns/pdf-icon.f0a3.svg";
+
+/***/ }),
+
 /***/ "./CV/src/shared/assets/images/svg/footer/_active/github logo_active.svg":
 /*!*******************************************************************************!*\
   !*** ./CV/src/shared/assets/images/svg/footer/_active/github logo_active.svg ***!
@@ -2155,4 +2231,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.4a0a.js.map
+//# sourceMappingURL=main.45b1.js.map

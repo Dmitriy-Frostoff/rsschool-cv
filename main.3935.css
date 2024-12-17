@@ -559,7 +559,7 @@ template {
   font-family: "Cabin";
 }
 
-.description-details, .description-details:hover, .description-details:active, .courses__link, .courses__link:hover, .courses__link:active, .contacts__icon-position, aside, ._aside_active, .nav__link, .nav__link:hover, .nav__link:active, .burger-menu > :nth-child(1), .burger-menu > :nth-child(2), .burger-menu > :nth-child(3), .burger-menu_active > :nth-child(1), .burger-menu_active > :nth-child(2), .burger-menu_active > :nth-child(3), .link, .link:hover, .link:active {
+.description-details, .description-details:hover, .description-details:active, .courses__link, .courses__link:hover, .courses__link:active, .contacts__icon-position, aside, ._aside_active, .nav__link, .nav__link:hover, .nav__link:active, .burger-menu > :nth-child(1), .burger-menu > :nth-child(2), .burger-menu > :nth-child(3), .burger-menu_active > :nth-child(1), .burger-menu_active > :nth-child(2), .burger-menu_active > :nth-child(3), .download-cv__link:active, .link, .link:hover, .link:active {
   transition: all 0.7s ease 0s;
 }
 
@@ -579,7 +579,7 @@ pre, .code {
   margin: 0;
 }
 
-.footer__link, .footer__link:hover, .footer__link:active, .footer__link:hover .footer__icon:nth-child(2), .footer__link:active .footer__icon:nth-child(2), .description-details, .nav__link, a {
+.footer__link, .footer__link:hover, .footer__link:active, .footer__link:hover .footer__icon:nth-child(2), .footer__link:active .footer__icon:nth-child(2), .description-details, .nav__link, .burger-menu, a {
   cursor: pointer;
 }
 
@@ -597,6 +597,17 @@ pre, .code {
   }
   to {
     transform: scaleX(1);
+  }
+}
+@keyframes press {
+  from {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(80%);
+  }
+  to {
+    transform: scale(100%);
   }
 }
 @keyframes move-linear-from-right {
@@ -995,6 +1006,41 @@ img {
 .title-container {
   justify-content: space-between;
   row-gap: 6px;
+}
+
+.download-cv {
+  row-gap: 10px;
+}
+
+.download-cv__container {
+  width: 240px;
+  column-gap: 20px;
+}
+.download-cv__container > :nth-child(1), .download-cv__container > :nth-child(2) {
+  flex-basis: 110px;
+}
+
+.download-cv__btns-container {
+  align-items: center;
+}
+.download-cv__btns-container > :nth-child(1), .download-cv__btns-container > :nth-child(2) {
+  flex-basis: 45%;
+}
+
+.download-cv__link {
+  border: 1px solid var(--color-highlight-light);
+  border-radius: 10px;
+}
+.download-cv__link:active {
+  animation: press 0.7s ease 0s 1;
+  border-radius: 10px;
+}
+.download-cv__link:hover {
+  border-radius: 10px;
+}
+
+.download-cv__icons-container > :nth-child(1), .download-cv__icons-container > :nth-child(2) {
+  flex-basis: 45%;
 }
 
 .burger-menu {
@@ -1436,4 +1482,4 @@ aside {
   padding-top: 3px;
 }
 
-/*# sourceMappingURL=main.b6a0.css.map*/
+/*# sourceMappingURL=main.3935.css.map*/

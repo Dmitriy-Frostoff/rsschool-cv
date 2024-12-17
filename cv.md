@@ -33,8 +33,15 @@ I want to reveal all my abilities in the best possible way in Frontend Developme
 
 _Computer Science Basics_
 
-- Functional Programming
-- Object-Oriented Programming (OOP)
+- Computer Science
+- Software Development Life Cycle (SDLC)
+- Clean Code Writing (including DRY, KISS, YAGNI)
+- Algorithms and Data Structures
+- Functional programming (Pure functions)
+- Object-oriented programming (OOP, SOLID)
+- OOP Design patterns
+- Test Driven Development (TDD)
+- Behavior Driven Development (BDD)
 
 _Languages_
 
@@ -302,7 +309,7 @@ Activity:
 - creating landing pages based on Figma layouts (Webpack 5, Gulp 5, JavaScript, TypeScript, SCSS / CSS, HTML);
 - development of applications (Webpack 5, JavaScript, TypeScript, SCSS / CSS, HTML);
 - learning the modern stack of technologies and methodologies of Frontend development;
-- learning how to write "Clean code". Formatting of own code and commits messages using ESLint, Prettier, Husky;
+- learning how to write "Clean code". Formatting of own code and commits messages using ESLint, AirBnB config, Prettier, Husky;
 - learning Software Development Lifecycle (SDLC), Software Engineering, getting acknowledge to the basics of Agile (Scrum, Kanban) and Waterfall Software Development Methodology;
 - independent search for solutions to emerging technical problems and up-to-date technical information to complete the tasks set;
 - development within the time limits set in the TOR;
@@ -572,8 +579,16 @@ Plants is the stage#0 task during which you will make up the landing page of a s
 
 ---
 
+**CV-brief (EN/RU)**  
+Brief CV version (EN / RU pdfs including) implemented with HTML5, CSS3, SCSS, JavaScript, TypeScript, Webpack 5, Gulp 5, ESLint, Airbnb preset, Prettier,
+Husky, Execa
+
+- [CV-brief](https://dmitriy-frostoff.github.io/cv-brief/ "click to view")
+
+---
+
 **CV#3. CV. Cross-Check**  
-CV implemented with HTML, CSS, JS and TS
+CV implemented with HTML5, CSS3, SCSS, JavaScript, TypeScript, Webpack 5, Gulp 5, ESLint, Airbnb preset, Prettier, Husky, Execa
 
 - [CV#3. CV. Cross-Check](https://dmitriy-frostoff.github.io/rsschool-cv "click to view")
 
