@@ -1,0 +1,49 @@
+@use '../../shared/ui/common styles/index.scss' as ui_common;
+
+.projects__container {
+  // Position
+
+  // block-model
+  row-gap: 15px;
+  width: 100%;
+  padding: 20px 0;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.project-definition__container {
+  // Position
+
+  // block-model
+  row-gap: 3px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.projects-link {
+  // Position
+
+  // block-model
+
+  // Typography
+  @include ui_common.text(
+    $size: var(--font-size-H4),
+    $height: calc(var(--font-size-H4) * 1.2)
+  );
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}

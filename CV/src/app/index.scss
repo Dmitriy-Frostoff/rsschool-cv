@@ -1,0 +1,14 @@
+// common project styles
+@use '../shared/ui/common styles/index.scss';
+
+//components
+@use '../widgets/header/header';
+@use '../shared/download-cv-btns/ui/download-cv-btns.module.scss';
+@use '../widgets/burger-menu/ui/burger-menu';
+@use '../widgets/aside/aside';
+@use '../entities/aside parts/contact-information/contacts';
+@use '../widgets/job-experience/job-experience';
+@use '../widgets/education/education';
+@use '../widgets/code-example/code-example';
+@use '../widgets/projects/projects';
+@use '../widgets/footer/footer';
