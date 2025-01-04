@@ -1587,7 +1587,7 @@ var code = `<!doctype html>
     <footer class="footer">
       <div class="container">
         <ul class="footer__list">
-          <li class="footer__item">&copy; 2024 Dmitriy Frostoff</li>
+          <li class="footer__item">&copy; 2025 Dmitriy Frostoff</li>
           <li class="footer__item">
             <a class="footer__link" href="https://github.com/Dmitriy-Frostoff" title="click to visit Dmitriy-Frostoff's GitHub" target="_blank">
               <img class="footer__icon" src="${___HTML_LOADER_IMPORT_26___}" alt="github logo" />
@@ -2231,4 +2231,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.45b1.js.map
+//# sourceMappingURL=main.1e8c.js.map
