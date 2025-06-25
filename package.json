@@ -59,7 +59,7 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^11.0.1",
     "mini-css-extract-plugin": "^2.9.2",
-    "prettier": "^3.6.0",
+    "prettier": "^3.6.1",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
