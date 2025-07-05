@@ -95,6 +95,8 @@ _Documenting_
 - JSDoc
 - TSDoc
 - Markdown
+- Docstring
+- Doxygen
 
 _Version Control System (VCS)_
 
