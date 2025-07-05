@@ -52,6 +52,7 @@ _Languages_
 - HTML
 - CSS
 - Regex
+- C
 
 _Preprocessors_
 
