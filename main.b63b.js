@@ -2,6 +2,33 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./CV/src/app/index.scss":
+/*!*******************************!*\
+  !*** ./CV/src/app/index.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./CV/src/app/index.ts":
+/*!*****************************!*\
+  !*** ./CV/src/app/index.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pages_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index */ "./CV/src/pages/index.ts");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./CV/src/app/index.scss");
+
+
+
+
+/***/ }),
+
 /***/ "./CV/src/pages/index.html":
 /*!*********************************!*\
   !*** ./CV/src/pages/index.html ***!
@@ -235,11 +262,11 @@ var code = `<!doctype html>
                     <li class="skills__text title-h3 text-light text-italic skills__label-container">Computer Science Basics</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Computer Science</span>
-                      <progress class="skills__progress" max="100" value="25">25%</progress>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
                     </li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Software Development Life Cycle (SDLC)</span>
-                      <progress class="skills__progress" max="100" value="25">25%</progress>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
                     </li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Clean Code Writing (including DRY, KISS, YAGNI)</span>
@@ -267,6 +294,10 @@ var code = `<!doctype html>
                     </li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Behavior Driven Development (BDD)</span>
+                      <progress class="skills__progress" max="100" value="25">25%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Domain Driven Development (DDD)</span>
                       <progress class="skills__progress" max="100" value="25">25%</progress>
                     </li>
                   </ul>
@@ -298,6 +329,10 @@ var code = `<!doctype html>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Regex</span>
                       <progress class="skills__progress" max="100" value="75">75%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">C</span>
+                      <progress class="skills__progress" max="100" value="10">10%</progress>
                     </li>
                   </ul>
 
@@ -341,6 +376,14 @@ var code = `<!doctype html>
                       <span class="skills__text title-h3 text-light">Execa</span>
                       <progress class="skills__progress" max="100" value="25">25%</progress>
                     </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">CMake</span>
+                      <progress class="skills__progress" max="100" value="5">5%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Ninja</span>
+                      <progress class="skills__progress" max="100" value="5">5%</progress>
+                    </li>
                   </ul>
 
                   <!-- bundlers-and-task-runners end -->
@@ -362,6 +405,18 @@ var code = `<!doctype html>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Babel</span>
                       <progress class="skills__progress" max="100" value="65">65%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Clang-Tidy</span>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Clang-Format</span>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Clangd</span>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
                     </li>
                   </ul>
 
@@ -411,6 +466,14 @@ var code = `<!doctype html>
                       <span class="skills__text title-h3 text-light">Markdown</span>
                       <progress class="skills__progress" max="100" value="90">90%</progress>
                     </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Docstring</span>
+                      <progress class="skills__progress" max="100" value="75">75%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Doxygen</span>
+                      <progress class="skills__progress" max="100" value="75">75%</progress>
+                    </li>
                   </ul>
 
                   <!-- documenting end -->
@@ -439,6 +502,10 @@ var code = `<!doctype html>
                     <li class="skills__text title-h3 text-light text-italic skills__label-container">Design applications</li>
                     <li class="skills__label layout-two-columns skills__label-container">
                       <span class="skills__text title-h3 text-light">Figma</span>
+                      <progress class="skills__progress" max="100" value="50">50%</progress>
+                    </li>
+                    <li class="skills__label layout-two-columns skills__label-container">
+                      <span class="skills__text title-h3 text-light">Pixso</span>
                       <progress class="skills__progress" max="100" value="50">50%</progress>
                     </li>
                     <li class="skills__label layout-two-columns skills__label-container">
@@ -1073,6 +1140,24 @@ var code = `<!doctype html>
                 </li>
 
                 <!-- courses data end -->
+                <!-- courses data start -->
+                <li class="layout-two-columns courses-list__item">
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
+                  <a class="courses__link" href="https://rs.school/courses/javascript-preschool-ru" title="RS School sertificate" target="_blank"
+                    >RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2025Q2 (in progress)</a
+                  >
+                </li>
+
+                <!-- courses data end -->
+                <!-- courses data start -->
+                <li class="layout-two-columns courses-list__item">
+                  <img class="eductaion__icon" src="${___HTML_LOADER_IMPORT_25___}" alt="mortar board" />
+                  <a class="courses__link" href="https://stepik.org/course/193691/info" title="sertificate" target="_blank"
+                    >Stepik: Good, kind C/C++ with Sergey Balakirev (in progress)</a
+                  >
+                </li>
+
+                <!-- courses data end -->
               </ul>
             </div>
           </section>
@@ -1618,33 +1703,6 @@ var code = `<!doctype html>
 
 /***/ }),
 
-/***/ "./CV/src/app/index.scss":
-/*!*******************************!*\
-  !*** ./CV/src/app/index.scss ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./CV/src/app/index.ts":
-/*!*****************************!*\
-  !*** ./CV/src/app/index.ts ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _pages_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index */ "./CV/src/pages/index.ts");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./CV/src/app/index.scss");
-
-
-
-
-/***/ }),
-
 /***/ "./CV/src/pages/index.ts":
 /*!*******************************!*\
   !*** ./CV/src/pages/index.ts ***!
@@ -1719,96 +1777,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./CV/src/widgets/burger-menu/index.ts":
-/*!*********************************************!*\
-  !*** ./CV/src/widgets/burger-menu/index.ts ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/burgerMenu */ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts");
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-
-/***/ }),
-
-/***/ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts":
-/*!*****************************************************!*\
-  !*** ./CV/src/widgets/burger-menu/ui/burgerMenu.ts ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ burgerMenu)
-/* harmony export */ });
-function burgerMenu() {
-    const bodyElement = document.querySelector('body');
-    const burgerMenuIcon = document.querySelector('.burger-menu');
-    const asideElement = document.querySelector('aside');
-    if (bodyElement) {
-        bodyElement.addEventListener('pointerdown', burgerMenuHandler);
-    }
-    /**
-     *  Burger - menu and aside panel logic for opening / closing at tablet device widths (<=768px).
-     *  Also defines @type {HTMLAnchorElement} nav__link behavior and logic
-     *
-     * @param {PointerEvent} event - pointer event (click, tap)
-     * @returns {void}
-     */
-    function burgerMenuHandler(event) {
-        if (!(event.target instanceof HTMLElement)) {
-            return;
-        }
-        if (!bodyElement) {
-            throw new Error(`Body has not been loaded!`);
-        }
-        if (!burgerMenuIcon) {
-            throw new Error(`Burger Menu has not been loaded!`);
-        }
-        if (!asideElement) {
-            throw new Error(`Aside has not been loaded!`);
-        }
-        // tablet only (<=768px)
-        // open burger menu if clicked at the burger menu;
-        if (event.target.closest('.burger-menu') ||
-            event.target.closest('.nav__link')) {
-            // deal with nav__link that not closing burger - menu
-            // the nav__link behavior
-            if (event.target.dataset.burgerMark === 'non-closing') {
-                event.target.scrollIntoView({ behavior: 'smooth' });
-                return;
-            }
-            // burger menu and aside close / open logic
-            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
-                bodyElement.classList.remove('body_scroll-lock');
-                burgerMenuIcon.classList.remove('burger-menu_active');
-                asideElement?.classList.remove('_aside_active');
-            }
-            else {
-                bodyElement.classList.add('body_scroll-lock');
-                burgerMenuIcon.classList.add('burger-menu_active');
-                asideElement?.classList.add('_aside_active');
-            }
-        }
-        // close burger menu if click was out of the burger menu or aside
-        if (!(event.target.closest('.burger-menu') || event.target.closest('aside'))) {
-            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
-                bodyElement.classList.remove('body_scroll-lock');
-                burgerMenuIcon.classList.remove('burger-menu_active');
-                asideElement?.classList.remove('_aside_active');
-            }
-        }
-    }
-}
-
-
-/***/ }),
-
 /***/ "./CV/src/shared/assets/images/icons/favicon64x64.ico":
 /*!************************************************************!*\
   !*** ./CV/src/shared/assets/images/icons/favicon64x64.ico ***!
@@ -1816,26 +1784,6 @@ function burgerMenu() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "src/shared/assets/images/icons/favicon64x64.54a0.ico";
-
-/***/ }),
-
-/***/ "./CV/src/shared/lib/prism/prism.js":
-/*!******************************************!*\
-  !*** ./CV/src/shared/lib/prism/prism.js ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.23d1.js";
-
-/***/ }),
-
-/***/ "./CV/src/shared/lib/prism/prism.css":
-/*!*******************************************!*\
-  !*** ./CV/src/shared/lib/prism/prism.css ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.b88d.css";
 
 /***/ }),
 
@@ -2117,6 +2065,116 @@ module.exports = "data:image/svg+xml;base64,PHN2ZwogIGNsYXNzPSJmb290ZXJfX2ljb24i
 
 module.exports = __webpack_require__.p + "src/shared/assets/images/svg/footer/rs_school_js.9d8f.svg";
 
+/***/ }),
+
+/***/ "./CV/src/shared/lib/prism/prism.css":
+/*!*******************************************!*\
+  !*** ./CV/src/shared/lib/prism/prism.css ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.b88d.css";
+
+/***/ }),
+
+/***/ "./CV/src/shared/lib/prism/prism.js":
+/*!******************************************!*\
+  !*** ./CV/src/shared/lib/prism/prism.js ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "src/shared/lib/prism/prism.23d1.js";
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/index.ts":
+/*!*********************************************!*\
+  !*** ./CV/src/widgets/burger-menu/index.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/burgerMenu */ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_ui_burgerMenu__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
+/***/ "./CV/src/widgets/burger-menu/ui/burgerMenu.ts":
+/*!*****************************************************!*\
+  !*** ./CV/src/widgets/burger-menu/ui/burgerMenu.ts ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ burgerMenu)
+/* harmony export */ });
+function burgerMenu() {
+    const bodyElement = document.querySelector('body');
+    const burgerMenuIcon = document.querySelector('.burger-menu');
+    const asideElement = document.querySelector('aside');
+    if (bodyElement) {
+        bodyElement.addEventListener('pointerdown', burgerMenuHandler);
+    }
+    /**
+     *  Burger - menu and aside panel logic for opening / closing at tablet device widths (<=768px).
+     *  Also defines @type {HTMLAnchorElement} nav__link behavior and logic
+     *
+     * @param {PointerEvent} event - pointer event (click, tap)
+     * @returns {void}
+     */
+    function burgerMenuHandler(event) {
+        if (!(event.target instanceof HTMLElement)) {
+            return;
+        }
+        if (!bodyElement) {
+            throw new Error(`Body has not been loaded!`);
+        }
+        if (!burgerMenuIcon) {
+            throw new Error(`Burger Menu has not been loaded!`);
+        }
+        if (!asideElement) {
+            throw new Error(`Aside has not been loaded!`);
+        }
+        // tablet only (<=768px)
+        // open burger menu if clicked at the burger menu;
+        if (event.target.closest('.burger-menu') ||
+            event.target.closest('.nav__link')) {
+            // deal with nav__link that not closing burger - menu
+            // the nav__link behavior
+            if (event.target.dataset.burgerMark === 'non-closing') {
+                event.target.scrollIntoView({ behavior: 'smooth' });
+                return;
+            }
+            // burger menu and aside close / open logic
+            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+                bodyElement.classList.remove('body_scroll-lock');
+                burgerMenuIcon.classList.remove('burger-menu_active');
+                asideElement?.classList.remove('_aside_active');
+            }
+            else {
+                bodyElement.classList.add('body_scroll-lock');
+                burgerMenuIcon.classList.add('burger-menu_active');
+                asideElement?.classList.add('_aside_active');
+            }
+        }
+        // close burger menu if click was out of the burger menu or aside
+        if (!(event.target.closest('.burger-menu') || event.target.closest('aside'))) {
+            if (burgerMenuIcon.classList.contains('burger-menu_active')) {
+                bodyElement.classList.remove('body_scroll-lock');
+                burgerMenuIcon.classList.remove('burger-menu_active');
+                asideElement?.classList.remove('_aside_active');
+            }
+        }
+    }
+}
+
+
 /***/ })
 
 /******/ 	});
@@ -2231,4 +2289,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.1e8c.js.map
+//# sourceMappingURL=main.b63b.js.map

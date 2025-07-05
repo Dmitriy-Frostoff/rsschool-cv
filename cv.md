@@ -42,6 +42,7 @@ _Computer Science Basics_
 - OOP Design patterns
 - Test Driven Development (TDD)
 - Behavior Driven Development (BDD)
+- Domain Driven Development (DDD)
 
 _Languages_
 
@@ -51,6 +52,7 @@ _Languages_
 - HTML
 - CSS
 - Regex
+- C
 
 _Preprocessors_
 
@@ -66,6 +68,8 @@ _Bundlers and Task Runners_
 - Webpack
 - Gulp
 - Execa
+- CMake
+- Ninja
 
 _Code formatting_
 
@@ -73,6 +77,9 @@ _Code formatting_
 - Prettier
 - Husky
 - Babel
+- Clang-Tidy
+- Clang-Format
+- Clangd
 
 _Testing_
 
@@ -88,6 +95,8 @@ _Documenting_
 - JSDoc
 - TSDoc
 - Markdown
+- Docstring
+- Doxygen
 
 _Version Control System (VCS)_
 
@@ -100,6 +109,7 @@ _IDEs/Editors_
 _Design applications_
 
 - Figma
+- Pixso
 - Adobe Photoshop (beginner level)
 - Krita (beginner level)
 
@@ -433,6 +443,10 @@ Civil Construction engineer
 - [RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/od2zjglq "click to see origin document")
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
+
+- RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2025Q2 (in progress)
+
+- Stepik: Good, kind C/C++ with Sergey Balakirev (in progress)
 
 ---
 
