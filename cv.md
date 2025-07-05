@@ -42,6 +42,7 @@ _Computer Science Basics_
 - OOP Design patterns
 - Test Driven Development (TDD)
 - Behavior Driven Development (BDD)
+- Domain Driven Development (DDD)
 
 _Languages_
 
