@@ -444,6 +444,10 @@ Civil Construction engineer
 
 - RS Schools Course «JavaScript/Front-end» JavaScript/Front-end 2023Q4
 
+- RS Schools Course «JavaScript/Front-end. Stage 0» JS/FE Pre-School 2025Q2 (in progress)
+
+- Stepik: Good, kind C/C++ with Sergey Balakirev (in progress)
+
 ---
 
 ## **Projects**
