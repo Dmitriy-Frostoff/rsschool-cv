@@ -77,6 +77,9 @@ _Code formatting_
 - Prettier
 - Husky
 - Babel
+- Clang-Tidy
+- Clang-Format
+- Clangd
 
 _Testing_
 
