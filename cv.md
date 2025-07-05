@@ -109,6 +109,7 @@ _IDEs/Editors_
 _Design applications_
 
 - Figma
+- Pixso
 - Adobe Photoshop (beginner level)
 - Krita (beginner level)
 
