@@ -68,6 +68,8 @@ _Bundlers and Task Runners_
 - Webpack
 - Gulp
 - Execa
+- CMake
+- Ninja
 
 _Code formatting_
 
