@@ -1,0 +1,152 @@
+@use '../../../shared/ui/common styles/index.scss' as ui_common;
+
+.contacts__container {
+  // Position
+
+  // block-model
+  width: 100%;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.contacts__item-container {
+  // Position
+
+  // block-model
+  width: 100%;
+  @include ui_common.flex-two-childs-basis($first-basis: 40%, $last-basis: 55%);
+  & {
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+
+  &:hover .contacts__icon-position {
+    @extend %transition-transform;
+    perspective: 50px;
+  }
+
+  // elem:has(childElem > :last-child:nth-child(1)) => elem with childElem and the childElem has the only child
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(1))
+    .contacts__icon {
+    transform: rotateY(65deg);
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(1))
+    .contacts__icon:hover {
+    transform: rotateY(0deg);
+  }
+
+  // elem:has(childElem > :last-child:nth-child(2)) => elem with childElem and the childElem has two childs
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__icon:nth-child(1) {
+    transform: rotateY(65deg);
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__link:hover
+    > .contacts__icon:nth-child(1) {
+    transform: rotateY(0deg);
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__icon:nth-child(2) {
+    transform: rotateY(65deg);
+    visibility: visible;
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover:has(.contacts__icon-position > :last-child:nth-child(2))
+    .contacts__link:hover
+    > .contacts__icon:nth-child(2) {
+    transform: rotateY(0deg);
+    visibility: visible;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.contacts__text-container {
+  // Position
+
+  // block-model
+  width: 100%;
+  row-gap: 5px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+
+  // Various
+}
+
+.contacts__icon-position {
+  // Position
+
+  // block-model
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  // Typography
+
+  // Decoration
+
+  // Animation
+  @extend %transition-basic;
+  // Various
+}
+
+.contacts__icon_background {
+  // Position
+
+  // block-model
+  min-height: 17px;
+  padding: 15px 0;
+  // Typography
+
+  // Decoration
+  background-color: var(--color-highlight-light);
+  // Animation
+
+  // Various
+}
+
+.contacts__icon {
+  // Position
+
+  // block-model
+  width: 24px;
+  height: 24px;
+  // Typography
+
+  // Decoration
+
+  // Animation
+  @extend %transition-transform;
+  // Various
+
+  &:nth-child(2) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
